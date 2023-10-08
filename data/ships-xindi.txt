@@ -1,0 +1,49 @@
+ship "Xindi-Aquatic Cruiser"
+	sprite "ship/xindicruiser"
+	attributes
+		category "Light Warship"
+		"type" "Frigate"
+		"entered service" "2273"
+		"cost" 270000
+		"shields" 2400
+		"hull" 3150
+		"shield generation" .5
+		"hull repair rate" .438
+		"required crew" 1
+		"bunks" 11
+		"mass" 75
+		"drag" 1.6
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 8
+		"outfit space" 110
+		"weapon capacity" 65
+		"energy capacity" 2500
+		"energy generation" 20
+		"heat generation" 4
+		"turn" 160
+		"thrust" 7.5
+		weapon
+			"blast radius" 37
+			"shield damage" 375
+			"hull damage" 375
+			"hit force" 37
+	outfits
+		"Xindi AW" 4
+		"Mk IV Pho-Torp Launcher" 2
+		"Photon Torpedo" 120
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -60.5 133.5
+	engine 60.5 133.5
+	turret -76 16 "Xindi AW"
+	turret -0.5 -66.5 "Xindi AW"
+	turret 76 16 "Xindi AW"
+	turret -0.5 -66.5 "Xindi AW"
+	gun -53 -11.5 "Mk IV Pho-Torp Launcher"
+	gun 53 -11.5 "Mk IV Pho-Torp Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 8
+	"final explode" "final explosion small"
+	description "The Xindi-Aquatic cruiser was a type of starship used by the Xindi-Aquatics during the 22nd century. The vessel was at least 1,800 meters long, heavily armed, and equipped with the most advanced technology of any of the five Xindi species. The ship featured a hydrodynamic, swept-wing hull structure and a large hangar bay in the primary section that could be used to carry other starships."

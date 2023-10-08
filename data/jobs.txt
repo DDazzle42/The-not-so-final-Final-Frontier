@@ -1,0 +1,18 @@
+mission "Eliminate Jem'Hadar"
+	name "Jem'Hadar near <system>"
+	repeat
+	job
+	description "A Jem'Hadar fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+	deadline 20
+	npc kill
+		government "Jem'Hadar"
+		personality heroic staying target
+		system
+			distance 1
+		fleet "Small Jem'Hadar" 2
+		dialog "The fleet has been eliminated. You can claim the bounty payment by returning to <destination>."
+	on complete
+		payment 360000
+		"reputation: Pirate" += 5
+		dialog "The pirates of <planet> gratefully pay you <payment> for eliminating the Navy fleet."
+

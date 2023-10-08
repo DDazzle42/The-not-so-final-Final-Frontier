@@ -1,0 +1,217 @@
+# Copyright (c) 2017 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+
+system Menkent
+	pos -495 218
+	government Starfleet
+	attributes "dirt belt"
+	arrival 2340
+	habitable 2340
+	belt 1728
+	link Cebalrai
+	link Muphrid
+	link Rutilicus
+	link Vega
+	asteroids "small rock" 33 2.9328
+	asteroids "medium rock" 44 1.4144
+	asteroids "large rock" 32 1.04
+	asteroids "small metal" 5 1.2688
+	asteroids "medium metal" 3 2.4128
+	asteroids "large metal" 10 2.2256
+	minables aluminum 4 1.98441
+	minables copper 4 2.84453
+	minables tungsten 31 2.94008
+	trade Clothing 296
+	trade Electronics 773
+	trade Equipment 569
+	trade Food 356
+	trade "Heavy Metals" 938
+	trade Industrial 757
+	trade "Luxury Goods" 1079
+	trade Medical 553
+	trade Metal 444
+	trade Plastic 412
+	fleet "Starfleet Small" 500
+	fleet "Starfleet Small" 1500
+	fleet "Small Jem'Hadar" 1500
+	fleet "Jem'Hadar Battleship" 1500
+	fleet "Small Jem'Hadar" 15000
+	fleet "Starfleet Small" 3000
+	fleet "Starfleet Small" 2000
+	object
+		sprite star/f5
+		distance 31.0781
+		period 10.3786
+		offset 180
+	object
+		sprite star/g5
+		distance 85.2784
+		period 10.3786
+	object
+		sprite planet/rock14-b
+		distance 341.472
+		period 52.1776
+	object
+		sprite planet/luna-b
+		distance 562.722
+		period 110.380
+	object
+		sprite planet/dust3-b
+		distance 875.722
+		period 214.289
+	object
+		sprite planet/dust4-b
+		distance 1199.28
+		period 343.425
+	object "New Austria"
+		sprite planet/ocean2
+		distance 1670.69
+		period 564.671
+		object
+			sprite planet/rock17-b
+			distance 140
+			period 13.5253
+	object
+		sprite planet/gas13-b
+		distance 3293.05
+		period 1562.60
+
+system Holeb
+	pos -590 287
+	government Neutral
+	attributes "dirt belt"
+	arrival 3430
+	habitable 3430
+	belt 1181
+	link Alioth
+	link Arcturus
+	link Rutilicus
+	asteroids "large metal" 1 3.5904
+	trade Clothing 271
+	trade Electronics 842
+	trade Equipment 515
+	trade Food 650
+	trade "Heavy Metals" 968
+	trade Industrial 716
+	trade "Luxury Goods" 1600
+	trade Medical 1000
+	trade Metal 496
+	trade Plastic 437
+	fleet "Starfleet Small" 15000
+	fleet "Starfleet Small" 5000
+	fleet "Small Jem'Hadar" 1500
+	fleet "Jem'Hadar Battleship" 1500
+	fleet "Small Jem'Hadar" 15000
+	fleet "Starfleet Small" 5000
+	fleet "Starfleet Small" 5000
+	object
+		sprite star/f5-old
+		period 10
+	object
+		sprite planet/lava4-b
+		distance 193.09
+		period 18.3253
+	object
+		sprite planet/desert6
+		distance 617.65
+		period 104.839
+		object "Babylon 5"
+			sprite planet/babylon5
+				scale 0.5
+			distance 211
+			period 13.622
+
+	object
+		sprite planet/dust1-b
+		distance 882.29
+		period 178.990
+		object "Deep Space Nine"
+			sprite planet/planetDS9
+				scale 0.5
+			distance 211
+			period 13.622
+	object
+		sprite planet/rock14
+		distance 1394.93
+		period 355.829
+	object
+		sprite planet/jupiter
+		distance 3958.09
+		period 1700.75
+
+system Antares
+	pos -711 541
+	government Jem'Hadar
+	attributes "south"
+	arrival 500
+	habitable 450
+	belt 1778
+	haze _menu/haze-67
+	link Alniyat
+	asteroids "small rock" 10 3.8556
+	asteroids "medium rock" 17 1.89
+	asteroids "large rock" 5 3.0996
+	asteroids "small metal" 1 3.1752
+	asteroids "medium metal" 4 3.0996
+	asteroids "large metal" 3 5.1786
+	minables iron 1 5.1176
+	minables lead 8 3.07041
+	minables silicon 8 4.38126
+	trade Clothing 242
+	trade Electronics 804
+	trade Equipment 432
+	trade Food 190
+	trade "Heavy Metals" 1034
+	trade Industrial 622
+	trade "Luxury Goods" 1058
+	trade Medical 896
+	trade Metal 473
+	trade Plastic 403
+	fleet "Small Jem'Hadar" 1500
+	fleet "Jem'Hadar Battleship" 1500
+	fleet "Jem'Hadar Battleship" 1500
+	fleet "Small Jem'Hadar" 2000
+	fleet "Starfleet Small" 5000
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/ice5-b
+		distance 195.59
+		period 51.5790
+	object "Bloodsea"
+		sprite planet/cloud7
+		distance 440.84
+		period 174.532
+	object
+		sprite planet/gas11
+		distance 1239.6
+		period 822.954
+		object
+			sprite planet/dust1-b
+			distance 266
+			period 13.5253
+		object
+			sprite planet/lava1-b
+			distance 407
+			period 25.5986
+		object
+			sprite planet/desert4-b
+			distance 571
+			period 42.5381
+	object
+		sprite planet/uranus
+		distance 2778.76
+		period 2762.04

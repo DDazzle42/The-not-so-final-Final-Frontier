@@ -1,0 +1,165 @@
+mission "Destroy the Rebel Fleet"
+	name "Destroy the Rebel Fleet"
+	description "The Rebel Fleet is passing through near <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	repeat
+	job
+	source
+		government "Jem'Hadar"
+	destination
+		government "Jem'Hadar"
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system destination
+		fleet
+			variant 50
+				"Sovereign Class"
+				"Ambassador Class" 2
+				"Peregrine Class" 3
+				"Valkyrie Class" 2
+				"Peregrine Class" 5
+				"Valkyrie Class" 5
+				"Valkyrie Class" 2
+				"Peregrine Class"
+				"Valkyrie Class"
+				"Peregrine Class"
+		dialog "The Rebel Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."
+
+mission "Intercept the Rebel Command Fleet"
+	name "Destroy the Rebel Command Fleet"
+	description "The Rebel Command Fleet is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	repeat
+	job
+	source
+		government "Jem'Hadar"
+	destination
+		government "Jem'Hadar"
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system destination
+		fleet
+			variant 50
+				"Century Class"
+				"Sovereign Class"
+				"Galaxy Class" 2
+				"Galaxy Class"
+				"Akira Class" 4
+				"Miranda Class" 3
+				"Miranda Class Upgrade" 3
+				"Saber Class" 5
+				"Peregrine Class" 5
+				"Valkyrie Class" 2
+				"Valkyrie Class"
+				"Ambassador Class"
+				"Intrepid Class"
+		dialog "The Rebel Command Fleet has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."
+
+mission "Clear the Rebel Sector"
+	name "Clear the Rebel Sector"
+	description "Destroy all rebel forces throughout Coruscant to Commenor"
+	repeat
+	job
+	source
+		system Coruscant
+	destination
+		system Commenor
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Alsakan
+		fleet
+			variant 50
+				"Sovereign Class"
+				"Akira Class" 2
+				"Miranda Class" 3
+				"Miranda Class Upgrade" 2
+				"Saber Class" 2
+				"Peregrine Class" 3
+				"Valkyrie Class" 5
+				"Valkyrie Class"
+				"Ambassador Class" 3
+				"Intrepid Class" 3
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Anaxes
+		fleet
+			variant 50
+				"Akira Class" 2
+				"Miranda Class Upgrade" 2
+				"Saber Class" 6
+				"Intrepid Class" 3
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Brentaal
+		fleet
+			variant 50
+				"Galaxy Class" 5
+				"Akira Class" 4
+				"Miranda Class Upgrade" 10
+				"Saber Class" 10
+				"Peregrine Class" 10
+				"Valkyrie Class" 5
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Caamas
+		fleet
+			variant 50
+				"Saber Class" 30
+				"Peregrine Class" 30
+				"Valkyrie Class" 5
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Fedalle
+		fleet
+			variant 50
+				"Century Class"
+				"Akira Class" 4
+				"Peregrine Class" 10
+				"Valkyrie Class" 10
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Neimoidia
+		fleet
+			variant 50
+				"Galaxy Class" 2
+				"Akira Class" 3
+				"Miranda Class Upgrade" 10
+				"Saber Class" 10
+				"Peregrine Class" 10
+				"Valkyrie Class" 5
+	npc kill
+		personality heroic staying target
+		government "Starfleet"
+		system Commenor
+		fleet
+			variant 50
+				"Century Class"
+				"MC80A Star Cruiser"
+				"Sovereign Class" 2
+				"Galaxy Class" 3
+				"Galaxy Class"3
+				"Akira Class" 8
+				"Miranda Class" 6
+				"Miranda Class Upgrade" 15
+				"Saber Class" 15
+				"Peregrine Class" 15
+				"Valkyrie Class" 5
+				"Valkyrie Class"
+				"Ambassador Class" 2
+				"Intrepid Class" 5
+		dialog "The Rebel Sector has been cleared. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."

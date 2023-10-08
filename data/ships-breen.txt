@@ -1,0 +1,47 @@
+ship "Breen Interceptor"
+	sprite "ship/breenint"
+	attributes
+		category "Light Warship"
+		"type" "Tactical Escort"
+		"entered service" "2371"
+		"cost" 2300000
+		"shields" 8500
+		"hull" 3200
+		"shield generation" 2.024
+		"hull repair rate" .333
+		"required crew" 1
+		"bunks" 16
+		"mass" 76
+		"drag" 2.2
+		"heat dissipation" 1.5
+		"fuel capacity" 600
+		"cargo space" 8
+		"outfit space" 510
+		"weapon capacity" 1700
+		"energy generation" 10
+		"heat generation" 10
+		"energy capacity" 2800
+		"thrust" 15
+		"turn" 350
+		weapon
+			"blast radius" 38
+			"shield damage" 380
+			"hull damage" 380
+			"hit force" 38
+	outfits
+		"Breen Engery Weapon"
+		"Ka'het Ravager Turret" 4
+		"Warp Assembly"
+		"Impulse Drive"
+		"Breen Torpedo" 35
+	engine -49.5 75.5
+	engine 41 77.5
+	turret -67 20 "Ka'het Ravager Turret"
+	turret 34.5 -27 "Ka'het Ravager Turret"
+	turret -18 -41.5 "Ka'het Ravager Turret"
+	turret 61 13.5 "Ka'het Ravager Turret"
+	gun -3 -93.5 "Breen Engery Weapon"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	"final explode" "final explosion small"
+	description "The Breen interceptor was a type of light warship that served as the backbone of the Breen Confederacy fleet in the late 24th century."

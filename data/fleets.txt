@@ -1,0 +1,281 @@
+fleet "Small Jem'Hadar"
+	government "Jem'Hadar"
+	names "pirate"
+	cargo 100
+	personality
+		heroic frugal kill opportunistic lingering mining staying
+		confusion 20
+	variant 1
+		"Galor Class"
+	variant 1
+		"Hideki Class"
+	variant 1
+		"Jem'Hadar Fighter"
+	variant 1
+		"Jem'Hadar Fighter"
+	variant 1
+		"Galor Class"
+	variant 1
+		"Hideki Class"
+	variant 1
+		"Jem'Hadar Fighter"
+	variant 1
+		"Jem'Hadar Fighter"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Jem'Hadar Battlecruiser"
+	variant 1
+		"Galor Class"
+	variant 1
+		"Hideki Class"
+	variant 1
+		"Jem'Hadar Fighter"
+	variant 1
+		"Jem'Hadar Fighter"
+
+fleet "Jem'Hadar Battleship"
+	government "Jem'Hadar"
+	names "pirate"
+	cargo 100
+	personality
+		heroic kill opportunistic lingering mining staying
+		confusion 20
+	variant 1
+		"Jem'Hadar Battleship"
+	variant 1
+		"Jem'Hadar Battleship"
+	variant 1
+		"Jem'Hadar Battleship"
+
+fleet "Starfleet Small"
+	government "Starfleet"
+	names "Starfleet Names"
+	cargo 100
+	personality
+		hunting frugal disables opportunistic merciful lingering mining
+		confusion 10
+	variant 1
+		"Constitution Class Refit"
+	variant 1
+		"Constitution Class Refit"
+	variant 1
+		"Miranda-II Class"
+	variant 1
+		"Miranda-II Class"
+	variant 1
+		"Excelsior Class Refit"
+	variant 1
+		"Excelsior Class Refit"
+	variant 1
+		"Akira Class"
+	variant 1
+		"Akira Class"
+	variant 1
+		"Nova Class"
+	variant 1
+		"Galaxy Class"
+	variant 1
+		"Century Class"
+	variant 1
+		"Century Class"
+	variant 1
+		"Prometheus Class"
+	variant 1
+		"Prometheus Class"
+	variant 1
+		"Oberth Class"
+	variant 1
+		"Oberth Class"
+	variant 1
+		"Constitution Class"
+	variant 1
+		"Constitution Class"
+	variant 1
+		"Ambassador Class"
+	variant 1
+		"Ambassador Class"
+	variant 1
+		"Cheyenne Class"
+	variant 1
+		"Cheyenne Class"
+	variant 1
+		"Conestoga Class"
+	variant 1
+		"Conestoga Class"
+	variant 1
+		"Constellation Class"
+	variant 1
+		"Constellation Class"
+
+fleet "USS Defiant"
+	government "Starfleet"
+	cargo 100
+	names "Defiant"
+	personality
+		disables merciful surveillance frugal timid forbearing
+		confusion 10
+	variant 1
+		"Defiant Class"
+
+fleet "Borg Cube"
+	government "Borg"
+	cargo 1000
+	names "Borg Cube"
+	personality
+		kill heroic ramming staying
+		confusion 10
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+	variant 1
+		"Borg Cube"
+
+fleet "Borg Sphere"
+	government "Borg"
+	cargo 1000
+	names "Borg Sphere"
+	personality
+		kill heroic ramming staying
+		confusion 10
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+	variant 1
+		"Borg Sphere"
+
+fleet "Klingion Main"
+	government "Klingion"
+	names "pirate"
+	cargo 100
+	personality
+		heroic kill opportunistic lingering mining staying frugal
+		confusion 20
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"B'rel Class"
+	variant 1
+		"Vor'Cha Class"
+	variant 1
+		"Vor'Cha Class"
+	variant 1
+		"Vor'Cha Class"
+	variant 1
+		"Vor'Cha Class"
+	variant 1
+		"Vor'Cha Class"
+
+fleet "Earth 2100 (small)"
+	government "United Earth"
+	names "Starfleet Names"
+	cargo 100
+	personality
+		hunting frugal disables opportunistic merciful lingering mining
+		confusion 10
+	variant 1
+		"Daedalus Class"
+	variant 1
+		"Daedalus Class"
+	variant 1
+		"Intrepid Class (22nds)"
+	variant 1
+		"Intrepid Class (22nds)"
+	variant 1
+		"Freedom Class"
+	variant 1
+		"Freedom Class"
+	variant 1
+		"Columbia Class"
+	variant 1
+		"NX Class"
+	variant 1
+		"NX Class"
+
+fleet "Klingion Main 2100"
+	government "Klingion"
+	names "pirate"
+	cargo 100
+	personality
+		heroic kill opportunistic lingering mining staying frugal
+		confusion 20
+	variant 1
+		"Bird of Prey"
+	variant 1
+		"Raptor Class"
+	variant 1
+		"Bird of Prey"
+	variant 1
+		"Raptor Class"
+	variant 1
+		"Bird of Prey"
+	variant 1
+		"Raptor Class"
+	variant 1
+		"Bird of Prey"
+
+fleet "Romulan Potral"
+	government "Romulan Star Empire"
+	names "pirate"
+	cargo 100
+	personality
+		heroic kill opportunistic lingering mining staying frugal
+		confusion 20
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"
+	variant 1
+		"Romulan Bird of Prey"

@@ -1,0 +1,13 @@
+event "Starfleet made"
+	date 18 11 2100
+	system "Sector 001"
+		government "Starfleet"
+		fleet "Starfleet Small" 600
+		fleet "Starfleet Small" 1400
+		fleet "Starfleet Small" 600
+		fleet "Starfleet Small" 1300
+
+event "Founder Link"
+	date 19 11 2100
+	link "Sector 001" "Founders' Homeworld"
+	unlink "Sector 001" "Qo'noS"
