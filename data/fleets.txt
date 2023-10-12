@@ -1,213 +1,209 @@
 fleet "Small Jem'Hadar"
-	government "Jem'Hadar"
-	names "pirate"
+	government Jem'Hadar
+	names pirate
 	cargo 100
 	personality
-		heroic frugal kill opportunistic lingering mining staying
 		confusion 20
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Galor Class"
-	variant 1
+	variant
 		"Hideki Class"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
-	variant 1
+	variant
 		"Galor Class"
-	variant 1
+	variant
 		"Hideki Class"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Jem'Hadar Battlecruiser"
-	variant 1
+	variant
 		"Galor Class"
-	variant 1
+	variant
 		"Hideki Class"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
-	variant 1
+	variant
 		"Jem'Hadar Fighter"
 
 fleet "Jem'Hadar Battleship"
-	government "Jem'Hadar"
-	names "pirate"
+	government Jem'Hadar
+	names pirate
 	cargo 100
 	personality
-		heroic kill opportunistic lingering mining staying
 		confusion 20
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Jem'Hadar Battleship"
-	variant 1
+	variant
 		"Jem'Hadar Battleship"
-	variant 1
+	variant
 		"Jem'Hadar Battleship"
 
 fleet "Starfleet Small"
-	government "Starfleet"
+	government Starfleet
 	names "Starfleet Names"
 	cargo 100
 	personality
-		hunting frugal disables opportunistic merciful lingering mining
-		confusion 10
-	variant 1
+		pacifist pacifist pacifist forebearing pacifist forebearing forebearing forebearing pacifist forebearing pacifist pacifist pacifist pacifist pacifist forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist forebearing forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Constitution Class Refit"
-	variant 1
+	variant
 		"Constitution Class Refit"
-	variant 1
+	variant
 		"Miranda-II Class"
-	variant 1
+	variant
 		"Miranda-II Class"
-	variant 1
+	variant
 		"Excelsior Class Refit"
-	variant 1
+	variant
 		"Excelsior Class Refit"
-	variant 1
+	variant
 		"Akira Class"
-	variant 1
+	variant
 		"Akira Class"
-	variant 1
+	variant
 		"Nova Class"
-	variant 1
+	variant
 		"Galaxy Class"
-	variant 1
+	variant
 		"Century Class"
-	variant 1
+	variant
 		"Century Class"
-	variant 1
+	variant
 		"Prometheus Class"
-	variant 1
+	variant
 		"Prometheus Class"
-	variant 1
+	variant
 		"Oberth Class"
-	variant 1
+	variant
 		"Oberth Class"
-	variant 1
+	variant
 		"Constitution Class"
-	variant 1
+	variant
 		"Constitution Class"
-	variant 1
+	variant
 		"Ambassador Class"
-	variant 1
+	variant
 		"Ambassador Class"
-	variant 1
+	variant
 		"Cheyenne Class"
-	variant 1
+	variant
 		"Cheyenne Class"
-	variant 1
+	variant
 		"Conestoga Class"
-	variant 1
+	variant
 		"Conestoga Class"
-	variant 1
+	variant
 		"Constellation Class"
-	variant 1
+	variant
 		"Constellation Class"
 
 fleet "USS Defiant"
-	government "Starfleet"
+	government Starfleet
+	names Defiant
 	cargo 100
-	names "Defiant"
 	personality
-		disables merciful surveillance frugal timid forbearing
-		confusion 10
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Defiant Class"
 
 fleet "Borg Cube"
-	government "Borg"
-	cargo 1000
+	government Borg
 	names "Borg Cube"
+	cargo 1000
 	personality
-		kill heroic ramming staying
-		confusion 10
-	variant 1
+		pacifist pacifist pacifist pacifist pacifist forebearing forebearing forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist forebearing pacifist
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
-	variant 1
+	variant
 		"Borg Cube"
 
 fleet "Borg Sphere"
-	government "Borg"
-	cargo 1000
+	government Borg
 	names "Borg Sphere"
+	cargo 1000
 	personality
-		kill heroic ramming staying
-		confusion 10
-	variant 1
+		pacifist pacifist pacifist pacifist pacifist forebearing forebearing forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist forebearing pacifist
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
-	variant 1
+	variant
 		"Borg Sphere"
 
 fleet "Klingion Main"
-	government "Klingion"
-	names "pirate"
+	government ""
+	names pirate
 	cargo 100
 	personality
-		heroic kill opportunistic lingering mining staying frugal
 		confusion 20
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"B'rel Class"
-	variant 1
+	variant
 		"Vor'Cha Class"
-	variant 1
+	variant
 		"Vor'Cha Class"
-	variant 1
+	variant
 		"Vor'Cha Class"
-	variant 1
+	variant
 		"Vor'Cha Class"
-	variant 1
+	variant
 		"Vor'Cha Class"
 
 fleet "Earth 2100 (small)"
@@ -215,67 +211,74 @@ fleet "Earth 2100 (small)"
 	names "Starfleet Names"
 	cargo 100
 	personality
-		hunting frugal disables opportunistic merciful lingering mining
-		confusion 10
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Daedalus Class"
-	variant 1
+	variant
 		"Daedalus Class"
-	variant 1
+	variant
 		"Intrepid Class (22nds)"
-	variant 1
+	variant
 		"Intrepid Class (22nds)"
-	variant 1
+	variant
 		"Freedom Class"
-	variant 1
+	variant
 		"Freedom Class"
-	variant 1
+	variant
 		"Columbia Class"
-	variant 1
+	variant
 		"NX Class"
-	variant 1
+	variant
 		"NX Class"
 
 fleet "Klingion Main 2100"
-	government "Klingion"
-	names "pirate"
+	government ""
+	names pirate
 	cargo 100
 	personality
-		heroic kill opportunistic lingering mining staying frugal
 		confusion 20
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Bird of Prey"
-	variant 1
+	variant
 		"Raptor Class"
-	variant 1
+	variant
 		"Bird of Prey"
-	variant 1
+	variant
 		"Raptor Class"
-	variant 1
+	variant
 		"Bird of Prey"
-	variant 1
+	variant
 		"Raptor Class"
-	variant 1
+	variant
 		"Bird of Prey"
 
 fleet "Romulan Potral"
 	government "Romulan Star Empire"
-	names "pirate"
+	names pirate
 	cargo 100
 	personality
-		heroic kill opportunistic lingering mining staying frugal
 		confusion 20
-	variant 1
+		forebearing pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist pacifist
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
-	variant 1
+	variant
 		"Romulan Bird of Prey"
+
+fleet "Breen Potral"
+	government "Breen Confederacy"
+	names "hostile pirate"
+	personality hunting disables ramming
+	variant
+		"Breen Interceptor" 14
+

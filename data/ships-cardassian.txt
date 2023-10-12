@@ -82,11 +82,10 @@ ship "Hideki Class"
 			"hull damage" 380
 			"hit force" 38
 	outfits
-		"Phaser Cannon" 2
+		"Phaser Cannon"
 		"Warp Assembly"
 		"Impulse Drive"
 	engine 0 15
-	gun 0 -10 "Phaser Cannon"
 	gun 0 -10 "Phaser Cannon"
 	explode "tiny explosion" 10
 	explode "small explosion" 25

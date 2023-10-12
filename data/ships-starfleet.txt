@@ -2140,3 +2140,59 @@ ship "Columbia Class"
 	explode "large explosion" 3
 	"final explode" "final explosion small"
 	description "The Columbia class was a United Earth starship type borne of the NX-class cruiser. Following the formation of the Federation in 2161, the amalgamated Federation Starfleet began with the production of additional Columbia-class ships."
+
+ship "Inquiry Class"
+	sprite "ship/inquiry"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 30200
+		"hull" 29500
+		"shield generation" 10
+		"hull repair rate" 8
+		"required crew" 6
+		"bunks" 256
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" 3
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 25
+		"heat generation" 40
+		"energy capacity" 21200
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Type XV Phaser" 8
+		"Quantum Torpedo Launcher" 2
+		"Quantum Torpedo" 70
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -16.5 169
+	engine 16.5 169
+	turret 0 -147 "Type XV Phaser"
+	turret -52.5 -92.5 "Type XV Phaser"
+	turret 0 -30.5 "Type XV Phaser"
+	turret 52.5 -92.5 "Type XV Phaser"
+	turret -57.5 -63.5 "Type XV Phaser"
+	turret -40 -128 "Type XV Phaser"
+	turret 57.5 -63.5 "Type XV Phaser"
+	turret 40 -128 "Type XV Phaser"
+	gun -25.5 -104.5 "Quantum Torpedo Launcher"
+	gun 25.5 -104.5 "Quantum Torpedo Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Inquiry class was a type of starship operated by Starfleet during the late 24th and early 25th centuries. In 2399, multiple ships of this class were in a fleet led by the USS Zheng He under the command of Acting Captain William T. Riker to the planet Coppelius, where they acted as protectors of the synthetic lifeforms living there."
