@@ -1,5 +1,0 @@
-interface "menu background"
-	sprite "_menu/logo"
-		center 0 0
-	sprite "_menu/title"
-		center 0 -250
