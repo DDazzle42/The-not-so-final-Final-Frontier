@@ -1,4 +1,4 @@
-ship "Breen Interceptor"
+ship "Gor Taan Class"
 	sprite "ship/breenint"
 	attributes
 		category "Light Warship"
@@ -30,18 +30,87 @@ ship "Breen Interceptor"
 			"hit force" 38
 	outfits
 		"Breen Engery Weapon"
-		"Ka'het Ravager Turret" 4
+		"Breen Torpedo Launcher" 3
+		"Breen Torpedo" 105
+		"Breen Weapon" 4
 		"Warp Assembly"
 		"Impulse Drive"
-		"Breen Torpedo" 35
+		"Breen Energy Torpedo" 35
 	engine -49.5 75.5
 	engine 41 77.5
-	turret -67 20 "Ka'het Ravager Turret"
-	turret 34.5 -27 "Ka'het Ravager Turret"
-	turret -18 -41.5 "Ka'het Ravager Turret"
-	turret 61 13.5 "Ka'het Ravager Turret"
+	turret -67 20 "Breen Weapon"
+	turret 34.5 -27 "Breen Weapon"
+	turret -18 -41.5 "Breen Weapon"
+	turret 61 13.5 "Breen Weapon"
+	gun -26.5 7 "Breen Torpedo Launcher"
+	gun 72 -5.5 "Breen Torpedo Launcher"
+	gun 13 -39 "Breen Torpedo Launcher"
 	gun -3 -93.5 "Breen Engery Weapon"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
 	description "The Breen interceptor was a type of light warship that served as the backbone of the Breen Confederacy fleet in the late 24th century."
+
+ship "Gel Chak Class"
+	sprite "ship/gelchak"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 19200
+		"hull" 17500
+		"shield generation" 4
+		"hull repair rate" 2.431
+		"required crew" 6
+		"bunks" 256
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 22.5
+		"heat generation" 22.5
+		"energy capacity" 10400
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Breen Weapon" 10
+		"Breen Energy Torpedo" 35
+		"Breen Engery Weapon"
+		"Breen Torpedo Launcher" 6
+		"Breen Torpedo" 210
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -81 173
+	engine 89 173.5
+	turret -95 -82 "Breen Weapon"
+	turret -110 -75.5 "Breen Weapon"
+	turret 103 -82 "Breen Weapon"
+	turret 118 -75.5 "Breen Weapon"
+	turret -134 -200.5 "Breen Weapon"
+	turret 142.5 -201 "Breen Weapon"
+	turret -142.5 -231.5 "Breen Weapon"
+	turret 151.5 -231.5 "Breen Weapon"
+	turret -3 -50 "Breen Weapon"
+	turret 15 -50.5 "Breen Weapon"
+	gun 4.5 -50 "Breen Engery Weapon"
+	gun -112 -65 "Breen Torpedo Launcher"
+	gun 122 -64.5 "Breen Torpedo Launcher"
+	gun -142.5 -178 "Breen Torpedo Launcher"
+	gun 150.5 -178.5 "Breen Torpedo Launcher"
+	gun -1 -24 "Breen Torpedo Launcher"
+	gun 8 -24.5 "Breen Torpedo Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"

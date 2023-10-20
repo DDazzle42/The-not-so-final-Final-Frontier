@@ -80,33 +80,27 @@ mission "Destroy the Imperial Patrol"
 		payment 100000
 		dialog "The Rebel Alliance gratefully pays you 100,000 credits for eliminating the Imperial Patrol."
 
-mission "Imperial Navy Attack"
+mission "Starfleet Planet Defense"
 	name "Defend <planet>"
-	description "Defeat an Imperial Navy attack on <destination>."
-	minor
 	repeat
+	minor
+	description "Local Dominion forces are attacking <destination>! Defeat them to defend anarchy!"
 	source
-		government "Starfleet
+		government Starfleet
 	npc evade
-		personality heroic staying
-		government "Jem'Hadar"
-		fleet "Small Jem'Hadar" 2
+		government Dominion
+		personality heroic staying waiting
+		fleet "Small Dominion Fleet" 1
+		dialog `The Dominion fleets have been defeated. Return to <destination>.`
 	npc
-		personality heroic staying
-		government "Starfleet"
-		fleet "Starfleet Small" 4
+		government Starfleet
+		personality plunders staying
+		fleet "Starfleet Earth fleet" 5
 	on offer
-		conversation
-			`Suddenly you hear raised voices and shouting outside: "We are under attack! <planet> is under attack by the Empire! We need every combat-worthy ship to join in the defenses!" The authorities will probably pay you quite well if you assist them, but this could also be an easy way to get yourself killed.`
-			choice
-				"	(Stay here until the fight is over.)"
-					decline
-				"	(Join the defense fleet.)"
-			"A few rebel pilots and local defense members have gathered to help repel the Imperial attack. You join them, and take off together..."
-				launch
+		conversation "northern pirate defense"
 	on complete
-		payment 150000
-		dialog "The government of <planet> pays you <payment> for helping to drive off the Imperial Navy."
+		payment 200000
+		dialog `Many locals of <planet> thank you and collectively pay you <payment> for helping to drive off the Dominion.`
 
 
 

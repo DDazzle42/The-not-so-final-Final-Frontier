@@ -199,7 +199,7 @@ ship "Prometheus Class"
 	sprite "ship/prometheus"
 	attributes
 		category "Medium Warship"
-		"type" "Advanced Escort"
+		"type" "Heavy Escort"
 		"entered service" "2374"
 		"cost" 9200000
 		"hull" 17250
@@ -347,7 +347,7 @@ ship "Saber Class"
 	sprite "ship/saber"
 	attributes
 		category "Light Warship"
-		"type" "Light Cruiser"
+		"type" "Frigate"
 		"entered service" "2372"
 		"cost" 2800000
 		"shields" 4400
@@ -398,7 +398,7 @@ ship "Daedalus Class"
 	attributes
 		category "Light Warship"
 		"type" "Cruiser"
-		"entered service" "2140s"
+		"entered service" "2116"
 		"cost" 112000
 		"shields" 1250
 		"hull" 1400
@@ -491,7 +491,7 @@ ship "Nova Class"
 	sprite "ship/nova"
 	attributes
 		category "Light Warship"
-		"type" "Science Vessel"
+		"type" "Surveyor"
 		"entered service" "2370"
 		"cost" 3400000
 		"shields" 7100
@@ -680,7 +680,7 @@ ship "Cheyenne Class"
 	sprite "ship/cheyenne"
 	attributes
 		category "Medium Warship"
-		"type" "Exploration Cruiser"
+		"type" "Light Cruiser"
 		"entered service" "2357"
 		"cost" 850000
 		"shields" 6100
@@ -1136,7 +1136,7 @@ ship "Constitution Class"
 	sprite "ship/constitution"
 	attributes
 		category "Medium Warship"
-		"type" "Heavy Cruiser"
+		"type" "Explorer"
 		"entered service" "2244"
 		"cost" 250000
 		"shields" 2000
@@ -1387,7 +1387,7 @@ ship "Galaxy Class"
 	sprite "ship/galaxy"
 	attributes
 		category "Heavy Warship"
-		"type" "Exploration Cruiser"
+		"type" "Explorer"
 		"entered service" "2357"
 		"cost" 1300000
 		"shields" 11000
@@ -1438,7 +1438,7 @@ ship "Sovereign Class"
 	sprite "ship/sovereign"
 	attributes
 		category "Heavy Warship"
-		"type" "Assault Cruiser"
+		"type" "Exploratory Cruiser"
 		"entered service" "2370"
 		"cost" 2900000
 		"shields" 16500
@@ -1541,7 +1541,7 @@ ship "Intrepid Class"
 	sprite "ship/intrepid"
 	attributes
 		category "Medium Warship"
-		"type" "Long-Range Science Vessel"
+		"type" "Light Explorer"
 		"entered service" "2370"
 		"cost" 6300000
 		"shields" 10500
@@ -1591,7 +1591,7 @@ ship "Defiant Class"
 	sprite "ship/defiant"
 	attributes
 		category "Light Warship"
-		"type" "Tactical Escort"
+		"type" "Escort"
 		"entered service" "2371"
 		"cost" 2300000
 		"shields" 8500
@@ -1640,7 +1640,7 @@ ship "Steamrunner Class"
 	sprite "ship/steamrunner"
 	attributes
 		category "Medium Warship"
-		"type" "Heavy Cruiser"
+		"type" "Light Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
 		"hull" 5600
@@ -1739,7 +1739,7 @@ ship "Norway Class"
 	sprite "ship/norway"
 	attributes
 		category "Medium Warship"
-		"type" "Heavy Cruiser"
+		"type" "Light Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
 		"hull" 5600
@@ -1789,7 +1789,7 @@ ship "Nebula Class"
 	sprite "ship/nebula"
 	attributes
 		category "Heavy Warship"
-		"type" "Exploration Cruiser"
+		"type" "Exploratory Cruiser"
 		"entered service" "2357"
 		"cost" 1300000
 		"shields" 11000
@@ -1887,7 +1887,7 @@ ship "New Orleans Class"
 	sprite "ship/neworleans"
 	attributes
 		category "Heavy Warship"
-		"type" "Exploration Cruiser"
+		"type" "Frigate"
 		"entered service" "2357"
 		"cost" 1300000
 		"shields" 11000
@@ -1938,7 +1938,7 @@ ship "Springfield Class"
 	sprite "ship/springfield"
 	attributes
 		category "Heavy Warship"
-		"type" "Exploration Cruiser"
+		"type" "Science Vessel"
 		"entered service" "2357"
 		"cost" 1300000
 		"shields" 11000
@@ -1990,7 +1990,7 @@ ship "Intrepid Class (22nds)"
 	attributes
 		category "Light Warship"
 		"type" "Cruiser"
-		"entered service" "2150s"
+		"entered service" "2139"
 		"cost" 280000
 		"hull" 2100
 		"shields" 1400
@@ -2094,7 +2094,7 @@ ship "Columbia Class"
 	attributes
 		category "Light Warship"
 		"type" "Cruiser"
-		"entered service" "2150s"
+		"entered service" "2156"
 		"cost" 280000
 		"hull" 2100
 		"shields" 1400
@@ -2145,8 +2145,8 @@ ship "Inquiry Class"
 	sprite "ship/inquiry"
 	attributes
 		category "Heavy Warship"
-		"type" "Assault Cruiser"
-		"entered service" "2382"
+		"type" "Exploratory Cruiser"
+		"entered service" "2390"
 		"cost" 8400000
 		"shields" 30200
 		"hull" 29500
@@ -2196,3 +2196,112 @@ ship "Inquiry Class"
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
 	description "The Inquiry class was a type of starship operated by Starfleet during the late 24th and early 25th centuries. In 2399, multiple ships of this class were in a fleet led by the USS Zheng He under the command of Acting Captain William T. Riker to the planet Coppelius, where they acted as protectors of the synthetic lifeforms living there."
+
+ship "Californa Class"
+	sprite "ship/caliclass"
+	attributes
+		category "Medium Warship"
+		"type" "Long-Range Science Vessel"
+		"entered service" "2368"
+		"cost" 6300000
+		"shields" 10500
+		"hull" 8500
+		"shield generation" 4.375
+		"hull repair rate" .787
+		"required crew" 1
+		"bunks" 31
+		"mass" 175
+		"drag" 3.7
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 300
+		"weapon capacity" 140
+		"energy generation" 8.8
+		"energy capacity" 4000
+		"heat generation" 8.8
+		"thrust" 19
+		"turn" 350
+		weapon
+			"blast radius" 87
+			"shield damage" 875
+			"hull damage" 875
+			"hit force" 87
+	outfits
+		"Type X Phaser" 3
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -33.5 27.5
+	engine 33.5 27.5
+	turret 58.5 -47 "Type X Phaser"
+	turret 0 -101 "Type X Phaser"
+	turret -58.5 -47 "Type X Phaser"
+	gun -28 -70 "Class 8 Pho-Torp Launcher"
+	gun 28 -70 "Class 8 Pho-Torp Launcher"
+	explode "tiny explosion" 5
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+	description "The California class, nicknamed the Cali class, was a type of Federation starship in service during the late 24th century. They were support ships designed for second contact missions."
+
+ship "Texas Class"
+	sprite "ship/texasclass"
+	attributes
+		category "Medium Warship"
+		"type" "Heavy Cruiser"
+		"entered service" "2368"
+		"cost" 3000000
+		"hull" 5600
+		"shields" 6500
+		"shield generation" 1.354
+		"hull repair rate" .778
+		"required crew" 5
+		"bunks" 50
+		"mass" 305
+		"drag" 4.6
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 200
+		"weapon capacity" 105
+		"energy capacity" 3100
+		"energy generation" 7.5
+		"heat generation" 7.5
+		"turn" 450
+		"thrust" 28
+		weapon
+			"blast radius" 152
+			"shield damage" 1525
+			"hull damage" 1525
+			"hit force" 152
+	outfits
+		"Warp Assembly"
+		"Impulse Drive"
+		"Type X Phaser" 3
+		"Class 8 Pho-Torp Launcher" 2
+		"Split Photon Torepedo Launcher" 6
+		"Photon Torpedo" 100
+		"Split Torpedo" 180
+	engine -32 0
+	engine 32 0
+	turret 28 -58 "Type X Phaser"
+	turret 0 -92 "Type X Phaser"
+	turret -28 -58 "Type X Phaser"
+	gun 0 11.5 "Split Photon Torepedo Launcher"
+	gun 0 11.5 "Split Photon Torepedo Launcher"
+	gun -1 11.5 "Split Photon Torepedo Launcher"
+	gun -1 11.5 "Split Photon Torepedo Launcher"
+	gun 1 11.5 "Split Photon Torepedo Launcher"
+	gun 1 11.5 "Split Photon Torepedo Launcher"
+	gun -18 -58 "Class 8 Pho-Torp Launcher"
+	gun 18 -58 "Class 8 Pho-Torp Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 11
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "The Texas class was a type of Federation starship briefly operated by Starfleet in the late 24th century. Commissioned by Vice Admiral Les Buenamigo in a misguided effort to compete with other Starfleet flag officers, it was the organization's first fully automated starship. All three vessels of the class malfunctioned and became unhinged due to faulty artificial intelligence, resulting in an attack on Douglas Station that killed Buenamigo and ultimately led to the deranged vessels being destroyed by vessels of the California-class."

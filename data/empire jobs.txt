@@ -163,3 +163,24 @@ mission "Clear the Rebel Sector"
 	on complete
 		payment 10
 		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."
+
+mission "Destroy the NX-01"
+	name "Destroy the NX-01"
+	description "The NX-01 is passing through the <system> System. Destroy it and regain contact with the Imperial Navy for your next mission."
+	repeat
+	job
+	source
+		government Starfleet
+	destination
+		government Starfleet
+	npc kill
+		personality heroic staying target
+		government Dominion
+		system Cardassia
+		fleet
+			variant 50
+				"NX Class"
+		dialog "The NX-01 has been eliminated. Regain contact with the Imperial Navy to receive your next mission."
+	on complete
+		payment 10
+		dialog "The Imperial Navy promotes you for eliminating the Rebel Fleet."

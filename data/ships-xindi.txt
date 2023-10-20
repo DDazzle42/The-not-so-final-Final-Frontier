@@ -29,19 +29,17 @@ ship "Xindi-Aquatic Cruiser"
 			"hull damage" 375
 			"hit force" 37
 	outfits
-		"Xindi AW" 4
+		"Xindi AW" 5
 		"Mk IV Pho-Torp Launcher" 2
 		"Photon Torpedo" 120
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -60.5 133.5
-	engine 60.5 133.5
-	turret -76 16 "Xindi AW"
-	turret -0.5 -66.5 "Xindi AW"
-	turret 76 16 "Xindi AW"
-	turret -0.5 -66.5 "Xindi AW"
-	gun -53 -11.5 "Mk IV Pho-Torp Launcher"
-	gun 53 -11.5 "Mk IV Pho-Torp Launcher"
+	turret -53.5 -12.5 "Xindi AW"
+	turret 0 -228.5 "Xindi AW"
+	turret 53.5 -12.5 "Xindi AW"
+	turret 0 -9.5 "Xindi AW"
+	gun -76.5 15.5 "Mk IV Pho-Torp Launcher"
+	gun 76.5 15.5 "Mk IV Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 8

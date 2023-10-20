@@ -1,4 +1,4 @@
-ship "D'deridex class"
+ship "D'deridex Class"
 	sprite "ship/d'deridex"
 	attributes
 		category "Heavy Warship"

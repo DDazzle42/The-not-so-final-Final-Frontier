@@ -1,1262 +1,157 @@
-galaxy "Milky Way"
-
-galaxy "label arachi"
-
-galaxy "label core"
-
-galaxy "label deep"
-
-galaxy "label dirt belt"
-
-galaxy "label earth"
-
-galaxy "label gegno"
-
-galaxy "label graveyard"
-
-galaxy "label hai"
-
-galaxy "label kimek"
-
-galaxy "label korath"
-
-galaxy "label north"
-
-galaxy "label paradise"
-
-galaxy "label rim"
-
-galaxy "label saryds"
-
-galaxy "label south"
-
-galaxy "label wanderers"
-
-galaxy "label waste"
-
-galaxy "pug empty galaxy"
-
-system "1 Axis"
-
-system "10 Pole"
-
-system "11 Autumn Above"
-
-system "11 Spring Below"
-
-system "12 Autumn Above"
-
-system "14 Pole"
-
-system "14 Summer Above"
-
-system "14 Winter Below"
-
-system "16 Autumn Rising"
-
-system "3 Axis"
-
-system "3 Pole"
-
-system "3 Spring Rising"
-
-system "4 Axis"
-
-system "4 Spring Rising"
-
-system "4 Summer Rising"
-
-system "4 Winter Rising"
-
-system "5 Axis"
-
-system "5 Spring Below"
-
-system "5 Summer Above"
-
-system "5 Winter Above"
-
-system "7 Autumn Rising"
-
-system "8 Winter Below"
-
-system "9 Spring Above"
-
-system Ablodab
-
-system Ablub
-
-system Acamar
-
-system Achernar
-
-system Acnanjo
-
-system Acrux
-
-system Actannka
-
-system Adhara
-
-system "Ae Ce L-332"
-
-system "Ae Ce Q-761"
-
-system "Ae Il A-3"
-
-system "Ae Il B-11"
-
-system "Ae Il F-46"
-
-system "Ae Il G-66"
-
-system "Ae Il H-24"
-
-system "Ae Il I-99"
-
-system "Ae Il M-77"
-
-system "Ae Il O-96"
-
-system Aescolanus
-
-system Aierena
-
-system "Aik Kamgatake"
-
-system Aki'il
-
-system Aksek
-
-system "Al Dhanab"
-
-system Albaldah
-
-system Albireo
-
-system Alcyone
-
-system Aldebaran
-
-system Alderamin
-
-system Aldhibain
-
-system Aleit
-
-system Algenib
-
-system Algieba
-
-system Algol
-
-system Algorel
-
-system Alheka
-
-system Alhena
-
-system Alioth
-
-system Alkaid
-
-system Almaaz
-
-system Almach
-
-system Alnair
-
-system Alnasl
-
-system Alnilam
-
-system Alnitak
-
-system Alniyat
-
-system "Alpha Arae"
-
-system "Alpha Centauri"
-
-system "Alpha Hydri"
-
-system Alphard
-
-system Alphecca
-
-system Alpheratz
-
-system Altair
-
-system Aludra
-
-system Anbrim
-
-system "Ancient Hope"
-
-system Ankaa
-
-system Answer
-
-system Antares
-
-system Antevorta
-
-system Ap'arak
-
-system Arcturus
-
-system Arculus
-
-system Arneb
-
-system Ascella
-
-system Asikafarnut
-
-system Asio
-
-system Aspidiske
-
-system Atik
-
-system Atria
-
-system Auhru
-
-system Avior
-
-system "Avo Chigo"
-
-system Aya'k'k
-
-system Beginning
-
-system Bellatrix
-
-system Belonging
-
-system Belug
-
-system Belugt
-
-system "Beta Lupi"
-
-system Betelgeuse
-
-system Bloptab
-
-system Blubipad
-
-system Blugtad
-
-system Boral
-
-system "Bore Fah"
-
-system "Bosuno Le"
-
-system "Bote Asu"
-
-system "Bright Void"
-
-system "Broken Bowl"
-
-system "Bunri Lemeta"
-
-system Caeculus
-
-system Canopus
-
-system Capella
-
-system Caph
-
-system Cardax
-
-system Cardea
-
-system Castor
-
-system Cebalrai
-
-system Celeborim
-
-system Chikatip
-
-system Chimitarp
-
-system Chirr'ay'akai
-
-system Chornifath
-
-system Chy'chra
-
-system Cinxia
-
-system Coluber
-
-system Companion
-
-system Convector
-
-system "Cor Caroli"
-
-system Cotpoxi
-
-system Cshudlye
-
-system "Da Ent"
-
-system "Da Lest"
-
-system Dabih
-
-system Danoa
-
-system "Dark Hills"
-
-system Debrugt
-
-system "Deep Space 19K12"
-
-system "Deep Space 19M1"
-
-system "Deep Space 19M2"
-
-system "Deep Space 19M5"
-
-system "Deep Space 1Q"
-
-system "Deep Space 1X"
-
-system "Deep Space 5J"
-
-system "Deep Space 5N"
-
-system "Deep Space 5T"
-
-system "Deep Space 7C"
-
-system "Deep Space 7F"
-
-system Delia
-
-system "Delta Capricorni"
-
-system "Delta Sagittarii"
-
-system "Delta Velorum"
-
-system Deneb
-
-system Denebola
-
-system Devil-Hide
-
-system Devil-Run
-
-system Diespiter
-
-system Diphda
-
-system Dixere
-
-system Dokdobaru
-
-system Dschubba
-
-system Dubhe
-
-system "Due Yoot"
-
-system Durax
-
-system E-4183
-
-system E-9182
-
-system Eber
-
-system Eblumab
-
-system Edusa
-
-system Eebu
-
-system Egeria
-
-system "Ehma Ti"
-
-system Ek'kek'ru
-
-system Ekuarik
-
-system "Elabi Choati"
-
-system Elifennka
-
-system Elnath
-
-system "Elo Chigo"
-
-system Eltanin
-
-system Empeles
-
-system Eneremprukt
-
-system "Eneva Katta"
-
-system Enif
-
-system Eogho
-
-system "Epsilon Leonis"
-
-system "Era Natta"
-
-system "Erabu Lemeta"
-
-system "Eragaru Le"
-
-system "Erba Yle"
-
-system Es'sprak'ai
-
-system Eshkoshtar
-
-system Esix
-
-system Eteron
-
-system Evrae
-
-system "Fah Root"
-
-system "Fah Soom"
-
-system Fala
-
-system "Fallen Leaf"
-
-system "Far Horizon"
-
-system Farbutero
-
-system Farinus
-
-system Faronektu
-
-system Fasitopfar
-
-system Fearis
-
-system "Fell Omen"
-
-system Feraticus
-
-system Fereti
-
-system Feroteri
-
-system Ferukistek
-
-system Fingol
-
-system Flugbu
-
-system Fomalhaut
-
-system Fornarep
-
-system "Four Pillars"
-
-system Fscher
-
-system Furmeliki
-
-system G-3191
-
-system G-6183
-
-system G-719
-
-system G-819
-
-system Gacrux
-
-system "Gamma Cassiopeiae"
-
-system "Gamma Corvi"
-
-system Gaungu
-
-system "Genta Bo"
-
-system "Gento Ah"
-
-system Gerenus
-
-system Ghhil
-
-system Gienah
-
-system Giribea
-
-system Girtab
-
-system Glubatub
-
-system Gomeisa
-
-system "Good Omen"
-
-system Gorvi
-
-system Graffias
-
-system Gualetri
-
-system Gupta
-
-system H-8188
-
-system H-9187
-
-system Hadar
-
-system Hamal
-
-system Han
-
-system Hassaleh
-
-system Hatysa
-
-system "Heia Due"
-
-system Hesselpost
-
-system Heutesl
-
-system "Hevru Hai"
-
-system "Hi Yahr"
-
-system Hintar
-
-system Holeb
-
-system Homeward
-
-system Host
-
-system Hunter
-
-system Huud
-
-system Iigen
-
-system Iinjma
-
-system Iise
-
-system Ik'kara'ka
-
-system Ildaria
-
-system Iliniza
-
-system Ilirco
-
-system "Imo Dep"
-
-system Insitor
-
-system "Io Lowe"
-
-system "Io Mann"
-
-system Ipsing
-
-system "Is Ce B-139"
-
-system "Is Ce F-422"
-
-system "Is Ce G-460"
-
-system "Is Ce J-591"
-
-system "Is Il T-127"
-
-system "Is Il T-94"
-
-system "Is Il V-263"
-
-system "Is Il X-626"
-
-system "Is Il Z-59"
-
-system "Is Il Z-814"
-
-system Iyech'yek
-
-system Izar
-
-system "Jentu Centi"
-
-system "Jentu Le"
-
-system Jied
-
-system "Jyeg Pvu"
-
-system Jyelio
-
-system Ka'ch'chrai
-
-system Ka'pru
-
-system Kaliptari
-
-system Kanguwa
-
-system "Kappa Centauri"
-
-system Karhio
-
-system Kashikt
-
-system Kasikfar
-
-system "Kaus Australis"
-
-system "Kaus Borealis"
-
-system "Ki War Ek"
-
-system "Kifrana Terberah"
-
-system Kilema
-
-system Kiluit
-
-system Kiro'ku
-
-system Kiru'kichi
-
-system Kneirc
-
-system Kochab
-
-system "Kor Ak'Mari"
-
-system "Kor En'lakfar"
-
-system "Kor Fel'tar"
-
-system "Kor Men"
-
-system "Kor Nor'peli"
-
-system "Kor Tar'bei"
-
-system "Kor Zena'i"
-
-system Kornephoros
-
-system Korsmanath
-
-system Kraz
-
-system Kugel
-
-system Kursa
-
-system L-118
-
-system L-6181
-
-system "Last Word"
-
-system Lesath
-
-system Levana
-
-system Limen
-
-system Lire
-
-system Lloloi
-
-system Lolami
-
-system "Lom Tahr"
-
-system "Lone Cloud"
-
-system Lucina
-
-system Lurata
-
-system M-1188
-
-system MC-42
-
-system MS-219
-
-system Makferuti
-
-system Maoni
-
-system Markab
-
-system Markeb
-
-system Matar
-
-system Mebla
-
-system Meblumem
-
-system Mebsuta
-
-system Meftarkata
-
-system "Mego Faro"
-
-system "Mego Inito"
-
-system "Mego Seo"
-
-system "Mei Yohn"
-
-system Mekislepti
-
-system Men
-
-system Menkalinan
-
-system Menkar
-
-system Menkent
-
-system Merak
-
-system Mesuket
-
-system Miaplacidus
-
-system Miblulub
-
-system Mimosa
-
-system Minkar
-
-system Mintaka
-	habitable 775.625
-	object
-		sprite star/k0
-		distance 34.45
-		period 10.959
-		offset 180
-	object
-		sprite star/k5
-		distance 49.05
-		period 10.959
-	object
-		sprite planet/rock11-b
-		distance 296.29
-		period 73.251
-	object
-		sprite planet/cloud0-b
-		distance 511.78
-		period 166.287
-	object
-		sprite planet/ice3-b
-		distance 938.02
-		period 412.622
-	object
-		sprite planet/gas8-b
-		distance 1798.98
-		period 1095.91
-	object
-		sprite planet/gas5
-		distance 4566.87
-		period 4432.64
-
-system Mirach
-
-system Mirfak
-
-system Mirzam
-
-system Misam
-
-system Mizar
-
-system Mnashyu
-
-system Mohuwo
-
-system Moktar
-
-system Mora
-
-system Msalbit
-
-system Muhlifain
-
-system Muphrid
-
-system Naos
-
-system Naper
-
-system Nenia
-
-system Nihal
-
-system Nnatai
-
-system Nnaug
-
-system Nocte
-
-system Nona
-
-system Nssryos
-
-system Nunki
-
-system O-3184
-
-system Oblate
-
-system Oihaug
-
-system Ookmya
-
-system Oosuoro
-
-system Orbona
-
-system Orvala
-
-system Ossipago
-
-system "Over the Rainbow"
-
-system Paeli
-
-system Pantica
-
-system Parca
-
-system "Paru Paru"
-
-system Patir
-
-system Pbelnep
-
-system Peacock
-
-system Pelubta
-
-system Peragenor
-
-system Peresedersi
-
-system Perfica
-
-system Persian
-
-system Persitar
-
-system Phact
-
-system Phecda
-
-system Pherkad
-
-system Phurad
-
-system Piadenli
-
-system Pik'ro'iyak
-
-system Plort
-
-system Polaris
-
-system Polerius
-
-system Pollux
-
-system Porrima
-
-system Postverta
-
-system Prakacha'a
-
-system Procyon
-
-system Prosa
-
-system Ptetubo
-
-system Ptobeh
-
-system "Pug Iyik"
-
-system Pukako
-
-system Quaru
-
-system Queri
-
-system Rajak
-
-system Rasalhague
-
-system Rastaban
-
-system "Rati Cal"
-
-system "Ravu Kon"
-
-system Regor
-
-system Regulus
-
-system Relifer
-
-system Remembrance
-
-system Rigel
-
-system Ritilas
-
-system Rouseu
-
-system Ruchbah
-
-system Rutilicus
-
-system Sabik
-
-system Sabriset
-
-system Sadalmelik
-
-system Sadalsuud
-
-system Sadr
-
-system "Sagittarius A*"
-
-system Saiph
-
-system Salipastart
-
-system Saquergen
-
-system Sargas
-
-system Sarin
-
-system Sayaiban
-
-system Scheat
-
-system Schedar
-
-system Scija
-
-system Segesta
-
-system Seginus
-
-system Seketra
-
-system Sepetrosk
-
-system Sepriaptu
-
-system "Sera Natta"
-
-system Sevrelect
-
-system Shaula
-
-system Sheratan
-
-system "Shini Bori"
-
-system Si'yak'ku
-
-system Sich'ka'ara
-
-system Silikatakfar
-
-system "Silver Bell"
-
-system "Silver String"
-
-system Similisti
-
-system Sirius
-
-system Skeruto
-
-system Sko'karak
-
-system Sobarati
-
 system Sol
 	object
-		sprite star/g0
-		period 10
+		sprite star/sun2x
+		period 25.38
 	object
-		sprite planet/mercury
-		distance 289.647
-		period 60
+		sprite planet/mercury2x
+		distance 489.854
+		period 131.962
+		offset 207.542
 	object
-		sprite planet/venus
-		distance 533.534
-		period 150
+		sprite planet/venus2x
+		distance 818.554
+		period 285.049
+		offset 123.21
 	object Earth
-		sprite planet/earth
-		distance 965.669
-		period 365.25
+		sprite planet/earth2x
+		distance 1626.89
+		period 798.706
+		offset 207.11
 		object Luna
-			sprite planet/luna
-			distance 201.24
-			period 27.3
+			sprite planet/luna2x
+			distance 452.854
+			period 98.6606
+			offset 343.858
 	object Mars
-		sprite planet/mars
-		distance 1471.43
-		period 687.001
-	object "Bajoran Wormhole"
-		sprite planet/bajorwormhole
-		distance 2500
-		period 0
-	object Jupiter
-		sprite planet/jupiter
-		distance 3339
-		period 2348.4
+		sprite planet/mars2x
+		distance 2239.75
+		period 1290.17
+		offset 261.02
+	object
+		sprite planet/ceres2x
+		distance 2547.81
+		period 1565.31
+		offset 322.374
+	object
+		sprite planet/jupiter2x
+		distance 4191.03
+		period 3302.4
+		offset 331.944
 		object
-			sprite planet/io
-			distance 238.221
-			period 10.614
+			sprite planet/io2x
+			distance 666.343
+			period 54.0516
+			offset 319.843
 		object
-			sprite planet/europa
-			distance 379.078
-			period 21.306
+			sprite planet/europa2x
+			distance 909.534
+			period 86.1966
+			offset 145.63
 		object
-			sprite planet/ganymede
-			distance 604.739
-			period 42.93
+			sprite planet/ganymede2x
+			distance 1042.9
+			period 105.833
+			offset 209.11
 		object
-			sprite planet/callisto
-			distance 811.717
-			period 66.76
+			sprite planet/callisto2x
+			distance 1151.9
+			period 122.852
+			offset 142.316
 	object
 		sprite planet/saturn
-		distance 5562
-		period 5048.87
+		distance 6495.93
+		period 6372.5
+		offset 332.104
 		object
-			sprite planet/tethys
-			distance 590
-			period 1.9
+			sprite planet/mimas2x
+			distance 290
+			period 27.5568
+			offset 125.607
 		object
-			sprite planet/rhea
-			distance 791
-			period 4.5
+			sprite planet/enceladus2x
+			distance 380
+			period 239.078
+			offset 272.181
 		object
-			sprite planet/titan
-			distance 1222
-			period 16
+			sprite planet/tethys2x
+			distance 458
+			period 316.346
+			offset 199.293
+		object
+			sprite planet/dione2x
+			distance 536
+			period 400.508
+			offset 155.118
+		object
+			sprite planet/rhea2x
+			distance 680.683
+			period 573.168
+			offset 139.572
+		object
+			sprite planet/titan2x
+			distance 787.683
+			period 713.497
+			offset 52.3043
+		object
+			sprite planet/hyperion2x
+			distance 899.828
+			period 871.172
+			offset 108.341
+		object
+			sprite planet/iapetus2x
+			distance 1002.12
+			period 1023.87
+			offset 252.262
 	object
-		sprite planet/uranus
-		distance 10373
-		period 12858.9
+		sprite planet/uranus2x
+		distance 8251.77
+		period 9123.65
+		offset 25.5051
 		object
-			sprite planet/miranda
-			distance 195
-			period 1.4
+			sprite planet/miranda2x
+			distance 218.323
+			period 13.7824
+			offset 70.0776
 		object
-			sprite planet/oberon
-			distance 584
-			period 13
+			sprite planet/ariel2x
+			distance 377.714
+			period 31.363
+			offset 146.598
+		object
+			sprite planet/umbriel2x
+			distance 467.714
+			period 43.2159
+			offset 21.8958
+		object
+			sprite planet/titania2x
+			distance 557.714
+			period 56.2718
+			offset 103.755
+		object
+			sprite planet/oberon2x
+			distance 635.714
+			period 68.4803
+			offset 81.7112
 	object
-		sprite planet/neptune
-		distance 15730
-		period 24012.7
-
-system "Sol Arach"
-
-system "Sol Kimek"
-
-system "Sol Saryd"
-
-system Solifar
-
-system Sospi
-
-system Speloog
-
-system Spica
-
-system Statina
-
-system "Steep Roof"
-
-system Stercutus
-
-system Suhail
-
-system Sumar
-
-system Sumprast
-
-system Tais
-
-system Talita
-
-system "Tania Australis"
-
-system Tarazed
-
-system Tebuteb
-
-system Tejat
-
-system Terminus
-	pos 567.24 -654.89
-	habitable 486.68
-	belt 1420
-	remove link
-	asteroids "large rock" 1 4.42
-	asteroids "small metal" 7 1.74
-	asteroids "medium metal" 21 3.515
-	asteroids "large metal" 38 4.802
-	minables iron 2 6.668
-	minables lead 16 5.356
-	minables titanium 16 6.749
-
-system "Terra Incognita"
-
-system "Thshybo Le"
-
-system Torbab
-
-system Tortor
-
-system Tscera
-
-system Turais
-
-system U-5188
-
-system Uelawan
-
-system Uhebe
-
-system "Ula Mon"
-
-system "Ultima Thule"
-
-system Umbral
-
-system Unagi
-
-system Unukalhai
-
-system "Urba Pest"
-
-system Uttna
-
-system "Uwa Fahn"
-
-system "Uwo Seija"
-
-system V-2189
-
-system Vaiov
-
-system Vanguwo
-
-system Vaticanus
-
-system Vega
-
-system Vesvii
-
-system Vilacira
-
-system Vindemiatrix
-
-system Volax
-
-system Vorsuke
-
-system Vulcuja
-
-system W-3197
-
-system "Wah Ki"
-
-system "Wah Oh"
-
-system "Wah Yoot"
-
-system Waypoint
-
-system Wazn
-
-system Wei
-
-system Wezen
-
-system "World's End"
-
-system Wreoul
-
-system "Xutluno Fali"
-
-system "Xutluno Rees"
-
-system "Ya Hai"
-
-system "Yed Prior"
-
-system Yerser
-
-system Yli
-
-system Yllke
-
-system Yranjiu
-
-system Zaurak
-
-system Zeinar
-
-system "Zeta Aquilae"
-
-system "Zeta Centauri"
-
-system Zolpulti
-
-system Zosma
-
-system "Zuba Zub"
-
-system Zubenelgenubi
-
-system Zubenelhakrabi
-
-system Zubeneschamali
-
+		sprite planet/neptune2x
+		distance 9335.15
+		period 10978.2
+		offset 22.8364
+		object
+			sprite planet/triton2x
+			distance 310.824
+			period 27.3026
+			offset 262.625
+	object
+		sprite planet/pluto2x
+		distance 9983.98
+		period 12142.4
+		offset 29.7002
+		object
+			sprite planet/charon2x
+			distance 117.416
+			period 41.0636
+			offset 184.821
+	object "Earth Wormhole"
+		sprite planet/wormhole-red
+		distance 1860.4

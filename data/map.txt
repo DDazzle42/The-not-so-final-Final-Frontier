@@ -11,6 +11,7 @@ system "Founders' Homeworld"
 	government Dominion
 	habitable 1080
 	belt 1407
+	link Ontrio'A
 	link Varta'a
 	asteroids "small rock" 1 7.115
 	minables neodymium 10 10.479
@@ -18,29 +19,29 @@ system "Founders' Homeworld"
 	trade Electronics 831
 	trade Equipment 469
 	trade Food 231
-	trade "Heavy Metals" 1241
+	trade "Heavy Metals" 428
 	trade Industrial 767
-	trade "Luxury Goods" 1135
+	trade "Luxury Goods" 717
 	trade Medical 777
 	trade Metal 520
 	trade Plastic 384
-	fleet "Starfleet Small" 5000
-	fleet "Small Jem'Hadar" 5000
-	fleet "Jem'Hadar Battleship" 8000
-	fleet "Starfleet Small" 4000
-	fleet "Starfleet Small" 1300
-	fleet "Small Jem'Hadar" 1700
-	fleet "Starfleet Small" 9000
-	fleet "Starfleet Small" 15000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 24000
-	fleet "Small Jem'Hadar" 7000
-	fleet "Borg Cube" 30000
-	fleet "Borg Sphere" 30000
+	fleet "" 5000
+	fleet "" 5000
+	fleet "" 8000
+	fleet "" 4000
+	fleet "" 1300
+	fleet "" 1700
+	fleet "" 9000
+	fleet "" 15000
+	fleet "" 24000
+	fleet "" 24000
+	fleet "" 24000
+	fleet "" 24000
+	fleet "" 24000
+	fleet "" 24000
+	fleet "" 7000
+	fleet "" 30000
+	fleet "" 30000
 	object
 		sprite star/g0
 		period 10
@@ -75,6 +76,16 @@ system Bajor
 	asteroids "medium rock" 8 3.499
 	asteroids "large rock" 1 2.352
 	asteroids "large metal" 7 2.293
+	trade Clothing 541
+	trade Electronics 155
+	trade Equipment 662
+	trade Food 919
+	trade "Heavy Metals" 987
+	trade Industrial 597
+	trade "Luxury Goods" 458
+	trade Medical 504
+	trade Metal 776
+	trade Plastic 129
 	object
 		sprite star/m-supergiant
 	object
@@ -112,7 +123,7 @@ system Bajor
 			distance 283
 			period 13.952
 
-system "Sector 001"
+system Terra
 	pos 6300.593 -5624.111
 	government Starfleet
 	habitable 425.92
@@ -128,79 +139,67 @@ system "Sector 001"
 	trade Food 384
 	trade "Heavy Metals" 457
 	trade Industrial 101
-	trade "Luxury Goods" 999
+	trade "Luxury Goods" 616
 	trade Medical 321
 	trade Metal 793
 	trade Plastic 172
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Earth 2100 (small)" 1000
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
+	fleet "Small Southern Merchants" 1000
+	fleet "Small Southern Merchants" 800
 	object
-		sprite star/sun
+		sprite star/sun2x
 		period 25.38
 	object
-		sprite planet/mercury
+		sprite planet/mercury2x
 		distance 489.854
 		period 131.962
 		offset 207.542
 	object
-		sprite planet/venus
+		sprite planet/venus2x
 		distance 818.554
 		period 285.049
 		offset 123.21
-	object "earth"
-		sprite planet/earth
+	object Terra
+		sprite planet/earth2x
 		distance 1626.89
 		period 798.706
 		offset 207.11
-		object "luna"
-			sprite planet/luna
+		object "Terra Luna"
+			sprite planet/luna2x
 			distance 452.854
 			period 98.661
 			offset 343.858
-	object "Mars "
-		sprite planet/mars
+	object "Sol IV"
+		sprite planet/mars2x
 		distance 2239.75
 		period 1290.17
 		offset 261.02
 	object
-		sprite planet/ceres
+		sprite planet/ceres2x
 		distance 2547.81
 		period 1565.31
 		offset 322.374
 	object
-		sprite planet/jupiter
+		sprite planet/jupiter2x
 		distance 4191.03
 		period 3302.4
 		offset 331.944
 		object
-			sprite planet/io
+			sprite planet/io2x
 			distance 666.343
 			period 54.052
 			offset 319.843
 		object
-			sprite planet/europa
+			sprite planet/europa2x
 			distance 909.534
 			period 86.197
 			offset 145.63
 		object
-			sprite planet/ganymede
+			sprite planet/ganymede2x
 			distance 1042.9
 			period 105.833
 			offset 209.11
 		object
-			sprite planet/callisto
+			sprite planet/callisto2x
 			distance 1151.9
 			period 122.852
 			offset 142.316
@@ -210,99 +209,107 @@ system "Sector 001"
 		period 6372.5
 		offset 332.104
 		object
-			sprite planet/mimas
+			sprite planet/mimas2x
 			distance 290
 			period 27.557
 			offset 125.607
 		object
-			sprite planet/enceladus
+			sprite planet/enceladus2x
 			distance 380
 			period 239.078
 			offset 272.181
 		object
-			sprite planet/tethys
+			sprite planet/tethys2x
 			distance 458
 			period 316.346
 			offset 199.293
 		object
-			sprite planet/dione
+			sprite planet/dione2x
 			distance 536
 			period 400.508
 			offset 155.118
 		object
-			sprite planet/rhea
+			sprite planet/rhea2x
 			distance 680.683
 			period 573.168
 			offset 139.572
 		object
-			sprite planet/titan
+			sprite planet/titan2x
 			distance 787.683
 			period 713.497
 			offset 52.304
 		object
-			sprite planet/hyperion
+			sprite planet/hyperion2x
 			distance 899.828
 			period 871.172
 			offset 108.341
 		object
-			sprite planet/iapetus
+			sprite planet/iapetus2x
 			distance 1002.12
 			period 1023.87
 			offset 252.262
 	object
-		sprite planet/uranus
+		sprite planet/uranus2x
 		distance 8251.77
 		period 9123.65
 		offset 25.505
 		object
-			sprite planet/miranda
+			sprite planet/miranda2x
 			distance 218.323
 			period 13.782
 			offset 70.078
 		object
-			sprite planet/ariel
+			sprite planet/ariel2x
 			distance 377.714
 			period 31.363
 			offset 146.598
 		object
-			sprite planet/umbriel
+			sprite planet/umbriel2x
 			distance 467.714
 			period 43.216
 			offset 21.896
 		object
-			sprite planet/titania
+			sprite planet/titania2x
 			distance 557.714
 			period 56.272
 			offset 103.755
 		object
-			sprite planet/oberon
+			sprite planet/oberon2x
 			distance 635.714
 			period 68.48
 			offset 81.711
 	object
-		sprite planet/neptune
+		sprite planet/neptune2x
 		distance 9335.15
 		period 10978.2
 		offset 22.836
 		object
-			sprite planet/triton
+			sprite planet/triton2x
 			distance 310.824
 			period 27.303
 			offset 262.625
 	object
-		sprite planet/pluto
+		sprite planet/pluto2x
 		distance 9983.98
 		period 12142.4
 		offset 29.7
 		object
-			sprite planet/charon
+			sprite planet/charon2x
 			distance 117.416
 			period 41.064
 			offset 184.821
+	object "Earth Wormhole"
+		sprite planet/wormhole
+		distance 3245.145
+	object "Transwarp Hub"
+		sprite planet/transwarphub
+		distance 5539.521
+		period 100
 
 system Qo'noS
 	pos 6763.827 -5471.529
 	government Klingon
+	music klingonmusic
 	habitable 719.96
 	link Coeus
 	link Hyperion
@@ -313,11 +320,17 @@ system Qo'noS
 	asteroids "small metal" 7 3.163
 	asteroids "medium metal" 6 2.145
 	asteroids "large metal" 5 2.228
-	fleet "" 1000
-	fleet "" 1000
-	fleet "" 1000
-	fleet "" 1000
-	fleet "" 1000
+	trade Clothing 434
+	trade Electronics 512
+	trade Equipment 816
+	trade Food 442
+	trade "Heavy Metals" 664
+	trade Industrial 113
+	trade "Luxury Goods" 895
+	trade Medical 648
+	trade Metal 245
+	trade Plastic 524
+	fleet "Klingon Patrol" 900
 	object
 		sprite star/k0
 		distance 29.486
@@ -331,7 +344,7 @@ system Qo'noS
 		sprite planet/rock18
 		distance 262.274
 		period 63.32
-	object Qo'noS
+	object Kronos
 		sprite planet/cloud8
 		distance 503.964
 		period 168.657
@@ -373,13 +386,13 @@ system Romulus
 	trade "Heavy Metals" 470
 	trade Industrial 64
 	trade "Luxury Goods" 100
-	trade Medical 1000
+	trade Medical 868
 	trade Metal 100
 	trade Plastic 30
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
-	fleet "Romulan Potral" 1000
+	fleet "Romulan Patrol" 1000
+	fleet "Romulan Patrol" 1000
+	fleet "Romulan Patrol" 1000
+	fleet "Romulan Patrol" 1000
 	object
 		sprite star/m4
 		period 10
@@ -393,40 +406,37 @@ system Unicomplex
 	government Borg
 	habitable 320
 	belt 1113
+	link "Subnexus 1002013"
+	link "Subnexus 1106849"
+	link "Subnexus 1203983"
+	link "Subnexus 2000835"
+	link "Subnexus 2040477"
+	link "Subnexus 2900344"
 	minables lead 11 1.986
+	trade Clothing 962
+	trade Electronics 658
+	trade Equipment 525
+	trade Food 323
+	trade "Heavy Metals" 535
+	trade Industrial 815
+	trade "Luxury Goods" 855
+	trade Medical 613
+	trade Metal 408
+	trade Plastic 363
+	fleet "Borg Patrol" 900
 	object
 		sprite star/m0
 		period 10
-	object
-		sprite planet/cloud3
-		distance 194.25
-		period 60.538
-	object
-		sprite planet/lava4
-		distance 670.66
-		period 388.364
-		object
-			sprite planet/europa
-			distance 147
-			period 22.86
 	object Unicomplex
 		sprite planet/unicomplex
-		distance 1191.47
+		distance 1782.382
 		period 919.623
-	object
-		sprite planet/gas7
-		distance 2246.11
-		period 2380.3
-		object
-			sprite planet/ice0
-			distance 248
-			period 13.893
-		object
-			sprite planet/dust7
-			distance 341
-			period 22.401
+	object "Transwarp Hub"
+		sprite planet/transwarphub
+		distance 2875.393
+		period 150
 
-planet "Earth Spacedock"
+planet "Earth  Spacedock"
 	landscape ""
 	description 'WIP'
 	spaceport 'WIP'
@@ -442,31 +452,33 @@ planet "Founders' Homeworld"
 	security 0.7
 	tribute 100000
 		threshold -7000
-		fleet "Small Jem'Hadar" 5
+		fleet "" 5
 
-planet "earth"
+planet Terra
 	landscape land/nzoth
 	description "Earth, also known as Sol III or Terra, was the inhabited third planet of the Sol system. Earth was the homeworld of the Humans and the Voth, among others, and was the capital planet of the United Federation of Planets and the home of Starfleet Headquarters from 2161 to 3089.Located at the core of the Federation, Earth's strategic importance by the 24th century was on par with worlds like Andor, Berengaria VII, and Vulcan. Through its history, the planet had been targeted by various powers adversarial to Humanity, including the Xindi, the Klingons, the Borg, and the Dominion."
 	spaceport 'Earth
 	shipyard "Earth 2100s"
+	shipyard "Southbound Basics"
 	outfitter "Earth 2100s"
 
-planet "luna"
+planet "Terra Luna"
 	attributes factory moon "near earth" tourism
 	landscape land/earthrise
 	description "In the early days of space travel, back when engines were still so inefficient that escaping from a planet's gravity was costly and difficult, an enormous shipyard was built on the Moon where asteroids, harvested from the asteroid belt, were mined for raw materials for ships."
 	description "The facility is still in operation, although it is now overshadowed by the far more advanced shipbuilding centers like Geminus in the Castor system."
 	spaceport "The spaceport is rudimentary, and the main pressurized dome of the facility is probably at least half a millennium old. So many metal foil patches have been cemented to its outer wall to stop slow air leaks that in places they entirely cover the surface."
 	spaceport "Everything is so ancient and ramshackle that it feels almost like you have stepped back in time to the early days of human space flight. Perhaps that's what the tourists come here to experience."
-	shipyard "Basic Ships"
-	outfitter "Basic Outfits"
+	shipyard "Earth 2100s"
+	shipyard "Southbound Basics"
+	outfitter "Earth 2100s"
 	bribe 0.05
 	security 0.2
 	tribute 2500
 		threshold 7500
 		fleet "Large Republic" 10
 
-planet "Mars "
+planet "Sol IV"
 	attributes farming "near earth" tourism
 	landscape land/desert0
 	description "Mars was humanity's first attempt at terraforming. Although it remains a dry, cold desert, the air is now breathable without an oxygen tank, and there are sections of the planet where a fair number of plants can grow."
@@ -484,11 +496,9 @@ planet "The Artifact"
 	shipyard "Romulan 2100s"
 	outfitter "Romulan 2100s"
 
-planet Qo'noS
+planet Kronos
 	landscape ""
-	description `"Qo'noS" is an agricultural world, the headquarters of the "Qo'noS" Agricultural Corporation. The planet is one of 18 planets on the Agricultural Circuit.`
-	spaceport `"Fonder Homeworld" is "Qo'noS" Ag Corp's primary customer, due to the proximity of many of its agriworlds to the capitol. However, it has many other customers in the Inner Core due to the high population density of the region, especially along the first part of the Corellian Run.`
-	shipyard "Basic Ships"
+	shipyard Klingons
 	outfitter "Basic Outfits"
 
 planet "Deep Space Nine"
@@ -511,6 +521,7 @@ planet "Bajoran Wormhole"
 
 wormhole "Bajoran Wormhole"
 	"display name" "Bajoran Wormhole"
+	mappable
 	link Bajor Sol
 	link Sol Bajor
 
@@ -522,9 +533,21 @@ planet Unicomplex
 	outfitter "Basic Outfits"
 
 system Breen
-	pos 5517.537 -6175.407
+	pos 5517.653 -6174.518
 	government "Breen Confederacy"
-	fleet "Breen Potral" 1001
+	link Adlax
+	link Handu
+	trade Clothing 531
+	trade Electronics 867
+	trade Equipment 501
+	trade Food 954
+	trade "Heavy Metals" 97
+	trade Industrial 91
+	trade "Luxury Goods" 830
+	trade Medical 571
+	trade Metal 460
+	trade Plastic 881
+	fleet "Breen Patrol" 1000
 	object
 		sprite star/g-giant
 	object Breen
@@ -533,70 +556,197 @@ system Breen
 
 system Ferenginar
 	pos 5890.611 -6191.296
+	government Ferengi
+	link Caiti
+	trade Clothing 713
+	trade Electronics 975
+	trade Equipment 116
+	trade Food 252
+	trade "Heavy Metals" 969
+	trade Industrial 420
+	trade "Luxury Goods" 664
+	trade Medical 351
+	trade Metal 580
+	trade Plastic 502
+	object Ferenginar
+		sprite planet/ferenginar
+		distance 979.053
+		period 50
+		object
+			sprite planet/rock10
+			distance 310.566
+			period 30
+	object
+		sprite planet/gas10
+		distance 2191.637
+		period 100
+		object
+			sprite planet/rock16
+			distance 298.734
+			period 5
+	object
+		sprite star/f-supergiant
 
 system Cardassia
 	pos 5789.792 -5697.343
 	government Cardassian
+	link "Amof "
 	link Bajor
+	link Latavia
+	trade Clothing 934
+	trade Electronics 583
+	trade Equipment 440
+	trade Food 117
+	trade "Heavy Metals" 406
+	trade Industrial 946
+	trade "Luxury Goods" 794
+	trade Medical 184
+	trade Metal 978
+	trade Plastic 222
+	object "Cardassia Prime"
+		sprite planet/cardassiaprime
+		distance 1000
+		period 100
+		object
+			sprite planet/rock1
+			distance 205.824
+			period 40
+	object
+		sprite planet/gas1-b
+		distance 2001.755
+		period 90
+	object
+		sprite planet/gas10-hot
+		distance 1579.685
+		period 100
+	object
+		sprite planet/forest0-b
+		distance 747.496
+		period 90
+	object
+		sprite planet/rock0
+		distance 543.075
+		period 10
+	object
+		sprite star/a-supergiant
+		period 9
 
 system Ocampa
 	pos 6067.356 -8993.333
+	link "Subnexus 6990157"
+	link Talax
 
 system Talax
 	pos 6243.06 -8899.407
+	link Ocampa
+	link Vidi'ia
 
 system Variq
 	pos 5730.653 -8416.579
+	link Aril
+	link "Subnexus 5942713"
+	link "Subnexus 6000203"
 
 system Aril
 	pos 5850.06 -8352.579
+	link Gol
+	link Variq
 
 system Zahl
 	pos 5904.875 -8425.171
+	link Gol
+	link Mari
 
 system Gol
 	pos 5986.653 -8377.764
+	link Aril
+	link Lolia
+	link Uleven
+	link Zahl
 
 system Aturei
 	pos 5546.023 -8030.5
+	link Nmi
 
 system Domar
 	pos 7338.824 -7059.384
+	link Hanima
+	link Olani
 
 system Ul-Kimari
 	pos 7220.718 -6489.602
+	link Alseid
+	link Persephone
 
 system Velora
 	pos 7265.065 -6195.449
+	link Ba'ku
+	link Persephone
 
 system Darsaea
 	pos 7650.093 -5864.019
+	link Amof
 
 system Gorn
 	pos 6603.546 -5204.75
+	link Efrosia
+	link Morn
+	link "Rura Penthe"
 
 system Shelia
 	pos 7103.181 -5041.796
+	link Morn
 
 system Adlax
 	pos 5141.097 -6148.694
+	link Breen
+	link Dosi
 
 system Tzenkenth
 	pos 5725.222 -5896.343
 	link Bajor
 	link Caiti
+	link Handu
 
 system Illiji
 	pos 5366.648 -5420.593
+	link Luria
+	link Zelap
 
 system Thol
 	pos 5538.5 -5186.889
+	link Amil
+	link Luria
+	link Mithrol
+	trade Clothing 737
+	trade Electronics 844
+	trade Equipment 788
+	trade Food 374
+	trade "Heavy Metals" 755
+	trade Industrial 56
+	trade "Luxury Goods" 541
+	trade Medical 390
+	trade Metal 603
+	trade Plastic 407
 
 system Zimval
 	pos 5804.926 -5024.556
+	link Mithrol
+	link "Rigel "
+	trade Clothing 906
+	trade Electronics 206
+	trade Equipment 884
+	trade Food 171
+	trade "Heavy Metals" 433
+	trade Industrial 861
+	trade "Luxury Goods" 723
+	trade Medical 171
+	trade Metal 680
+	trade Plastic 651
 
 system Talar
 	pos 6253.074 -4922.407
+	link "Rigel "
 
 system "Founder's Homeworld (old)"
 	pos 4384.616 -7421.426
@@ -606,30 +756,79 @@ system "Founder's Homeworld (old)"
 
 system Stakoron
 	pos 4529.782 -6787.148
+	link Grika
+	link Karemma
 
 system Karemma
 	pos 4683.264 -6706.852
+	link Dosi
+	link Stakoron
+	trade Clothing 526
+	trade Electronics 81
+	trade Equipment 117
+	trade Food 310
+	trade "Heavy Metals" 389
+	trade Industrial 935
+	trade "Luxury Goods" 127
+	trade Medical 794
+	trade Metal 445
+	trade Plastic 719
 
 system Dosi
 	pos 5006.227 -6726.704
+	link Adlax
+	link Karemma
 
 system Altera
 	pos 6146.093 -6339.528
+	link Tullus
 
 planet Breen
+	landscape land/mountain8
+	description "Breen was an inhabited planet in the Breen system, located in the Alpha Quadrant. As the homeworld of the Breen, a warp-capable humanoid species, it was the capital planet of the Breen Confederacy and, in 2375, was allied with the Dominion. Little was known about the planet Breen, but it was widely believed to be a frozen wasteland."
+	description "During the Klingon Second Empire, Chancellor Mow'ga ordered an entire fleet of Klingon warships to invade and conquer the Breen homeworld. The fleet never returned and was never heard from again."
+	spaceport WIP
 	government "Breen Confederacy"
+	shipyard "Breen Ships"
+	outfitter "Breen Outfitts"
 
 system Caiti
 	pos 5893.181 -5975.185
 	government Starfleet
 	link Barzan
 	link Betazed
+	link Ferenginar
 	link Tzenkenth
+	trade Clothing 762
+	trade Electronics 554
+	trade Equipment 698
+	trade Food 718
+	trade "Heavy Metals" 988
+	trade Industrial 648
+	trade "Luxury Goods" 523
+	trade Medical 667
+	trade Metal 319
+	trade Plastic 97
+	fleet "Starfleet Patrol" 1000
+	fleet "Starfleet Earth fleet" 900
+	object Caiti
+		sprite planet/forest5-b
+			scale 2
+		distance 1020.853
+		period 50
+		object
+			sprite planet/rock0-b
+			distance 291.044
+			period 10
+	object
+		sprite star/a-giant
+		period 5
 
 system Barzan
 	pos 6038.366 -6041.259
 	government Starfleet
 	link Caiti
+	fleet "Starfleet Patrol" 1000
 
 system Marcius
 	pos 6139.403 -5915.63
@@ -649,6 +848,17 @@ system Talon
 	link Lucia
 	link "Neutral Zone"
 	link Numa
+	trade Clothing 428
+	trade Electronics 938
+	trade Equipment 727
+	trade Food 260
+	trade "Heavy Metals" 735
+	trade Industrial 121
+	trade "Luxury Goods" 631
+	trade Medical 790
+	trade Metal 863
+	trade Plastic 38
+	fleet "Romulan Patrol" 1000
 
 system Ancus
 	pos 6694.958 -5979.333
@@ -666,113 +876,237 @@ system Lucia
 system Tullus
 	pos 6339.403 -6253.704
 	government "Romulan Star Empire"
+	link Altera
+	link Melinoe
 	link Romulus
 
 system Andor
 	pos 6390.866 -5683.838
 	government Starfleet
 	link Gazer
-	link "Sector 001"
+	link Terra
+	trade Clothing 577
+	trade Electronics 359
+	trade Equipment 719
+	trade Food 690
+	trade "Heavy Metals" 483
+	trade Industrial 431
+	trade "Luxury Goods" 42
+	trade Medical 842
+	trade Metal 124
+	trade Plastic 312
+	fleet "Starfleet Patrol" 1000
+	object
+		sprite planet/gas1
+		distance 2000
+		period 100
+		object Andor
+			sprite planet/ice2
+			distance 313.284
+			period 50
+	object
+		sprite star/b-supergiant
+		period 30
 
 system Vulcan
 	pos 6446.866 -5624.579
 	government Starfleet
-	link "Sector 001"
+	link Terra
+	trade Clothing 224
+	trade Electronics 507
+	trade Equipment 90
+	trade Food 900
+	trade "Heavy Metals" 770
+	trade Industrial 253
+	trade "Luxury Goods" 932
+	trade Medical 671
+	trade Metal 279
+	trade Plastic 99
+	fleet "Starfleet Patrol" 1000
 
 system Tellar
 	pos 6375.162 -5575.69
 	government Starfleet
-	link "Sector 001"
+	link Terra
+	trade Clothing 309
+	trade Electronics 889
+	trade Equipment 821
+	trade Food 107
+	trade "Heavy Metals" 843
+	trade Industrial 481
+	trade "Luxury Goods" 533
+	trade Medical 486
+	trade Metal 877
+	trade Plastic 287
+	fleet "Starfleet Patrol" 1000
 
 system Risa
 	pos 6280.051 -5517.319
 	government Starfleet
 	link Denobula
-	link "Sector 001"
+	link Terra
+	trade Clothing 60
+	trade Electronics 125
+	trade Equipment 38
+	trade Food 324
+	trade "Heavy Metals" 626
+	trade Industrial 747
+	trade "Luxury Goods" 102
+	trade Medical 652
+	trade Metal 306
+	trade Plastic 332
+	fleet "Starfleet Patrol" 1000
 
 system Denobula
 	pos 6308.495 -5444.431
 	government Starfleet
 	link "Antares "
 	link Risa
+	trade Clothing 525
+	trade Electronics 271
+	trade Equipment 76
+	trade Food 833
+	trade "Heavy Metals" 742
+	trade Industrial 736
+	trade "Luxury Goods" 307
+	trade Medical 822
+	trade Metal 779
+	trade Plastic 525
+	fleet "Starfleet Patrol" 1000
 
 system Trill
 	pos 6039.903 -5186.468
 	government Starfleet
 	link "Antares "
 	link "Rigel "
+	trade Clothing 429
+	trade Electronics 459
+	trade Equipment 367
+	trade Food 321
+	trade "Heavy Metals" 377
+	trade Industrial 725
+	trade "Luxury Goods" 875
+	trade Medical 400
+	trade Metal 914
+	trade Plastic 856
+	fleet "Starfleet Patrol" 1000
 
 system "Antares "
 	pos 6149 -5308.514
 	government Starfleet
+	link Bolias
 	link Denobula
 	link Efrosia
 	link Trill
+	fleet "Starfleet Patrol" 1000
 
 system Efrosia
 	pos 6260.111 -5161.847
 	government Starfleet
 	link "Antares "
+	link Gorn
 	link "Rigel "
+	fleet "Starfleet Patrol" 1000
 
 system Bolias
 	pos 5891.574 -5433.75
+	government Starfleet
+	link "Antares "
+	link Cipek
+	object
+		sprite star/a-supergiant
+		period 1
+	object Bolias
+		sprite planet/cloud6-b
+		distance 993.061
+		period 30
+		object
+			sprite planet/rock10
+				scale 0.5
+			distance 258.641
+			period 30
 
 system Coeus
 	pos 6662.991 -5404.259
 	government Klingon
 	link Qo'noS
 	link "Rura Penthe"
+	fleet "Klingon Patrol" 1000
 
 system "Rura Penthe"
 	pos 6622.102 -5329.889
 	government Klingon
 	link Coeus
+	link Gorn
+	fleet "Klingon Patrol" 1000
 
 system Nerakh
 	pos 6950.991 -5558.926
 	government Klingon
+	music klingonmusic
 	link Anchu
 	link Khitomer
 	link Qo'noS
+	fleet "Klingon Patrol" 1000
 
 system Anchu
 	pos 7136.176 -5597.444
 	government Klingon
 	link Nakoch
 	link Nerakh
+	fleet "Klingon Patrol" 1000
 
 system Nakoch
 	pos 7438.565 -5751.148
 	government Klingon
+	link Amof
 	link Anchu
+	fleet "Klingon Patrol" 1000
 
 system Amof
 	pos 7578.12 -5817.519
+	link Darsaea
+	link Nakoch
 
 system Khitomer
 	pos 6715.898 -5665.815
 	government Klingon
+	music klingonmusic
 	link Gazer
 	link Hyperion
 	link Nerakh
+	trade Clothing 672
+	trade Electronics 246
+	trade Equipment 236
+	trade Food 941
+	trade "Heavy Metals" 604
+	trade Industrial 821
+	trade "Luxury Goods" 317
+	trade Medical 816
+	trade Metal 42
+	trade Plastic 261
+	fleet "Klingon Patrol" 1000
 
 system Thesia
 	pos 6885.602 -5963.37
 	government Starfleet
+	link Ba'ku
 	link Benzar
+	fleet "Starfleet Patrol" 1000
 
 system Benzar
 	pos 7098.935 -5874.481
 	government Starfleet
 	link Arcadia
 	link Thesia
+	fleet "Starfleet Patrol" 1000
 
 system Arcadia
 	pos 6908.713 -5761.296
 	government Starfleet
 	link Benzar
 	link Gazer
+	fleet "Starfleet Patrol" 1000
 
 system Gazer
 	pos 6583.38 -5744.111
@@ -780,16 +1114,46 @@ system Gazer
 	link Andor
 	link Arcadia
 	link Khitomer
+	fleet "Starfleet Patrol" 1000
 
 system Betazed
 	pos 6178.639 -5677.148
 	government Starfleet
 	link Caiti
 	link "Neutral Zone"
-	link "Sector 001"
+	link Terra
+	trade Clothing 836
+	trade Electronics 948
+	trade Equipment 193
+	trade Food 361
+	trade "Heavy Metals" 627
+	trade Industrial 146
+	trade "Luxury Goods" 225
+	trade Medical 526
+	trade Metal 284
+	trade Plastic 193
+	fleet "Starfleet Patrol" 1000
+	object
+		sprite star/a-supergiant
+		period 25
+	object Betazed
+		sprite planet/forest5-b
+		distance 978.137
+		period 55
+	object
+		sprite planet/gas7
+		distance 2044.471
+		period 1000
+		object
+			sprite planet/rock0-b
+			distance 271.334
+			period 10
+	object
 
 system Ba'ku
 	pos 6999.046 -6073.481
+	link Thesia
+	link Velora
 
 system Tarquinius
 	pos 6788.972 -6179.556
@@ -797,7 +1161,7 @@ system Tarquinius
 	link Lucia
 
 system Iola
-	pos 4088.815 -7214.352
+	pos 4088.75 -7214.945
 	government Dominion
 	link Grika
 	link Hadar'a
@@ -812,7 +1176,7 @@ system Iola
 	trade Medical 847
 	trade Metal 134
 	trade Plastic 567
-	fleet "Small Jem'Hadar" 701
+	fleet "" 701
 	object "Bajoran Wormhole"
 		sprite planet/bajorwormhole
 		distance 2886.431
@@ -857,6 +1221,7 @@ system Grika
 	government Dominion
 	link Iola
 	link Pendoca
+	link Stakoron
 	link Venta
 
 system Venta
@@ -868,14 +1233,18 @@ system "Rigel "
 	pos 6040.708 -4975.432
 	government Starfleet
 	link Efrosia
+	link Talar
 	link Trill
-	fleet "Starfleet Small" 701
+	link Zimval
+	fleet "Starfleet Patrol" 200
 
 system Hyperion
 	pos 6626.995 -5530.497
 	government Klingon
+	music klingonmusic
 	link Khitomer
 	link Qo'noS
+	fleet "Klingon Patrol" 1000
 
 system "Neutral Zone"
 	pos 6269.995 -5828.997
@@ -886,4 +1255,355 @@ system "Neutral Zone"
 planet Iola
 	shipyard "Basic Ships"
 	outfitter "Basic Outfits"
+
+planet "Earth Wormhole"
+
+wormhole "Earth Wormhole"
+	mappable
+	"display name" "Earth Wormhole"
+	link Terra Sol
+	link Sol Terra
+
+planet "Transwarp Hub"
+
+wormhole "Transwarp Hub"
+	mappable
+	"display name" "Transwarp Hub"
+
+planet Betazed
+	spaceport WIP
+	government Starfleet
+	shipyard "Basic Ships"
+	outfitter "Basic Outfits"
+
+system Handu
+	pos 5522.333 -5924.273
+	government "Breen Confederacy"
+	link Breen
+	link Carcassia
+	link Tzenkenth
+
+system Ontrio'A
+	pos 4464.681 -7978.037
+	link "Founders' Homeworld"
+
+planet Bolias
+	spaceport WIP
+	shipyard "Basic Ships"
+	outfitter "Basic Outfits"
+
+system Devil-Run
+	remove hidden
+
+planet Andor
+	spaceport WIP
+
+planet "Cardassia Prime"
+	landscape land/cardassialand
+	description "Cardassia Prime, or simply Cardassia, was the inhabited second planet in the Cardassian system, located in the Cardassian Zone of the Alpha Quadrant. It had a single moon. Cardassia was the capital planet of the Cardassian Union and the homeworld of the Cardassians, a warp-capable humanoid species. During the Dominion War, the planet hosted Dominion Headquarters and was the Dominion's de facto capital in the Alpha Quadrant."
+	spaceport WIP
+	shipyard Cardassian
+
+system Carcassia
+	pos 5431.426 -5712.912
+	link "Amof "
+	link Handu
+
+system Zelap
+	pos 5429.056 -5561.208
+	link "Amof "
+	link Illiji
+
+system "Amof "
+	pos 5665.92 -5607.072
+	link Carcassia
+	link Cardassia
+	link Cipek
+	link Zelap
+
+system Cipek
+	pos 5652.587 -5432.849
+	link "Amof "
+	link Bolias
+
+system Tholos
+	pos 5376.429 -5031.877
+	link Amil
+
+system Amil
+	pos 5465.911 -5099.136
+	link Mithrol
+	link Thol
+	link Tholos
+
+system Mithrol
+	pos 5647.541 -5104.766
+	link Amil
+	link Thol
+	link Zimval
+
+system Luria
+	pos 5481.911 -5293.803
+	link Illiji
+	link Thol
+
+system Calidia
+	pos 6580.24 -6416.183
+	link Charon
+	link Melinoe
+
+system Melinoe
+	pos 6468.536 -6350.998
+	link Calidia
+	link Tullus
+
+system Charon
+	pos 6710.61 -6346.257
+	link Calidia
+	link Metron
+
+system Metron
+	pos 6861.425 -6369.961
+	link Charon
+	link Persephone
+
+system Alseid
+	pos 7160.869 -6579.553
+	link Hanima
+	link Ul-Kimari
+
+system Persephone
+	pos 7128.277 -6427.849
+	link Metron
+	link Ul-Kimari
+	link Velora
+
+system Beox
+	pos 7111.008 -7011.428
+	link Garilm
+	link "Subnexus 3000007"
+
+system Garilm
+	pos 7191.304 -6971.132
+	link Beox
+	link Hanima
+
+system Hanima
+	pos 7259.749 -6897.65
+	link Alseid
+	link Domar
+	link Garilm
+
+system Olani
+	pos 7360.786 -7169.058
+	link Domar
+
+system Uleven
+	pos 6021.772 -8302.09
+	link Gol
+	link Lolia
+	link "Subnexus 4403079"
+
+system Lolia
+	pos 6093.772 -8395.72
+	link Gol
+	link "Subnexus 4403079"
+	link Uleven
+
+system "Subnexus 6990157"
+	pos 5683.661 -8922.905
+	link Ocampa
+	link "Subnexus 6874053"
+
+system "Subnexus 6874053"
+	pos 5722.476 -8809.535
+	link "Subnexus 6589671"
+	link "Subnexus 6990157"
+
+system "Subnexus 6607823"
+	pos 5523.809 -8773.979
+	link "Subnexus 6589671"
+
+system "Subnexus 6589671"
+	pos 5653.439 -8667.164
+	link "Subnexus 6407891"
+	link "Subnexus 6607823"
+	link "Subnexus 6874053"
+
+system "Subnexus 6407891"
+	pos 5501.883 -8598.127
+	link "Subnexus 6000203"
+	link "Subnexus 6589671"
+
+system "Subnexus 6000203"
+	pos 5472.55 -8471.016
+	link "Subnexus 5942713"
+	link "Subnexus 6407891"
+	link Variq
+
+system "Subnexus 5942713"
+	pos 5346.476 -8370.72
+	link "Subnexus 5237089"
+	link "Subnexus 6000203"
+	link Variq
+
+system "Subnexus 5237089"
+	pos 5636.513 -8145.238
+	link "Subnexus 5001904"
+	link "Subnexus 5942713"
+
+system "Subnexus 5001904"
+	pos 5760.513 -7970.572
+	link Nmi
+	link "Subnexus 2594187"
+	link "Subnexus 4984713"
+	link "Subnexus 5237089"
+
+system "Subnexus 4984713"
+	pos 5921.402 -8059.016
+	link "Subnexus 2594187"
+	link "Subnexus 4690871"
+	link "Subnexus 5001904"
+
+system "Subnexus 4690871"
+	pos 5978.365 -8106.349
+	link "Subnexus 4403079"
+	link "Subnexus 4984713"
+
+system "Subnexus 4204937"
+	pos 5907.948 -7819.266
+	link "Subnexus 2807468"
+
+system "Subnexus 2594187"
+	pos 6144.541 -7886.525
+	link "Subnexus 1002013"
+	link "Subnexus 2040477"
+	link "Subnexus 4984713"
+	link "Subnexus 5001904"
+
+system "Subnexus 2807468"
+	pos 6305.355 -7606.525
+	link "Subnexus 1002013"
+	link "Subnexus 2900344"
+	link "Subnexus 2949760"
+	link "Subnexus 4204937"
+
+system "Subnexus 2949760"
+	pos 6228.911 -7490.97
+	link "Subnexus 2807468"
+	link "Subnexus 2993895"
+
+system "Subnexus 2993895"
+	pos 6366.985 -7424.748
+	link "Subnexus 2949760"
+	link "Subnexus 3000007"
+
+system "Subnexus 3000007"
+	pos 6677.948 -7364.155
+	link Beox
+	link "Subnexus 2900344"
+	link "Subnexus 2993895"
+
+system "Subnexus 2900344"
+	pos 6585.578 -7567.562
+	link "Subnexus 2807468"
+	link "Subnexus 3000007"
+	link Unicomplex
+
+system "Subnexus 1203983"
+	pos 6788.244 -7654.229
+	link Unicomplex
+
+system "Subnexus 1002013"
+	pos 6413.578 -7780.896
+	link "Subnexus 2594187"
+	link "Subnexus 2807468"
+	link Unicomplex
+
+system "Subnexus 1106849"
+	pos 6947.244 -7896.618
+	link Unicomplex
+
+system "Subnexus 2000835"
+	pos 6804.578 -8052.174
+	link "Subnexus 3188372"
+	link Unicomplex
+
+system "Subnexus 3188372"
+	pos 6872.578 -8191.729
+	link "Subnexus 2000835"
+	link "Subnexus 3276051"
+
+system "Subnexus 3276051"
+	pos 6829.911 -8285.507
+	link "Subnexus 3040267"
+	link "Subnexus 3188372"
+	link "Subnexus 3909782"
+
+system "Subnexus 4119007"
+	pos 6822.355 -8575.729
+	link "Subnexus 3909782"
+
+system "Subnexus 3909782"
+	pos 6634.8 -8451.285
+	link "Subnexus 3276051"
+	link "Subnexus 4119007"
+	link "Subnexus 4403079"
+
+system "Subnexus 4403079"
+	pos 6286.8 -8330.396
+	link Lolia
+	link "Subnexus 3040267"
+	link "Subnexus 3909782"
+	link "Subnexus 4690871"
+	link Uleven
+
+system "Subnexus 3040267"
+	pos 6461.022 -8165.951
+	link "Subnexus 2040477"
+	link "Subnexus 3276051"
+	link "Subnexus 4403079"
+
+system "Subnexus 2040477"
+	pos 6372.133 -8045.507
+	link "Subnexus 2594187"
+	link "Subnexus 3040267"
+	link Unicomplex
+
+system Latavia
+	pos 5874.591 -5587.799
+	link Cardassia
+
+system Nmi
+	pos 5630.074 -7944.185
+	link Aturei
+	link Dravma
+	link "Subnexus 5001904"
+
+system Dravma
+	pos 5652 -7884.926
+	link Nmi
+
+system Morn
+	pos 6730.296 -5137.949
+	link Gorn
+	link Shelia
+
+planet Ferenginar
+	spaceport WIP
+	shipyard "Basic Ships"
+	outfitter "Basic Outfits"
+
+planet Caiti
+	spaceport WIP
+	shipyard "Basic Ships"
+	outfitter "Basic Outfits"
+
+system Vidi'ia
+	pos 6358.093 -8667.194
+	link Talax
+
+system Mari
+	pos 5968.273 -8518.606
+	link Zahl
 

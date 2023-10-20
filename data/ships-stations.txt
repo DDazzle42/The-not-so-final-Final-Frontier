@@ -48,3 +48,46 @@ ship "Century Class"
 	explode "large explosion" 25
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
+
+ship "SR-71 Blackbird"
+	sprite "ship/sr71"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 19200
+		"hull" 17500
+		"shield generation" 4
+		"hull repair rate" 2.431
+		"required crew" 6
+		"bunks" 256
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 22.5
+		"heat generation" 22.5
+		"energy capacity" 10400
+		"thrust" 350
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		`"Bufaer" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Warp Assembly"
+	engine -85.5 277.5
+	engine 86.5 277.5
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"

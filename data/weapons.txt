@@ -820,7 +820,7 @@ outfit "Breen Engery Weapon"
 			"frame rate" 15
 			"rewind"
 		sound "ionball"
-		ammo "Breen Torpedo"
+		ammo "Breen Energy Torpedo"
 		icon "icon/torpedo"
 		"stream"
 		"fire effect" "finisher sparks" 20
@@ -854,10 +854,127 @@ outfit "Breen Engery Weapon"
 		"blast radius" 20
 
 
-outfit "Breen Torpedo"
+outfit "Breen Energy Torpedo"
 	category "Ammunition"
 	cost 500
 	thumbnail "outfit/torpedo"
 	"mass" .05
 	"btorp capacity" -1
 	description "Taking Flash-Bang to a whole new level"
+
+outfit "Split Photon Torepedo Launcher"
+	category "Secondary Weapons"
+	cost 15000
+	thumbnail "outfit/meteor launcher"
+	"mass" 8
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	"splitT capacity" 30
+	weapon
+		sprite "projectile/spttorp"
+			"frame rate" 2
+			"random start frame"
+		sound "photon torpedo"
+		ammo "Split Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "spttorp fire"
+		"hit effect" "spttorp hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 1200
+		"reload" 60
+		"firing energy" 125
+		"firing heat" 45
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 5
+		"homing" 5
+		"radar tracking" 2
+		"shield damage" 1250
+		"hull damage" 450
+		"hit force" 40
+		"missile strength" 200
+		"piercing" .2
+	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space, with only rudimentary infrared tracking systems that can have trouble homing in on targets with low heat levels. True to its name, the missile reaches a very high speed to leave its target's anti-missile defenses with little time to react. The trade-off is maneuverability, so Meteor Missiles are practically useless against agile targets farther than point-blank range."
+
+outfit "Split Torpedo"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/torpedo"
+	"mass" .05
+	"splitT capacity" -1
+	description "Taking Flash-Bang to a whole new level"
+
+outfit "Breen Weapon"
+	category "Turrets"
+	cost 417000
+	thumbnail "outfit/ka'het ravager turret"
+	"mass" 16
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		sprite "projectile/breenweapon"
+			"frame rate" 15
+		"hardpoint sprite" "hardpoint/ravager turret"
+		"hardpoint offset" 3.
+		sound "disruptor"
+		"hit effect" "ravager impact"
+		"inaccuracy" .2
+		"turret turn" 1.8
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 1.5
+		"shield damage" 3
+		"hull damage" 9
+	description "This turret-mounted version of the Ravager Beam is one of the strongest weapons the Ka'het possess."
+
+outfit "Breen Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 1420000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 15
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"bretorp capacity" 35
+	weapon
+		sprite "projectile/bretorp"
+			"frame rate" 2
+			"random start frame"
+		sound "qtorp"
+		ammo "Breen Torpedo"
+		icon "icon/torpedo"
+		"stream"
+		"fire effect" "bretorp fire"
+		"hit effect" "qtorp hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 1200
+		"reload" 100
+		"firing energy" 125
+		"firing heat" 45
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 5
+		"homing" 5
+		"radar tracking" 2
+		"shield damage" 1250
+		"hull damage" 450
+		"hit force" 40
+		"missile strength" 200
+		"piercing" .2
+	description "Q-torps do high amounts of damage and are faster than photon torpedoes, but the launchers can't hold a large amount of them."
+
+outfit "Breen Torpedo"
+	category "Ammunition"
+	cost 2000
+	thumbnail "outfit/torpedo"
+	"mass" .1
+	"bretorp capacity" -1
+	description "Quantum Physics to the rescue!"

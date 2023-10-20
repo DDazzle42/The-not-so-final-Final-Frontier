@@ -16,7 +16,7 @@ ship "Borg Cube"
 		"heat dissipation" 5
 		"fuel capacity" 7000
 		"cargo space" 5000
-		"outfit space" 510
+		"outfit space" 600
 		"weapon capacity" 210
 		"energy generation" 40.5
 		"heat generation" 22.5
@@ -32,28 +32,28 @@ ship "Borg Cube"
 		"Transwarp Manifold"
 		"Cutting Array" 22
 		"Impulse Drive"
-	turret -211.5 -281 "Cutting Array"
-	turret -211.5 -281 "Cutting Array"
-	turret -67.5 -133 "Cutting Array"
-	turret -67.5 -133 "Cutting Array"
-	turret -239.5 -27 "Cutting Array"
-	turret -239.5 -27 "Cutting Array"
-	turret 54.5 23 "Cutting Array"
-	turret 54.5 23 "Cutting Array"
-	turret 57.5 -122 "Cutting Array"
-	turret 57.5 -122 "Cutting Array"
-	turret -183.5 74 "Cutting Array"
-	turret -183.5 74 "Cutting Array"
-	turret 65.5 -92 "Cutting Array"
-	turret 65.5 -92 "Cutting Array"
-	turret -301.5 -133 "Cutting Array"
-	turret -301.5 -133 "Cutting Array"
-	turret 191.5 91 "Cutting Array"
-	turret 191.5 91 "Cutting Array"
-	turret 190.5 -236 "Cutting Array"
-	turret 190.5 -236 "Cutting Array"
-	turret -208.5 -212 "Cutting Array"
-	turret -208.5 -212 "Cutting Array"
+	turret -232.5 -157.5 "Cutting Array"
+	turret 7.5 -136.5 "Cutting Array"
+	turret -243.5 -18 "Cutting Array"
+	turret 209.5 -54.5 "Cutting Array"
+	turret 134.5 -170 "Cutting Array"
+	turret -243 149.5 "Cutting Array"
+	turret -110 90 "Cutting Array"
+	turret 9 135 "Cutting Array"
+	turret 34 -247 "Cutting Array"
+	turret 189.5 131.5 "Cutting Array"
+	turret 115.5 -22.5 "Cutting Array"
+	turret 203.5 153 "Cutting Array"
+	turret 115 196 "Cutting Array"
+	turret 241 162.5 "Cutting Array"
+	turret -272 -179 "Cutting Array"
+	turret 137 59.5 "Cutting Array"
+	turret -102.5 90 "Cutting Array"
+	turret -99 -74 "Cutting Array"
+	turret -79.5 -19.5 "Cutting Array"
+	turret 156 -113 "Cutting Array"
+	turret -224.5 168 "Cutting Array"
+	turret 168.5 183 "Cutting Array"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30

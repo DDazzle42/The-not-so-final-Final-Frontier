@@ -1,37 +1,28 @@
-event "Romulan Peace"
-	date 20 11 2100
-	government "Romulan Star Empire"
-		"player reputation" +100
-
 event "Starfleet made"
-	date 1 1 2130
-	system "Sector 001"
+	date 1 1 2112
+	system Terra
 		government "Starfleet"
-		fleet "Starfleet Small" 600
-		fleet "Starfleet Small" 1400
-		fleet "Starfleet Small" 600
-		fleet "Starfleet Small" 1300
-
-event "Founder Link"
-	date 19 11 2100
-	link "Sector 001" "Founders' Homeworld"
-	unlink "Sector 001" "Qo'noS"
+		fleet "United Earth Patrol" 600
+		fleet "United Earth Patrol" 1400
+		fleet "United Earth Patrol" 600
+		fleet "United Earth Patrol" 1300
+		fleet "Small Southern Merchants" 1000
+		fleet "Small Southern Merchants" 800
 
 event "Spacedock"
-	date 18 11 2100
-	system "Sector 001"
-		add object "Earth "
-			sprite planet/earth
-			distance 1626.89
-			period 798.706
-			offset 207.11
-			object "Luna "
-				sprite planet/luna
-				distance 452.854
-				period 98.6606
-				offset 343.858
-			object "Earth Spacedock"
-				sprite planet/earthspacedock
-				distance 500
-				period 99
-				offset 343
+	date 1 1 2276
+	system "Terra"
+		object Terra
+		sprite planet/earth2x
+		distance 1626.89
+		period 798.706
+		offset 207.11
+		object "Terra Luna"
+			sprite planet/luna2x
+			distance 452.854
+			period 98.661
+			offset 343.858
+		object "Earth  Spacedock"
+			sprite planet/earthspacedock
+			distance 685.828
+			period 100
