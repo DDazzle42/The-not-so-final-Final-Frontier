@@ -1,7 +1,0 @@
-outfitter "Breen Outfitts"
-	"Breen Engery Weapon"
-	"Breen Torpedo"
-	"Breen Weapon"
-	"Impulse Drive"
-	"Warp Assembly"
-
