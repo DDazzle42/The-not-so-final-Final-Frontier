@@ -1,0 +1,98 @@
+fleet "Romulan Patrol"
+	government "Romulan Star Empire"
+	names pirate
+	cargo 100
+	personality
+		confusion 20
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"D'deridex Class" 4
+
+fleet "Breen Patrol"
+	government "Breen Confederacy"
+	names "hostile pirate"
+	personality
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"Breen Interceptor" 14
+
+fleet "Starfleet Patrol"
+	government Starfleet
+	names "Starfleet Names"
+	cargo 30
+	commodities Plastic
+	personality
+		daring frugal opportunistic surveillance merciful lingering disables
+	variant
+		"Steamrunner Class" 3
+		"Norway Class" 3
+		"Saber Class" 6
+
+fleet "Klingon Patrol"
+	government Klingon
+	names "hostile pirate"
+	personality
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"B'rel Class" 5
+		"D7 Class" 5
+		"Vor'Cha Class" 4
+
+fleet "Borg Patrol"
+	government Borg
+	personality
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"Borg Cube" 2
+		"Borg Sphere" 6
+
+fleet "Starfleet Earth fleet"
+	government Starfleet
+	names "Starfleet Names"
+	personality
+		daring frugal opportunistic surveillance merciful lingering disables
+	variant
+		"Galaxy Class" 3
+		"Sovereign Class" 2
+		"Norway Class" 4
+		"Steamrunner Class" 4
+		"Saber Class" 6
+		"Peregrine Class" 10
+		"Valkyrie Class" 10
+		"Prometheus Class" 3
+		"Akira Class" 5
+
+fleet "Small Dominion Fleet"
+	government Dominion
+	personality
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"Jem'Hadar Fighter" 16
+		"Jem'Hadar Battlecruiser" 3
+		"Jem'Hadar Battleship" 2
+		"Galor Class" 3
+		"Hideki Class" 5
+
+fleet "United Earth Patrol"
+	government "United Earth"
+	names "Starfleet Names"
+	cargo 30
+	commodities Plastic
+	personality
+		daring frugal opportunistic surveillance merciful lingering disables
+	variant
+		"NX Class" 3
+		"Intrepid Class (22nds)" 2
+		"Freedom Class" 3
+		"Columbia Class" 2
+
+fleet "Breen Patrol"
+	government "Breen Confederacy"
+	names pirate
+	cargo 100
+	personality
+		confusion 20
+		daring frugal opportunistic surveillance merciful lingering
+	variant
+		"Gor Taan Class" 5
+		"Gel Chak Class" 2
