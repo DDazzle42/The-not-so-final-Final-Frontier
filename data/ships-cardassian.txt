@@ -29,18 +29,18 @@ ship "Galor Class"
 			"hull damage" 2250
 			"hit force" 225
 	outfits
-		"Type X Phaser" 5
+		"Cardassian Disruptor" 5
 		"Class 8 Pho-Torp Launcher" 2
 		"Photon Torpedo" 200
 		"Warp Assembly"
 		"Impulse Drive"
 	engine -32 -21
 	engine 32 -21
-	turret -27.5 -76 "Type X Phaser"
-	turret 27.5 -76 "Type X Phaser"
-	turret -27.5 -76 "Type X Phaser"
-	turret 27.5 -76 "Type X Phaser"
-	turret 0 -39 "Type X Phaser"
+	turret -27.5 -76 "Cardassian Disruptor"
+	turret 27.5 -76 "Cardassian Disruptor"
+	turret -27.5 -76 "Cardassian Disruptor"
+	turret 27.5 -76 "Cardassian Disruptor"
+	turret 0 -39 "Cardassian Disruptor"
 	gun 0 -88 "Class 8 Pho-Torp Launcher"
 	gun 0 -88 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 5
@@ -82,11 +82,12 @@ ship "Hideki Class"
 			"hull damage" 380
 			"hit force" 38
 	outfits
-		"Phaser Cannon"
+		"Cardassian Disruptor"
 		"Warp Assembly"
 		"Impulse Drive"
 	engine 0 15
-	gun 0 -10 "Phaser Cannon"
+	turret 0 -10 "Cardassian Disruptor"
+	turret 0 -10 "Cardassian Disruptor"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
@@ -123,12 +124,12 @@ ship "Cardassian O.W.P"
 			"hull damage" 2450
 			"hit force" 245
 	outfits
-		"Type XV Phaser" 3
+		"Cardassian Disruptor" 3
 		"Class 10 Pho-Torp Launcher"
 		"Photon Torpedo" 1000
-	turret 18 -4 "Type XV Phaser"
-	turret 0 -5.5 "Type XV Phaser"
-	turret -18 -4 "Type XV Phaser"
+	turret 18 -4 "Cardassian Disruptor"
+	turret 0 -5.5 "Cardassian Disruptor"
+	turret -18 -4 "Cardassian Disruptor"
 	gun 0 -5.5 "Class 10 Pho-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
@@ -208,8 +209,16 @@ ship "Groumall Class"
 	outfits
 		"Warp Assembly"
 		"Impulse Drive"
+		"Class 3 Defensive" 3
+		"Cardassian Disruptor" 3
 	engine -42 346
 	engine 1 347
+	turret -99 -177.5 "Cardassian Disruptor"
+	turret 55.5 -177.5 "Class 3 Defensive"
+	turret -95 -69 "Cardassian Disruptor"
+	turret -95.5 169 "Class 3 Defensive"
+	turret 60 169.5 "Cardassian Disruptor"
+	turret 53 -4.5 "Class 3 Defensive"
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 80 30
@@ -252,15 +261,18 @@ ship "Rasilak Class"
 			"hit force" 38
 	outfits
 		"Phaser Cannon" 2
-		"Type X Phaser" 2
+		"Cardassian Disruptor" 2
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -34 -2
-	engine 34 2
-	turret -31.5 -31.5 "Type X Phaser"
-	turret 31.5 -31.5 "Type X Phaser"
-	gun -19 -69 "Phaser Cannon"
-	gun 19 -69 "Phaser Cannon"
+		"Photon Torpedo" 75
+		"Class 8 Pho-Torp Launcher"
+	engine -25 -2.5
+	engine 24.5 -2
+	turret -24 -24.5 "Cardassian Disruptor"
+	turret 24.5 -24.5 "Cardassian Disruptor"
+	gun -8 -51 "Phaser Cannon"
+	gun 8.5 -51 "Phaser Cannon"
+	gun 0 -46 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"

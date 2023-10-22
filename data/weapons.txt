@@ -978,3 +978,32 @@ outfit "Breen Torpedo"
 	"mass" .1
 	"bretorp capacity" -1
 	description "Quantum Physics to the rescue!"
+
+outfit "Cardassian Disruptor"
+	category "Turrets"
+	cost 920000
+	thumbnail "outfit/laser turret"
+	"mass" 9
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		sprite "projectile/cardasdis"
+			"frame rate" 20
+			"random start frame"
+		sound "type xii phaser"
+		"fire effect" "cardassian beam"
+		"hit effect" "cardassian impact"
+		"inaccuracy" 0
+		"velocity" 800
+		"lifetime" 1
+		"reload" 7.1
+		"burst count" 40
+		"burst reload" 1
+		"firing energy" 35
+		"firing heat" 35
+		"shield damage" 35
+		"hull damage" 35
+		"ion damage" 0.07
+		"dpm" 18000
+	description "These phaser arrays are among the most powerful, and can be found on Sovereign-Class ships."

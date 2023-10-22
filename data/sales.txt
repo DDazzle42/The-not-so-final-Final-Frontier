@@ -141,6 +141,7 @@ outfitter "Basic Outfits"
 	"Breen Weapon"
 	"Split Photon Torepedo Launcher"
 	"Split Torpedo"
+	"Cardassian Disruptor"
 
 
 outfitter "Earth 2100s"

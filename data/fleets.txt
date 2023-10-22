@@ -4,17 +4,20 @@ fleet "Romulan Patrol"
 	cargo 100
 	personality
 		confusion 20
-		daring frugal opportunistic surveillance merciful lingering
+		frugal surveillance mining lingering kill
 	variant
 		"D'deridex Class" 4
 
 fleet "Breen Patrol"
 	government "Breen Confederacy"
-	names "hostile pirate"
+	names pirate
+	cargo 100
 	personality
-		daring frugal opportunistic surveillance merciful lingering
+		confusion 20
+		frugal surveillance mining lingering kill
 	variant
-		"Breen Interceptor" 14
+		"Gor Taan Class" 5
+		"Gel Chak Class" 2
 
 fleet "Starfleet Patrol"
 	government Starfleet
@@ -22,7 +25,7 @@ fleet "Starfleet Patrol"
 	cargo 30
 	commodities Plastic
 	personality
-		daring frugal opportunistic surveillance merciful lingering disables
+		frugal surveillance mining lingering disables merciful
 	variant
 		"Steamrunner Class" 3
 		"Norway Class" 3
@@ -32,7 +35,7 @@ fleet "Klingon Patrol"
 	government Klingon
 	names "hostile pirate"
 	personality
-		daring frugal opportunistic surveillance merciful lingering
+		frugal surveillance mining lingering kill
 	variant
 		"B'rel Class" 5
 		"D7 Class" 5
@@ -41,7 +44,7 @@ fleet "Klingon Patrol"
 fleet "Borg Patrol"
 	government Borg
 	personality
-		daring frugal opportunistic surveillance merciful lingering
+		frugal surveillance mining lingering kill
 	variant
 		"Borg Cube" 2
 		"Borg Sphere" 6
@@ -50,7 +53,7 @@ fleet "Starfleet Earth fleet"
 	government Starfleet
 	names "Starfleet Names"
 	personality
-		daring frugal opportunistic surveillance merciful lingering disables
+		frugal surveillance mining lingering disables merciful
 	variant
 		"Galaxy Class" 3
 		"Sovereign Class" 2
@@ -65,7 +68,7 @@ fleet "Starfleet Earth fleet"
 fleet "Small Dominion Fleet"
 	government Dominion
 	personality
-		daring frugal opportunistic surveillance merciful lingering
+		frugal surveillance mining lingering kill
 	variant
 		"Jem'Hadar Fighter" 16
 		"Jem'Hadar Battlecruiser" 3
@@ -79,7 +82,7 @@ fleet "United Earth Patrol"
 	cargo 30
 	commodities Plastic
 	personality
-		daring frugal opportunistic surveillance merciful lingering disables
+		frugal surveillance mining lingering disables
 	variant
 		"NX Class" 3
 		"Intrepid Class (22nds)" 2
@@ -92,7 +95,19 @@ fleet "Breen Patrol"
 	cargo 100
 	personality
 		confusion 20
-		daring frugal opportunistic surveillance merciful lingering
+		frugal surveillance mining lingering kill
 	variant
 		"Gor Taan Class" 5
 		"Gel Chak Class" 2
+
+fleet "Ferengi Traders"
+	government Ferengi
+	names "merchant names"
+	cargo 300
+	commodities Food Clothing Metal Equipment Plastic Medical Industrial Electronics "Heavy Metals" "Luxury Goods"
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Ferengi Cragoship" 3
+		"D'Kora Class" 3
+

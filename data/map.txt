@@ -498,6 +498,8 @@ planet "The Artifact"
 
 planet Kronos
 	landscape ""
+	description 'WIP'
+	spaceport 'WIP'
 	shipyard Klingons
 	outfitter "Basic Outfits"
 
@@ -555,7 +557,7 @@ system Breen
 		distance 1000
 
 system Ferenginar
-	pos 5890.611 -6191.296
+	pos 5890.315 -6191.592
 	government Ferengi
 	link Caiti
 	trade Clothing 713
@@ -568,6 +570,7 @@ system Ferenginar
 	trade Medical 351
 	trade Metal 580
 	trade Plastic 502
+	fleet "Ferengi Traders" 500
 	object Ferenginar
 		sprite planet/ferenginar
 		distance 979.053
