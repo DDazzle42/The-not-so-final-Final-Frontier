@@ -111,3 +111,77 @@ fleet "Ferengi Traders"
 		"Ferengi Cragoship" 3
 		"D'Kora Class" 3
 
+fleet "8472 Patrol"
+	government "Species 8472"
+	personality
+		frugal surveillance mining lingering kill waiting
+	variant
+		"8472 Bioship" 5
+
+fleet "Jem'Hadar Fighters"
+	government Dominion
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Jem'Hadar Fighter" 6
+
+fleet "Small Starfleet"
+	government "Starfleet"
+	names "republic small"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 6
+		"Saber Class" 2
+	variant 5
+		"Steamrunner Class"
+		"Saber Class"
+	variant 4
+		"Akira Class"
+	variant 3
+		"Steamrunner Class" 2
+	variant 1
+		"Saber Class" 3
+	variant 6
+		"Steamrunner Class"
+
+fleet "Large Starfleet"
+	government "Starfleet"
+	names "Starfleet Names"
+	fighters "Starfleet Names"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 5
+		"Akira Class" 2
+		"Saber Class"
+		"Steamrunner Class"
+	variant 3
+		"Ambassador Class"
+		"Peregrine Class" 4
+	variant 3
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class"
+		"Saber Class"
+	variant 2
+		"Galaxy Class"
+		"Valkyrie Class" 4
+		"Peregrine Class" 6
+	variant 1
+		"Galaxy Class"
+		"Valkyrie Class" 4
+		"Peregrine Class" 6
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class" 2
+		"Saber Class" 2
+		"Steamrunner Class" 2
+	variant 1
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class" 2
+	variant 1
+		"Akira Class"
+		"Saber Class" 2
+		"Steamrunner Class"

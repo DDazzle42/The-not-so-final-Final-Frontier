@@ -565,7 +565,7 @@ outfit "Class 10 Pho-Torp Launcher"
 outfit "Quantum Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 1420000
-	thumbnail "outfit/torpedo launcher"
+	thumbnail "outfit/q_torpedo_launcher"
 	"mass" 15
 	"outfit space" -30
 	"weapon capacity" -30
@@ -611,7 +611,7 @@ outfit "Photon Torpedo"
 outfit "Quantum Torpedo"
 	category "Ammunition"
 	cost 2000
-	thumbnail "outfit/torpedo"
+	thumbnail "outfit/q_torpedo"
 	"mass" .1
 	"qtorp capacity" -1
 	description "Quantum Physics to the rescue!"
@@ -791,8 +791,8 @@ outfit "Xindi AW"
 			"frame rate" 5
 			"random start frame"
 		sound "type 8 phaser"
-		"fire effect" "phaser fire"
-		"hit effect" "phaser beam impact"
+		"fire effect" "xindi fire"
+		"hit effect" "xindi hit"
 		"inaccuracy" 0
 		"velocity" 600
 		"lifetime" 1
@@ -852,6 +852,7 @@ outfit "Breen Engery Weapon"
 		"missile strength" 200
 		"piercing" .2
 		"blast radius" 20
+	description "An energy-dampening weapon or energy dissipater was an advanced energy weapon used by the Tholians and Breen"
 
 
 outfit "Breen Energy Torpedo"
@@ -897,7 +898,7 @@ outfit "Split Photon Torepedo Launcher"
 		"hit force" 40
 		"missile strength" 200
 		"piercing" .2
-	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space, with only rudimentary infrared tracking systems that can have trouble homing in on targets with low heat levels. True to its name, the missile reaches a very high speed to leave its target's anti-missile defenses with little time to react. The trade-off is maneuverability, so Meteor Missiles are practically useless against agile targets farther than point-blank range."
+	description "A variant of the Photon Torepedo that splits into six different warheads before striking the target"
 
 outfit "Split Torpedo"
 	category "Ammunition"
@@ -992,8 +993,8 @@ outfit "Cardassian Disruptor"
 			"frame rate" 20
 			"random start frame"
 		sound "type xii phaser"
-		"fire effect" "cardassian beam"
-		"hit effect" "cardassian impact"
+		"fire effect" "cardassian fire"
+		"hit effect" "cardassian hit"
 		"inaccuracy" 0
 		"velocity" 800
 		"lifetime" 1
@@ -1002,8 +1003,127 @@ outfit "Cardassian Disruptor"
 		"burst reload" 1
 		"firing energy" 35
 		"firing heat" 35
-		"shield damage" 35
-		"hull damage" 35
+		"shield damage" 15
+		"hull damage" 15
 		"ion damage" 0.07
 		"dpm" 18000
 	description "These phaser arrays are among the most powerful, and can be found on Sovereign-Class ships."
+
+outfit "8472 Bio-weapon"
+	category "Turrets"
+	cost 750000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 5
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		sprite "projectile/8472bioweap"
+			"frame rate" 6
+			"random start frame"
+		sound "disruptor beam"
+		"fire effect" "8472 bio fire"
+		"hit effect" "8472 bio hit"
+		"inaccuracy" 0
+		"velocity" 900
+		"lifetime" 1
+		"reload" 3.1
+		"firing energy" 25
+		"firing heat" 25
+		"shield damage" 1210
+		"hull damage" 1210
+		"burst count" 100
+		"burst reload" 0.05
+	description "A powerful weapon standard on 8472 bioships"
+
+outfit "Transphasic Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 1420000
+	thumbnail "outfit/q_torpedo_launcher"
+	"mass" 15
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"qtorp capacity" 35
+	weapon
+		sprite "projectile/qtorp"
+			"frame rate" 2
+			"random start frame"
+		sound "qtorp"
+		ammo "Transphasic Torpedo"
+		icon "icon/torpedo"
+		"stream"
+		"fire effect" "qtorp fire"
+		"hit effect" "qtorp hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 1200
+		"reload" 60
+		"firing energy" 125
+		"firing heat" 45
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 5
+		"homing" 5
+		"radar tracking" 2
+		"shield damage" 19200
+		"hull damage" 175000
+		"hit force" 40
+		"missile strength" 200
+		"piercing" 1
+	description "The transphasic torpedo was an advanced type of torpedo weapon of unprecedented destructive potential used by Starfleet. The torpedoes could be launched from standard starship-mounted torpedo launchers. A single torpedo was capable of destroying a Borg cube. This weapon technology was acquired by the crew of USS Voyager in 2378 from Admiral Kathryn Janeway of an alternate timeline."
+
+outfit "Transphasic Torpedo"
+	category "Ammunition"
+	cost 2000
+	thumbnail "outfit/q_torpedo"
+	"mass" .1
+	"qtorp capacity" -1
+	description "Quantum Physics to the rescue!"
+
+outfit "Jem-Torp Launcher"
+	category "Secondary Weapons"
+	cost 560000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 12.5
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"photorp capacity" 100
+	weapon
+		sprite "projectile/jemtorp"
+			"frame rate" 2
+			"random start frame"
+		sound "photon torpedo"
+		ammo "Jem'Hadar Torpedo"
+		icon "icon/torpedo"
+		"stream"
+		"fire effect" "jemtorp fire"
+		"hit effect" "jemtorp hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 0
+		"velocity" 24
+		"lifetime" 1000
+		"reload" 80
+		"firing energy" 75
+		"firing heat" 75
+		"acceleration" .7
+		"drag" .1
+		"turn" 4
+		"homing" 3
+		"radar tracking" .8
+		"shield damage" 750
+		"hull damage" 750
+		"hit force" 65
+		"missile strength" 20
+		"piercing" .075
+	description "An torpedo system mounted on Jem'Hadar ships"
+
+outfit "Jem'Hadar Torpedo"
+	category "Ammunition"
+	cost 500
+	thumbnail "outfit/torpedo"
+	"mass" .05
+	"photorp capacity" -1
+	description "Taking Flash-Bang to a whole new level"

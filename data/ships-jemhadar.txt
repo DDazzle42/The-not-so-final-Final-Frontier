@@ -30,15 +30,15 @@ ship "Jem'Hadar Fighter"
 			"hit force" 38
 	outfits
 		"Polaron Beam" 2
-		"Class 8 Pho-Torp Launcher"
-		"Photon Torpedo" 100
+		"Jem-Torp Launcher"
+		"Jem'Hadar Torpedo" 100
 		"Warp Assembly"
 		"Impulse Drive"
 	engine -3.5 19.5
 	engine 3.5 19.5
 	turret 0 -27.5 "Polaron Beam"
 	turret 0 -27.5 "Polaron Beam"
-	gun 0 -27.5 "Class 8 Pho-Torp Launcher"
+	gun 0 -27.5 "Jem-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
@@ -62,7 +62,7 @@ ship "Jem'Hadar Battlecruiser"
 		"heat dissipation" .6
 		"fuel capacity" 600
 		"cargo space" 50
-		"outfit space" 370
+		"outfit space" 700
 		"weapon capacity" 140
 		"energy generation" 10
 		"heat generation" 10
@@ -76,8 +76,8 @@ ship "Jem'Hadar Battlecruiser"
 			"hit force" 225
 	outfits
 		"Polaron Beam" 5
-		"Class 8 Pho-Torp Launcher" 2
-		"Photon Torpedo" 200
+		"Jem-Torp Launcher" 2
+		"Jem'Hadar Torpedo" 200
 		"Warp Assembly"
 		"Impulse Drive"
 	engine -11 79.5
@@ -87,8 +87,8 @@ ship "Jem'Hadar Battlecruiser"
 	turret -15.5 -41.5 "Polaron Beam"
 	turret 15.5 -41.5 ""Polaron Beam"
 	turret 0 -10 "Polaron Beam"
-	gun 0 -10 "Class 8 Pho-Torp Launcher"
-	gun 0 -10 "Class 8 Pho-Torp Launcher"
+	gun 0 -10 "Jem-Torp Launcher"
+	gun 0 -10 "Jem-Torp Launcher"
 	explode "tiny explosion" 5
 	explode "small explosion" 10
 	explode "medium explosion" 25
@@ -115,7 +115,7 @@ ship "Jem'Hadar Battleship"
 		"heat dissipation" .75
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 510
+		"outfit space" 700
 		"weapon capacity" 210
 		"energy generation" 40
 		"heat generation" 22.5
@@ -128,9 +128,9 @@ ship "Jem'Hadar Battleship"
 			"hull damage" 2450
 			"hit force" 245
 	outfits
-		"Class 8 Pho-Torp Launcher" 10
+		"Jem-Torp Launcher" 10
 		"Polaron Beam" 14
-		"Photon Torpedo" 1000
+		"Jem'Hadar Torpedo" 1000
 		"Warp Assembly"
 		"Impulse Drive"
 	engine -67 110.5
@@ -149,16 +149,16 @@ ship "Jem'Hadar Battleship"
 	turret 113.5 24 "Polaron Beam"
 	turret -113.5 24 "Polaron Beam"
 	turret 113.5 24 "Polaron Beam"
-	gun -24.5 -13 "Class 8 Pho-Torp Launcher"
-	gun 24.5 -13 "Class 8 Pho-Torp Launcher"
-	gun -24.5 -13 "Class 8 Pho-Torp Launcher"
-	gun 24.5 -13 "Class 8 Pho-Torp Launcher"
-	gun 0 19.5 "Class 8 Pho-Torp Launcher"
-	gun -37.5 21.5 "Class 8 Pho-Torp Launcher"
-	gun 0 19.5 "Class 8 Pho-Torp Launcher"
-	gun -37.5 21.5 "Class 8 Pho-Torp Launcher"
-	gun 37.5 21.5 "Class 8 Pho-Torp Launcher"
-	gun 37.5 21.5 "Class 8 Pho-Torp Launcher"
+	gun -24.5 -13 "Jem-Torp Launcher"
+	gun 24.5 -13 "Jem-Torp Launcher"
+	gun -24.5 -13 "Jem-Torp Launcher"
+	gun 24.5 -13 "Jem-Torp Launcher"
+	gun 0 19.5 "Jem-Torp Launcher"
+	gun -37.5 21.5 "Jem-Torp Launcher"
+	gun 0 19.5 "Jem-Torp Launcher"
+	gun -37.5 21.5 "Jem-Torp Launcher"
+	gun 37.5 21.5 "Jem-Torp Launcher"
+	gun 37.5 21.5 "Jem-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30

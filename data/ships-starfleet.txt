@@ -263,7 +263,7 @@ ship "Maquis Raider"
 		"drag" .9
 		"heat dissipation" 1.55
 		"fuel capacity" 400
-		"cargo space" 6
+		"cargo space" 600
 		"outfit space" 110
 		"weapon capacity" 75
 		"energy generation" 6
@@ -1605,11 +1605,12 @@ ship "Defiant Class"
 		"heat dissipation" 1.5
 		"fuel capacity" 600
 		"cargo space" 8
-		"outfit space" 510
-		"weapon capacity" 170
-		"energy generation" 10
+		"outfit space" 670
+		"weapon capacity" 230
+		"engine capacity" 40
+		"energy generation" 90
 		"heat generation" 10
-		"energy capacity" 2800
+		"energy capacity" 3500
 		"thrust" 15
 		"turn" 350
 		weapon
@@ -1620,11 +1621,15 @@ ship "Defiant Class"
 	outfits
 		"Phaser Cannon" 4
 		"Quantum Torpedo Launcher" 2
+		"Type VIII Phaser" 3
 		"Quantum Torpedo" 70
 		"Warp Assembly"
 		"Impulse Drive"
 	engine -5 40
 	engine 5 40
+	turret -14.5 -23.5 "Type VIII Phaser"
+	turret 0 -15.5 "Type VIII Phaser"
+	turret 14.5 -23.5 "Type VIII Phaser"
 	gun -28 -4 "Quantum Torpedo Launcher"
 	gun 28 -4 "Quantum Torpedo Launcher"
 	gun -31 -3 "Phaser Cannon"
@@ -2126,8 +2131,6 @@ ship "Columbia Class"
 		"Mk IV Pho-Torp Launcher"
 		"Phase Cannon" 2
 		"Photon Torpedo" 35
-	engine -25.5 0.5
-	engine 25.5 0.5
 	engine -13.5 27.5
 	engine 13.5 27.5
 	turret 27 -26 "Phase Cannon"
@@ -2265,8 +2268,8 @@ ship "Texas Class"
 		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 35
-		"outfit space" 200
-		"weapon capacity" 105
+		"outfit space" 300
+		"weapon capacity" 200
 		"energy capacity" 3100
 		"energy generation" 7.5
 		"heat generation" 7.5
@@ -2305,3 +2308,49 @@ ship "Texas Class"
 	explode "huge explosion" 3
 	"final explode" "final explosion large"
 	description "The Texas class was a type of Federation starship briefly operated by Starfleet in the late 24th century. Commissioned by Vice Admiral Les Buenamigo in a misguided effort to compete with other Starfleet flag officers, it was the organization's first fully automated starship. All three vessels of the class malfunctioned and became unhinged due to faulty artificial intelligence, resulting in an attack on Douglas Station that killed Buenamigo and ultimately led to the deranged vessels being destroyed by vessels of the California-class."
+
+ship "Delta-Flyer Class"
+	sprite "ship/delta"
+	attributes
+		category "Transport"
+		"type" "Runabout"
+		"entered service" "2374"
+		"cost" 100000
+		"shields" 1750
+		"hull" 550
+		"shield generation" .729
+		"hull repair rate" .051
+		"required crew" 1
+		"bunks" 15
+		"mass" 4.5
+		"drag" .6
+		"heat dissipation" 1
+		"fuel capacity" 500
+		"cargo space" 5
+		"outfit space" 110
+		"weapon capacity" 35
+		"energy generation" 1.6
+		"heat generation" 1.6
+		"energy capacity" 750
+		"turn" 75
+		"thrust" 3.8
+		weapon
+			"blast radius" 2
+			"shield damage" 22
+			"hull damage" 22
+			"hit force" 2
+	outfits
+		"Warp Assembly"
+		"Impulse Drive"
+		"Type IV Phaser" 2
+		"Micro-Torpedo Launcher"
+		"Photon Torpedo" 20
+	engine -17 21
+	engine 17 21
+	turret -16 1.5 "Type IV Phaser"
+	turret 16 1.5 "Type IV Phaser"
+	gun 0 8 "Micro-Torpedo Launcher"
+	explode "tiny explosion" 4
+	explode "small explosion" 1
+	"final explode" "final explosion small"
+	description "The Delta Flyer-type was a Starfleet shuttlecraft designed and built by the crew of the USS Voyager during the vessel's stay in the Delta Quadrant, from which its name was derived. Two vessels of this type were constructed during Voyager's return to Earth from the Delta Quadrant."

@@ -162,3 +162,18 @@ government Ferengi
 	"friendly hail" civilian
 	"hostile hail" "hostile pirate"
 
+government "Species 8472"
+	color 0.936 0.766 0.11
+	"player reputation" -5000000
+	"attitude toward"
+		Bajoran -10
+		Borg -10
+		Jem'Hadar -10
+		Starfleet -10
+	"friendly hail" "borg hail"
+	"hostile hail" "hostile borg"
+	raid "Large Southern Pirates"
+
+government Cartaker
+	color 0.691 0.2 0.2
+

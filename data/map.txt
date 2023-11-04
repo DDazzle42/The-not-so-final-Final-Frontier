@@ -69,6 +69,8 @@ system "Founders' Homeworld"
 system Bajor
 	pos 5819.258 -5794.098
 	government Bajoran
+	attributes deep research
+	music ds9theme
 	habitable 2140.92
 	link Cardassia
 	link Tzenkenth
@@ -94,7 +96,7 @@ system Bajor
 		period 36.818
 	object Bajor
 		sprite planet/bajor
-		distance 1966.763
+		distance 2478.136
 		period 427.049
 		offset 120.602
 		object
@@ -105,14 +107,6 @@ system Bajor
 			sprite planet/lava0
 			distance 850
 			period 28.216
-		object "Bajoran Wormhole"
-			sprite planet/bajorwormhole
-			distance 3747.686
-			period 0
-		object "Deep Space Nine"
-			sprite planet/planetDS9
-			distance 1500
-			period 30
 	object
 		sprite planet/gas0
 		distance 2133.95
@@ -122,10 +116,19 @@ system Bajor
 			sprite planet/rock0
 			distance 283
 			period 13.952
+	object "Bajoran Wormhole"
+		sprite planet/bajorwormhole
+		distance 3967.715
+	object "Deep Space Nine"
+		sprite planet/planetDS9
+		distance 3287.361
+		period 90
 
 system Terra
 	pos 6300.593 -5624.111
 	government Starfleet
+	attributes deep research
+	music tngtheme
 	habitable 425.92
 	belt 1838
 	link Andor
@@ -168,6 +171,10 @@ system Terra
 			distance 452.854
 			period 98.661
 			offset 343.858
+		object "Earth  Spacedock"
+			sprite planet/starbase1
+			distance 685.828
+			period 100
 	object "Sol IV"
 		sprite planet/mars2x
 		distance 2239.75
@@ -303,12 +310,16 @@ system Terra
 		distance 3245.145
 	object "Transwarp Hub"
 		sprite planet/transwarphub
-		distance 5539.521
+		distance 10622.893
 		period 100
+	object "Caretaker Array"
+		sprite planet/wormhole-red
+		distance 5547.933
 
 system Qo'noS
 	pos 6763.827 -5471.529
 	government Klingon
+	attributes deep research
 	music klingonmusic
 	habitable 719.96
 	link Coeus
@@ -370,6 +381,7 @@ system Qo'noS
 system Romulus
 	pos 6292.767 -6120.774
 	government "Romulan Star Empire"
+	attributes deep research
 	habitable 233.28
 	link Lucia
 	link Numa
@@ -424,6 +436,7 @@ system Unicomplex
 	trade Metal 408
 	trade Plastic 363
 	fleet "Borg Patrol" 900
+	fleet "8472 Patrol" 500
 	object
 		sprite star/m0
 		period 10
@@ -435,15 +448,23 @@ system Unicomplex
 		sprite planet/transwarphub
 		distance 2875.393
 		period 150
+	object "Fluidic Wormhole"
+		sprite planet/wormhole-red
+		distance 4033.441
 
 planet "Earth  Spacedock"
+	attributes factory "near earth" research tourism urban
 	landscape ""
 	description 'WIP'
 	spaceport 'WIP'
 	shipyard "Basic Ships"
 	outfitter "Basic Outfits"
+	tribute 1800
+		threshold 4500
+		fleet "Small Starfleet" 64
 
 planet "Founders' Homeworld"
+	attributes core "core pirate" factory pirate religious
 	landscape land/coruscant
 	description "The first Founders' homeworld was an M-class rogue planet located within the Omarion Nebula in the Gamma Quadrant. This was the capital planet of the Dominion, and the homeworld of the Changelings."
 	spaceport 'Fonuder's
@@ -455,12 +476,16 @@ planet "Founders' Homeworld"
 		fleet "" 5
 
 planet Terra
+	attributes factory "near earth" research tourism urban
 	landscape land/nzoth
 	description "Earth, also known as Sol III or Terra, was the inhabited third planet of the Sol system. Earth was the homeworld of the Humans and the Voth, among others, and was the capital planet of the United Federation of Planets and the home of Starfleet Headquarters from 2161 to 3089.Located at the core of the Federation, Earth's strategic importance by the 24th century was on par with worlds like Andor, Berengaria VII, and Vulcan. Through its history, the planet had been targeted by various powers adversarial to Humanity, including the Xindi, the Klingons, the Borg, and the Dominion."
 	spaceport 'Earth
 	shipyard "Earth 2100s"
 	shipyard "Southbound Basics"
 	outfitter "Earth 2100s"
+	tribute 10000
+		threshold 20000
+		fleet "Large Starfleet" 50
 
 planet "Terra Luna"
 	attributes factory moon "near earth" tourism
@@ -476,7 +501,7 @@ planet "Terra Luna"
 	security 0.2
 	tribute 2500
 		threshold 7500
-		fleet "Large Republic" 10
+		fleet "Large Starfleet" 10
 
 planet "Sol IV"
 	attributes farming "near earth" tourism
@@ -487,9 +512,10 @@ planet "Sol IV"
 	security 0.2
 	tribute 1800
 		threshold 4500
-		fleet "Small Republic" 64
+		fleet "Small Starfleet" 64
 
 planet "The Artifact"
+	attributes factory "near earth" research tourism urban
 	landscape UNKNOWN
 	description "Pollillus was a planet located within the Vannell system. It was situated within the Core Worlds' Vannell sector, beyond the Koornacht Cluster. Homeworld of the two-headed sentient Troigs, the planet had only recently been discovered by the galactic community by 32BBY."
 	spaceport "Pollillus' surface featured several landmasses, which appeared green-colored when viewed from space, and numerous interconnected bodies of water. There were no predatory creatures on Pollillus that could have sprung surprise attacks on the evolutionary ancestors of Troigs, the planet's native sentient species."
@@ -497,6 +523,7 @@ planet "The Artifact"
 	outfitter "Romulan 2100s"
 
 planet Kronos
+	attributes factory "near earth" research tourism urban
 	landscape ""
 	description 'WIP'
 	spaceport 'WIP'
@@ -504,6 +531,7 @@ planet Kronos
 	outfitter "Basic Outfits"
 
 planet "Deep Space Nine"
+	attributes factory "near earth" research tourism urban
 	landscape ""
 	description 'WIP'
 	spaceport 'WIP'
@@ -512,11 +540,19 @@ planet "Deep Space Nine"
 	outfitter "Basic Outfits"
 
 planet Bajor
+	attributes factory "near earth" research tourism urban
 	landscape land/bajorland
 	description 'WIP'
 	spaceport 'WIP'
-	shipyard "Basic Ships"
+	shipyard "Betelgeuse Basics"
+	shipyard "Navy Advanced"
+	shipyard "Navy Basics"
+	shipyard "Syndicate Basics"
+	outfitter "Ammo North"
 	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
 
 planet "Bajoran Wormhole"
 	landscape " "
@@ -636,11 +672,31 @@ system Cardassia
 
 system Ocampa
 	pos 6067.356 -8993.333
+	government Cartaker
+	music voytheme
+	link "Kazon Homeworld"
 	link "Subnexus 6990157"
 	link Talax
+	object
+		sprite star/a-giant
+		period 30
+	object Ocampa
+		sprite planet/desert2
+		distance 776.249
+		period 90
+	object "Caretaker Array"
+		sprite planet/caretakerarray
+		distance 1578.88
+	object
+		sprite planet/forest0
+		distance 1081.26
+	object
+		sprite planet/ice2-b
+		distance 1992.545
 
 system Talax
 	pos 6243.06 -8899.407
+	link "Kazon Homeworld"
 	link Ocampa
 	link Vidi'ia
 
@@ -787,6 +843,7 @@ system Altera
 	link Tullus
 
 planet Breen
+	attributes factory "near earth" research tourism urban
 	landscape land/mountain8
 	description "Breen was an inhabited planet in the Breen system, located in the Alpha Quadrant. As the homeworld of the Breen, a warp-capable humanoid species, it was the capital planet of the Breen Confederacy and, in 2375, was allied with the Dominion. Little was known about the planet Breen, but it was widely believed to be a frozen wasteland."
 	description "During the Klingon Second Empire, Chancellor Mow'ga ordered an entire fleet of Klingon warships to invade and conquer the Breen homeworld. The fleet never returned and was never heard from again."
@@ -886,6 +943,7 @@ system Tullus
 system Andor
 	pos 6390.866 -5683.838
 	government Starfleet
+	attributes Starfleet
 	link Gazer
 	link Terra
 	trade Clothing 577
@@ -1032,6 +1090,7 @@ system Bolias
 system Coeus
 	pos 6662.991 -5404.259
 	government Klingon
+	music klingonacid
 	link Qo'noS
 	link "Rura Penthe"
 	fleet "Klingon Patrol" 1000
@@ -1039,6 +1098,7 @@ system Coeus
 system "Rura Penthe"
 	pos 6622.102 -5329.889
 	government Klingon
+	music klingonacid
 	link Coeus
 	link Gorn
 	fleet "Klingon Patrol" 1000
@@ -1055,6 +1115,7 @@ system Nerakh
 system Anchu
 	pos 7136.176 -5597.444
 	government Klingon
+	music klingonacid
 	link Nakoch
 	link Nerakh
 	fleet "Klingon Patrol" 1000
@@ -1062,6 +1123,7 @@ system Anchu
 system Nakoch
 	pos 7438.565 -5751.148
 	government Klingon
+	music klingonacid
 	link Amof
 	link Anchu
 	fleet "Klingon Patrol" 1000
@@ -1074,7 +1136,7 @@ system Amof
 system Khitomer
 	pos 6715.898 -5665.815
 	government Klingon
-	music klingonmusic
+	music klingonacid
 	link Gazer
 	link Hyperion
 	link Nerakh
@@ -1122,6 +1184,7 @@ system Gazer
 system Betazed
 	pos 6178.639 -5677.148
 	government Starfleet
+	attributes Starfleet
 	link Caiti
 	link "Neutral Zone"
 	link Terra
@@ -1274,6 +1337,7 @@ wormhole "Transwarp Hub"
 	"display name" "Transwarp Hub"
 
 planet Betazed
+	attributes Starfleet research
 	spaceport WIP
 	government Starfleet
 	shipyard "Basic Ships"
@@ -1299,9 +1363,11 @@ system Devil-Run
 	remove hidden
 
 planet Andor
+	attributes Starfleet research
 	spaceport WIP
 
 planet "Cardassia Prime"
+	attributes factory "near earth" research tourism urban
 	landscape land/cardassialand
 	description "Cardassia Prime, or simply Cardassia, was the inhabited second planet in the Cardassian system, located in the Cardassian Zone of the Alpha Quadrant. It had a single moon. Cardassia was the capital planet of the Cardassian Union and the homeworld of the Cardassians, a warp-capable humanoid species. During the Dominion War, the planet hosted Dominion Headquarters and was the Dominion's de facto capital in the Alpha Quadrant."
 	spaceport WIP
@@ -1420,6 +1486,7 @@ system "Subnexus 6990157"
 
 system "Subnexus 6874053"
 	pos 5722.476 -8809.535
+	link "Kazon Homeworld"
 	link "Subnexus 6589671"
 	link "Subnexus 6990157"
 
@@ -1608,5 +1675,56 @@ system Vidi'ia
 
 system Mari
 	pos 5968.273 -8518.606
+	link "Kazon Homeworld"
 	link Zahl
+
+system "Fluidic Space"
+	pos 8911.375 -8463.125
+	haze _menu/haze-full
+	fleet "8472 Patrol" 900
+	hazard "Black Hole Accretion Disk" 50
+	object
+		sprite star/a-supergiant
+	object "Fluidic Wormhole"
+		sprite planet/wormhole-red
+		distance 2523.121
+	object
+		sprite planet/gas0-hot
+		distance 614.204
+		period 50
+	object
+		sprite planet/gas17
+		distance 2168.091
+		period 100
+	object
+
+planet "Fluidic Wormhole"
+	landscape " "
+	government "Species 8472"
+
+wormhole "Fluidic Wormhole"
+	"display name" "Fluidic Wormhole"
+	mappable
+	link Unicomplex "Fluidic Space"
+	link "Fluidic Space" Unicomplex
+
+system "Kazon Homeworld"
+	pos 6012.708 -8719.792
+	link Mari
+	link Ocampa
+	link "Subnexus 6874053"
+	link Talax
+
+planet "Caretaker Array"
+	wormhole "Caretaker Array"
+	government Cartaker
+
+wormhole "Caretaker Array"
+	"display name" "Caretaker Array"
+	mappable
+	link Terra Ocampa
+	link Ocampa Terra
+
+planet Ocampa
+	government Cartaker
 

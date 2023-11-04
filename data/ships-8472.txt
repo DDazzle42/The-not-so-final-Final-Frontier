@@ -1,0 +1,45 @@
+ship "8472 Bioship"
+	sprite "ship/nicor"
+	attributes
+		category "Heavy Warship"
+		"type" "Bioship"
+		"entered service" "2368"
+		"cost" 6300000
+		"shields" 192000
+		"hull" 175000
+		"shield generation" 60
+		"hull repair rate" 50
+		"required crew" 6
+		"bunks" 256
+		"mass" 175
+		"drag" 6.5
+		"heat dissipation" 5
+		"fuel capacity" 7000
+		"cargo space" 5000
+		"outfit space" 600
+		"weapon capacity" 210
+		"energy generation" 40.5
+		"heat generation" 22.5
+		"energy capacity" 1040000
+		"thrust" 19
+		"turn" 350
+		weapon
+			"blast radius" 87
+			"shield damage" 875
+			"hull damage" 875
+			"hit force" 87
+	outfits
+		"8472 Bio-weapon" 5
+		"Warp Assembly"
+		"Impulse Drive"
+	turret 0 -115.5 "8472 Bio-weapon"
+	turret 0 -115.5 "8472 Bio-weapon"
+	turret 0 -115.5 "8472 Bio-weapon"
+	turret 0 -115.5 "8472 Bio-weapon"
+	turret 0 -115.5 "8472 Bio-weapon"
+	explode "tiny explosion" 5
+	explode "small explosion" 10
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+	description "The Species 8472 bio-ship was a type of organic-based vessel used by Species 8472 in large numbers during their invasion of the Milky Way Galaxy in 2373. In 2373, the Borg provoked a war with Species 8472 by invading fluidic space. Species 8472 defeated the Borg and launched their own counter-invasion of the Milky Way, sending hundreds of bio-ships through a string of quantum singularities in a region of space later nicknamed the 'Northwest Passage'."

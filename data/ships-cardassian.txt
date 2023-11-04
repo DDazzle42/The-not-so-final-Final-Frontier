@@ -5,10 +5,10 @@ ship "Galor Class"
 		"type" "Exploration Cruiser"
 		"entered service" "2357"
 		"cost" 1300000
-		"shields" 10000
-		"hull" 10500
-		"shield generation" 2.292
-		"hull repair rate" 1.597
+		"shields" 9000
+		"hull" 9500
+		"shield generation" 2
+		"hull repair rate" 1
 		"required crew" 1
 		"bunks" 66
 		"mass" 450
@@ -156,9 +156,9 @@ ship "Cardassian O.W.P Test"
 		"drag" 6.5
 		"heat dissipation" .75
 		"fuel capacity" 700
-		"cargo space" 50
-		"outfit space" 510
-		"weapon capacity" 210
+		"cargo space" 5000
+		"outfit space" 5100
+		"weapon capacity" 2100
 		"energy generation" 22.5
 		"heat generation" 22.5
 		"energy capacity" 10400
@@ -170,6 +170,12 @@ ship "Cardassian O.W.P Test"
 			"hull damage" 2450
 			"hit force" 245
 	outfits
+	turret 18 -4
+	turret 0 -5.5
+	turret -18 -4
+	gun 0 -5.5
+	gun 0 -5.5
+	gun 0 -5.5
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30

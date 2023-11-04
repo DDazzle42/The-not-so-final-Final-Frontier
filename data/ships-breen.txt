@@ -49,7 +49,7 @@ ship "Gor Taan Class"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
-	description "The Breen interceptor was a type of light warship that served as the backbone of the Breen Confederacy fleet in the late 24th century."
+	description "The Gor Taan class was a type of battle cruiser used by the Breen Confederacy during the 24th century."
 
 ship "Gel Chak Class"
 	sprite "ship/gelchak"
@@ -114,3 +114,4 @@ ship "Gel Chak Class"
 	explode "large explosion" 25
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
+	description "The Gel Chak class was a type of heavy warship used by the Breen Confederacy during the 24th century."

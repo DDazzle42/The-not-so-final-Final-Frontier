@@ -18,7 +18,7 @@
 outfit "Warp Assembly"
 	category "Systems"
 	cost 70000
-	thumbnail "outfit/hyperdrive"
+	thumbnail "outfit/warpcore"
 	"mass" 20
 	"outfit space" 0
 	"jump speed" 1
@@ -43,6 +43,7 @@ outfit "Transwarp Manifold"
 	"outfit space" -25
 	"jump speed" .3
 	"jump drive" 10
+	"jump range" 500
 	description "Transwarp Coils sold by the federation are reversed engineered Borg technology, allowing ships to instantaneously jump from one point in space to another"
 
 outfit "Antimatter Storage Pod"
@@ -104,3 +105,33 @@ outfit "Local Map"
 	thumbnail "outfit/map"
 	"map" 12000
 	description "This data chip contains complete information on the twelve star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+outfit "Cloaking Device (Modded)"
+	category "Unique"
+	cost 12000
+	thumbnail "outfit/cloakingdevice"
+	"mass" 10
+	"outfit space" -10
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" 0
+	description "You're sure the cloaking device is here somewhere, but you can't see it."
+
+outfit "Cloaking Device"
+	category "Unique"
+	cost 12000
+	"mass" 10
+	"outfit space" -10
+	"cloak" .01
+	"cloaking energy" 1
+	"cloaking fuel" 0
+	description "You're sure the cloaking device is here somewhere, but you can't see it."
+
+outfit "Ablative Armor"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/interference plating"
+	"mass" 4
+	"outfit space" -4
+	"hull repair rate" 1
+	description "Ablative armor was a type of protective hull armor used on starships, which possessed a capability for rapidly dissipating the energy impacts from directed energy weapon fire. Starfleet began use of ablative armor technology by 2371."

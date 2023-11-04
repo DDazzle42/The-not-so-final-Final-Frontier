@@ -106,3 +106,74 @@ effect "disruptor beam hit"
 		"frame rate" 30
 	"lifetime" 5
 	"velocity scale" 0.
+
+effect "cardassian hit"
+	sprite "effect/cardassian impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 0.
+
+effect "cardassian fire"
+	sprite "effect/cardassian fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 0.
+
+effect "xindi hit"
+	sprite "effect/xindiaw fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 0.
+
+effect "xindi fire"
+	sprite "effect/xindiaw fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 0.
+
+effect "sptorp fire"
+	sprite "effect/sptorp fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 8
+
+effect "bretorp fire"
+	sprite "effect/bretorp fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 8
+
+effect "8472 bio fire"
+	sprite "effect/8472 bio"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+
+effect "8472 bio hit"
+	sprite "effect/8472 bio"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"velocity scale" 0.
+
+effect "jemtorp fire"
+	sprite "effect/jemtorp fire"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 8
+
+effect "jemtorp hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+	sound "photorp hit"
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" .6
+	"random spin" 3
+	"random frame rate" 5
+	"velocity scale" 0.

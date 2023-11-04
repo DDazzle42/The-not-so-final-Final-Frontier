@@ -5,8 +5,8 @@ ship "Borg Cube"
 		"type" "Assault Cruiser"
 		"entered service" "2382"
 		"cost" 8400000
-		"shields" 192000
-		"hull" 1750000
+		"shields" 19200
+		"hull" 175000
 		"shield generation" 60
 		"hull repair rate" 50
 		"required crew" 6
