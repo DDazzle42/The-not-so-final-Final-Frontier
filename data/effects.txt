@@ -57,7 +57,13 @@ effect "phaser fire"
 		"no repeat"
 		"frame rate" 30
 	"lifetime" 5
-	
+
+effect "breen fire"
+	sprite "effect/breen fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+
 effect "phaser beam impact"
 	sprite "effect/phaser cannon impact"
 		"no repeat"

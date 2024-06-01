@@ -66,8 +66,8 @@ ship "B'rel Class"
 		"type" "Bird of Prey"
 		"entered service" "2280"
 		"cost" 260000
-		"shields" 1400
-		"hull" 1250
+		"shields" 3000
+		"hull" 5000
 		"shield generation" .583
 		"hull repair rate" .139
 		"required crew" 1
@@ -79,9 +79,9 @@ ship "B'rel Class"
 		"cargo space" 5
 		"outfit space" 110
 		"weapon capacity" 80
-		"energy generation" 6.5
+		"energy generation" 20
 		"heat generation" 6.5
-		"energy capacity" 1400
+		"energy capacity" 4000
 		"turn" 110
 		"thrust" 5.5
 		"cloak" .01
@@ -94,17 +94,25 @@ ship "B'rel Class"
 	outfits	
 		"Warp Assembly"
 		"Impulse Drive"
-		"Disruptor Cannon" 2
+		"Disruptor Cannon" 6
 		"Light Disruptor Turret" 2
-		"Mk IV Pho-Torp Launcher"
-		"Photon Torpedo" 35
-	engine 2 32
-	engine -2 32
-	gun -51 -14 "Disruptor Cannon"
-	gun 51 -14 "Disruptor Cannon"
-	turret -7 8 "Light Disruptor Turret"
-	turret 7 8 "Light Disruptor Turret"
-	gun 0 -34 "Mk IV Pho-Torp Launcher"
+		"Mk IV Pho-Torp Launcher" 6
+		"Photon Torpedo" 210
+	engine -3.5 134.5
+	turret -232 -42 "Light Disruptor Turret"
+	turret 232 -42 "Light Disruptor Turret"
+	gun -228.5 -41.5 "Mk IV Pho-Torp Launcher"
+	gun 225.5 -89 "Disruptor Cannon"
+	gun -225.5 -89 "Disruptor Cannon"
+	gun 225.5 -89 "Disruptor Cannon"
+	gun -225.5 -89 "Disruptor Cannon"
+	gun 225.5 -89 "Disruptor Cannon"
+	gun -225.5 -89 "Disruptor Cannon"
+	gun 228.5 -41.5 "Mk IV Pho-Torp Launcher"
+	gun -8 -141.5 "Mk IV Pho-Torp Launcher"
+	gun -8 -141.5 "Mk IV Pho-Torp Launcher"
+	gun -8 -141.5 "Mk IV Pho-Torp Launcher"
+	gun -8 -141.5 "Mk IV Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 7
 	"final explode" "final explosion small"
@@ -170,22 +178,22 @@ ship "K't'inga Class"
 		"type" "Battlecruiser"
 		"entered service" "2270s"
 		"cost" 1200000
-		"shields" 2100
-		"hull" 2000
-		"shield generation" .438
-		"hull repair rate" .278
+		"shields" 4200
+		"hull" 4000
+		"shield generation" .876
+		"hull repair rate" .556
 		"required crew" 1
 		"bunks" 43
 		"mass" 90
 		"drag" 1.58
-		"heat dissipation" 1.4
+		"heat dissipation" 2.8
 		"fuel capacity" 500
 		"cargo space" 7
 		"outfit space" 175
 		"weapon capacity" 110
-		"energy generation" 6.7
+		"energy generation" 13.4
 		"heat generation" 6.7
-		"energy capacity" 1600
+		"energy capacity" 3200
 		"turn" 180
 		"thrust" 7.5
 		"cloak" .01
@@ -198,19 +206,22 @@ ship "K't'inga Class"
 	outfits	
 		"Warp Assembly"
 		"Impulse Drive"
-		"Disruptor Cannon" 2
-		"Light Disruptor Turret" 3
+		"Disruptor Cannon" 4
+		"Light Disruptor Turret" 4
 		"Mk VI Pho-Torp Launcher" 2
 		"Photon Torpedo" 150
-	engine 6 31
-	engine -6 31
-	gun -18 -9 "Disruptor Cannon"
-	gun 18 -9 "Disruptor Cannon"
-	turret 0 -46 "Light Disruptor Turret"
-	turret 0 -13 "Light Disruptor Turret"
-	turret 0 0 "Light Disruptor Turret"
-	gun -8 -55 "Mk VI Pho-Torp Launcher"
-	gun 8 -55 "Mk VI Pho-Torp Launcher"
+	engine -20.5 76
+	engine 20.5 76
+	gun 0 82.5 "Mk VI Pho-Torp Launcher"
+	gun 0 -120.5 "Mk VI Pho-Torp Launcher"
+	turret -44.5 6 "Light Disruptor Turret"
+	turret 44.5 6 "Light Disruptor Turret"
+	turret -76 43 "Light Disruptor Turret"
+	turret 76 43 "Light Disruptor Turret"
+	gun -76 43 "Disruptor Cannon"
+	gun 76 43 "Disruptor Cannon"
+	gun -45 6 "Disruptor Cannon"
+	gun 45 6 "Disruptor Cannon"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 9
@@ -225,22 +236,22 @@ ship "Vor'Cha Class"
 		"type" "Battlecruiser"
 		"entered service" "2347"
 		"cost" 3800000
-		"shields" 8200
-		"hull" 7900
-		"shield generation" 1.708
-		"hull repair rate" 1.097
-		"required crew" 3
-		"bunks" 43
+		"shields" 16400
+		"hull" 15800
+		"shield generation" 3.416
+		"hull repair rate" 2.194
+		"required crew" 200
+		"bunks" 1900
 		"mass" 224
 		"drag" 2.3
-		"heat dissipation" 1
+		"heat dissipation" 2
 		"fuel capacity" 600
 		"cargo space" 22
 		"outfit space" 210
 		"weapon capacity" 135
-		"energy generation" 14
+		"energy generation" 28
 		"heat generation" 14
-		"energy capacity" 5100
+		"energy capacity" 10200
 		"turn" 200
 		"thrust" 8.5
 		"cloak" .01
@@ -254,18 +265,24 @@ ship "Vor'Cha Class"
 		"Warp Assembly"
 		"Impulse Drive"
 		"Heavy Disruptor Cannon" 2
-		"Light Disruptor Turret" 2
-		"Disruptor Array"
-		"Class 8 Pho-Torp Launcher"
-		"Photon Torpedo" 100
-	engine -22 78
-	engine 22 78
-	gun -81 11 "Heavy Disruptor Cannon"
-	gun 81 11 "Heavy Disruptor Cannon"
-	gun 0 -106 "Class 8 Pho-Torp Launcher"
-	turret 0 -106 "Disruptor Array"
-	turret -9 -55 "Light Disruptor Turret"
-	turret 9 -55 "Light Disruptor Turret"
+		"Light Disruptor Turret" 4
+		"Disruptor Array" 2
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
+	engine -116 157
+	engine 116 157
+	turret 0 -219 "Disruptor Array"
+	turret -23.5 -110.5 "Light Disruptor Turret"
+	turret 23.5 -110.5 "Light Disruptor Turret"
+	turret 0 -219 "Disruptor Array"
+	turret -23.5 -110.5 "Light Disruptor Turret"
+	turret 23.5 -110.5 "Light Disruptor Turret"
+	gun 0 -219.5 "Class 8 Pho-Torp Launcher"
+	gun -151 68.5 "Heavy Disruptor Cannon"
+	gun 151 68.5 "Heavy Disruptor Cannon"
+	gun -151 68.5 "Heavy Disruptor Cannon"
+	gun 151 68.5 "Heavy Disruptor Cannon"
+	gun 0 166 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -281,10 +298,10 @@ ship "Negh'Var Class"
 		"type" "Battlecruiser"
 		"entered service" "2368"
 		"cost" 9500000
-		"shields" 18000
-		"hull" 15750
-		"shield generation" 3.75
-		"hull repair rate" 2.188
+		"shields" 36000
+		"hull" 31500
+		"shield generation" 7.5
+		"hull repair rate" 4.376
 		"required crew" 5
 		"bunks" 85
 		"mass" 431
@@ -314,24 +331,20 @@ ship "Negh'Var Class"
 		"Disruptor Array" 3
 		"Class 10 Pho-Torp Launcher" 2
 		"Photon Torpedo" 200
-	engine -59 141
-	engine 59 141
-	engine -31 114
-	engine 31 114
-	engine -17 125
-	engine 17 125
-	gun -113 -64 "Heavy Disruptor Cannon"
-	gun 113 -64 "Heavy Disruptor Cannon"
-	gun 0 -167 "Heavy Disruptor Cannon"
-	gun 0 0 "Class 10 Pho-Torp Launcher"
-	gun 0 41 "Class 10 Pho-Torp Launcher"
-	turret 0 -127 "Disruptor Array"
-	turret -87 79 "Disruptor Array"
-	turret 87 79 "Disruptor Array"
-	turret -19 74 "Light Disruptor Turret"
-	turret 19 74 "Light Disruptor Turret"
-	turret -37 -131 "Light Disruptor Turret"
-	turret 37 -131 "Light Disruptor Turret"
+	engine -107.5 214.5
+	engine 107.5 214.5
+	turret 0 -309 "Disruptor Array"
+	turret -92.5 -18.5 "Disruptor Array"
+	turret 92.5 -18.5 "Disruptor Array"
+	turret -133 5 "Light Disruptor Turret"
+	turret 133 5 "Light Disruptor Turret"
+	turret -81 13 "Light Disruptor Turret"
+	turret 81 13 "Light Disruptor Turret"
+	gun 0 -201.5 "Heavy Disruptor Cannon"
+	gun -176 -16 "Heavy Disruptor Cannon"
+	gun 176 -16 "Heavy Disruptor Cannon"
+	gun -30.5 -273.5 "Class 10 Pho-Torp Launcher"
+	gun 30.5 -273.5 "Class 10 Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15

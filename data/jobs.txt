@@ -123,3 +123,26 @@ mission "Destroy the Galor Class"
 	on complete
 		payment 250000
 		dialog "Destroy the Galor Class"
+
+mission "Destroy the Imperial I Star Destroyer"
+	name "Destroy the Imperial I Star Destroyer"
+	description "Destroy the Imperial I Star Destroyer"
+	repeat
+	job
+	to offer
+		random < 99
+	source
+		government Klingon
+	destination
+		government Klingon
+	npc kill
+		personality heroic staying target
+		government Jem'Hadar
+		system Prakith
+		fleet
+			variant 50
+				"Texas Class"
+		dialog "Destroy the Imperial I Destroyer"
+	on complete
+		payment 250000
+		dialog "Destroy the Imperial I Star Destroyer"

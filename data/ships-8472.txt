@@ -32,11 +32,11 @@ ship "8472 Bioship"
 		"8472 Bio-weapon" 5
 		"Warp Assembly"
 		"Impulse Drive"
-	turret 0 -115.5 "8472 Bio-weapon"
-	turret 0 -115.5 "8472 Bio-weapon"
-	turret 0 -115.5 "8472 Bio-weapon"
-	turret 0 -115.5 "8472 Bio-weapon"
-	turret 0 -115.5 "8472 Bio-weapon"
+	turret 0 -98 "8472 Bio-weapon"
+	turret 0 -98 "8472 Bio-weapon"
+	turret 0 -98 "8472 Bio-weapon"
+	turret 0 -98 "8472 Bio-weapon"
+	turret 0 -98 "8472 Bio-weapon"
 	explode "tiny explosion" 5
 	explode "small explosion" 10
 	explode "medium explosion" 20

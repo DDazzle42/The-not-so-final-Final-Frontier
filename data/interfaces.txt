@@ -2,4 +2,6 @@ interface "menu background"
 	sprite "_menu/logo"
 		center 0 0
 	sprite "_menu/title"
-		center 0 -250
+		center 0 -200
+	sprite "_menu/title2"
+		center 0 -300

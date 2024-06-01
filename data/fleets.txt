@@ -27,9 +27,10 @@ fleet "Starfleet Patrol"
 	personality
 		frugal surveillance mining lingering disables merciful
 	variant
-		"Steamrunner Class" 3
-		"Norway Class" 3
-		"Saber Class" 6
+		"Ambassador Class" 1
+		"Norway Class" 2
+		"Centaur Class" 2
+		"Soyuz Class" 3
 
 fleet "Klingon Patrol"
 	government Klingon
@@ -85,9 +86,7 @@ fleet "United Earth Patrol"
 		frugal surveillance mining lingering disables
 	variant
 		"NX Class" 3
-		"Intrepid Class (22nds)" 2
-		"Freedom Class" 3
-		"Columbia Class" 2
+		"Intrepid Class (22nds)"
 
 fleet "Breen Patrol"
 	government "Breen Confederacy"
@@ -185,3 +184,11 @@ fleet "Large Starfleet"
 		"Akira Class"
 		"Saber Class" 2
 		"Steamrunner Class"
+
+fleet "Cardassian Patrol"
+	government Cardassian
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Hideki Class" 6
+		"Galor Class" 3

@@ -114,6 +114,93 @@ outfit "Particle Phaser"
 		"dpm" 8280
 	description "The original phaser, mounted on the early Constitution Class and Miranda Class vessels."
 
+outfit "Type V Phaser"
+	category "Turrets"
+	cost 120000
+	thumbnail "outfit/laser turret"
+	"mass" 5
+	"outfit space" -10
+	"weapon capacity" -10
+	"turret mounts" -1
+	weapon
+		sprite "projectile/type 8 phaser"
+			"frame rate" 20
+			"random start frame"
+		sound "type 8 phaser"
+		"fire effect" "phaser fire"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 700
+		"lifetime" 1
+		"reload" 5.1
+		"firing energy" 14
+		"firing heat" 14
+		"shield damage" 10
+		"hull damage" 10
+		"burst count" 40
+		"burst reload" 1
+		"ion damage" 0.04
+		"dpm" 10040
+	description "This phaser array is standard on ships like the Excelsior-Class"
+
+outfit "Type VI Phaser"
+	category "Turrets"
+	cost 120000
+	thumbnail "outfit/laser turret"
+	"mass" 5
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/type 8 phaser"
+			"frame rate" 20
+			"random start frame"
+		sound "type 8 phaser"
+		"fire effect" "phaser fire"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 700
+		"lifetime" 1
+		"reload" 5.1
+		"firing energy" 10
+		"firing heat" 14
+		"shield damage" 10
+		"hull damage" 10
+		"burst count" 40
+		"burst reload" 1
+		"ion damage" 0.04
+		"dpm" 10040
+	description "This phaser array is standard on ships like the Excelsior-Class"
+
+outfit "Type VII Phaser"
+	category "Turrets"
+	cost 120000
+	thumbnail "outfit/laser turret"
+	"mass" 5
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/type 8 phaser"
+			"frame rate" 20
+			"random start frame"
+		sound "type 8 phaser"
+		"fire effect" "phaser fire"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 700
+		"lifetime" 1
+		"reload" 5.1
+		"firing energy" 14
+		"firing heat" 14
+		"shield damage" 10
+		"hull damage" 10
+		"burst count" 40
+		"burst reload" 1
+		"ion damage" 0.04
+		"dpm" 10040
+	description "This phaser array is standard on ships like the Excelsior-Class"
+
 outfit "Type VIII Phaser"
 	category "Turrets"
 	cost 120000
@@ -142,7 +229,36 @@ outfit "Type VIII Phaser"
 		"ion damage" 0.04
 		"dpm" 10080
 	description "This phaser array is standard on ships like the Excelsior-Class"
-	
+
+outfit "Type IX Phaser"
+	category "Turrets"
+	cost 450000
+	thumbnail "outfit/laser turret"
+	"mass" 7.5
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		sprite "projectile/type x phaser"
+			"frame rate" 20
+			"random start frame"
+		sound "type x phaser"
+		"fire effect" "phaser fire"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 750
+		"lifetime" 1
+		"reload" 5.5
+		"firing energy" 15
+		"firing heat" 15
+		"shield damage" 15
+		"hull damage" 15
+		"burst count" 45
+		"burst reload" 1
+		"ion damage" 0.05
+		"dpm" 11000
+	description "This phaser array is standard on ships like the Galaxy-Class Cruisers"
+
 outfit "Type X Phaser"
 	category "Turrets"
 	cost 450000
@@ -370,7 +486,7 @@ outfit "Heavy Phaser Cannon"
 		"burst count" 4
 		"burst reload" 20
 		"cluster"
-	description "Experimental weapon fitted to Sau Paulo Class ships, multitudes more powerful than the phaser cannon.
+	description "Experimental weapon fitted to Sao Paulo Class ships, multitudes more powerful than the phaser cannon.
 	
 outfit "Micro-Torpedo Launcher"
 	category "Secondary Weapons"
@@ -918,20 +1034,21 @@ outfit "Breen Weapon"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/breenweapon"
-			"frame rate" 15
-		"hardpoint sprite" "hardpoint/ravager turret"
-		"hardpoint offset" 3.
-		sound "disruptor"
-		"hit effect" "ravager impact"
-		"inaccuracy" .2
-		"turret turn" 1.8
-		"velocity" 480
+			"frame rate" 20
+			"random start frame"
+		sound "type x phaser"
+		"fire effect" "breen fire"
+		"hit effect" "phaser beam impact"
+		"inaccuracy" 0
+		"velocity" 750
 		"lifetime" 1
-		"reload" 1
+		"reload" 6.1
 		"firing energy" 3.7
 		"firing heat" 1.5
 		"shield damage" 3
 		"hull damage" 9
+		"burst count" 50
+		"burst reload" 1
 	description "This turret-mounted version of the Ravager Beam is one of the strongest weapons the Ka'het possess."
 
 outfit "Breen Torpedo Launcher"
@@ -1044,7 +1161,7 @@ outfit "Transphasic Torpedo Launcher"
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
-	"qtorp capacity" 35
+	"transtorp capacity" 35
 	weapon
 		sprite "projectile/qtorp"
 			"frame rate" 2
@@ -1079,7 +1196,7 @@ outfit "Transphasic Torpedo"
 	cost 2000
 	thumbnail "outfit/q_torpedo"
 	"mass" .1
-	"qtorp capacity" -1
+	"transtorp capacity" -1
 	description "Quantum Physics to the rescue!"
 
 outfit "Jem-Torp Launcher"
@@ -1090,7 +1207,7 @@ outfit "Jem-Torp Launcher"
 	"outfit space" -25
 	"weapon capacity" -25
 	"gun ports" -1
-	"photorp capacity" 100
+	"jemtorp capacity" 100
 	weapon
 		sprite "projectile/jemtorp"
 			"frame rate" 2
@@ -1125,5 +1242,5 @@ outfit "Jem'Hadar Torpedo"
 	cost 500
 	thumbnail "outfit/torpedo"
 	"mass" .05
-	"photorp capacity" -1
+	"jemtorp capacity" -1
 	description "Taking Flash-Bang to a whole new level"

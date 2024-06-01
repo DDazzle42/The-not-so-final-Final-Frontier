@@ -135,3 +135,14 @@ outfit "Ablative Armor"
 	"outfit space" -4
 	"hull repair rate" 1
 	description "Ablative armor was a type of protective hull armor used on starships, which possessed a capability for rapidly dissipating the energy impacts from directed energy weapon fire. Starfleet began use of ablative armor technology by 2371."
+
+outfit "Spore Drive"
+	category "Systems"
+	cost 1800000
+	thumbnail "outfit/jump drive"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" 1
+	"jump drive" 10
+	"jump range" 5000
+	description "The displacement-activated spore hub drive, commonly shortened to spore drive or s-drive, was an organic propulsion system the Federation experimented with during the 2240s and 2250s. The technology used mycelium spores harvested from Prototaxites stellaviatori to "jump" or "leap" across the mycelial network. During such jumps, the ships were not in normal space but in the mycelial plane."

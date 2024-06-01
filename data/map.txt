@@ -69,7 +69,7 @@ system "Founders' Homeworld"
 system Bajor
 	pos 5819.258 -5794.098
 	government Bajoran
-	attributes deep research
+	attributes south
 	music ds9theme
 	habitable 2140.92
 	link Cardassia
@@ -88,6 +88,7 @@ system Bajor
 	trade Medical 504
 	trade Metal 776
 	trade Plastic 129
+	fleet "Jem'Hadar Fighters" 1000
 	object
 		sprite star/m-supergiant
 	object
@@ -127,7 +128,7 @@ system Bajor
 system Terra
 	pos 6300.593 -5624.111
 	government Starfleet
-	attributes deep research
+	attributes "near earth"
 	music tngtheme
 	habitable 425.92
 	belt 1838
@@ -319,7 +320,7 @@ system Terra
 system Qo'noS
 	pos 6763.827 -5471.529
 	government Klingon
-	attributes deep research
+	attributes south
 	music klingonmusic
 	habitable 719.96
 	link Coeus
@@ -381,7 +382,7 @@ system Qo'noS
 system Romulus
 	pos 6292.767 -6120.774
 	government "Romulan Star Empire"
-	attributes deep research
+	attributes south
 	habitable 233.28
 	link Lucia
 	link Numa
@@ -642,6 +643,7 @@ system Cardassia
 	trade Medical 184
 	trade Metal 978
 	trade Plastic 222
+	fleet "Cardassian Patrol" 500
 	object "Cardassia Prime"
 		sprite planet/cardassiaprime
 		distance 1000
@@ -672,7 +674,7 @@ system Cardassia
 
 system Ocampa
 	pos 6067.356 -8993.333
-	government Cartaker
+	government Caretaker
 	music voytheme
 	link "Kazon Homeworld"
 	link "Subnexus 6990157"
@@ -944,6 +946,7 @@ system Andor
 	pos 6390.866 -5683.838
 	government Starfleet
 	attributes Starfleet
+	music andor
 	link Gazer
 	link Terra
 	trade Clothing 577
@@ -1716,8 +1719,7 @@ system "Kazon Homeworld"
 	link Talax
 
 planet "Caretaker Array"
-	wormhole "Caretaker Array"
-	government Cartaker
+	government Caretaker
 
 wormhole "Caretaker Array"
 	"display name" "Caretaker Array"
@@ -1726,5 +1728,5 @@ wormhole "Caretaker Array"
 	link Ocampa Terra
 
 planet Ocampa
-	government Cartaker
+	government Caretaker
 

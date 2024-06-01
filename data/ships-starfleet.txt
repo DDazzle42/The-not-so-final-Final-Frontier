@@ -15,10 +15,10 @@ ship "Valkyrie Class"
 		"type" "Fighter"
 		"entered service" "2378"
 		"cost" 64000
-		"shields" 1750
-		"hull" 750
-		"shield generation" .729
-		"hull repair rate" .083
+		"shields" 3500
+		"hull" 1500
+		"shield generation" 1.458
+		"hull repair rate" .166
 		"required crew" 1
 		"bunks" 2
 		"mass" 8.2
@@ -77,7 +77,7 @@ ship "Yellowstone Class"
 		"cargo space" 5
 		"outfit space" 110
 		"weapon capacity" 35
-		"energy generation" 1.6
+		"energy generation" 3.2
 		"heat generation" 1.6
 		"energy capacity" 750
 		"turn" 75
@@ -90,14 +90,19 @@ ship "Yellowstone Class"
 	outfits	
 		"Warp Assembly"
 		"Impulse Drive"
-		"Type IV Phaser" 2
-		"Micro-Torpedo Launcher"
-		"Photon Torpedo" 20
-	engine 7 13
-	engine -7 13
-	turret 8 -11 "Type IV Phaser"
-	turret -8 -11 "Type IV Phaser"
-	gun 0 -6 "Micro-Torpedo Launcher"
+		"Type IV Phaser" 6
+		"Micro-Torpedo Launcher" 2
+		"Photon Torpedo" 40
+	engine -3.5 6
+	engine 3.5 6
+	turret -2 -6 "Type IV Phaser"
+	turret 2 -6 "Type IV Phaser"
+	turret -2.5 -6 "Type IV Phaser"
+	turret 2.5 -6 "Type IV Phaser"
+	turret -2 -6 "Type IV Phaser"
+	turret 2 -6 "Type IV Phaser"
+	gun -2 -6 "Micro-Torpedo Launcher"
+	gun 2 -6 "Micro-Torpedo Launcher"
 	explode "tiny explosion" 4
 	explode "small explosion" 1
 	"final explode" "final explosion small"
@@ -110,10 +115,10 @@ ship "Oberth Class"
 		"type" "Science Vessel"
 		"entered service" "2280s"
 		"cost" 300000
-		"shields" 2300
-		"hull" 1800
-		"shield generation" .958
-		"hull repair rate" .167
+		"shields" 4600
+		"hull" 3600
+		"shield generation" 1.916
+		"hull repair rate" .334
 		"required crew" 1
 		"bunks" 9
 		"mass" 84
@@ -134,13 +139,16 @@ ship "Oberth Class"
 			"hull damage" 420
 			"hit force" 42
 	outfits
-		"Type X Phaser"
+		"Type IV Phaser" 2
 		"Photon Torpedo" 100
+		"Mk VI Pho-Torp Launcher"
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -5 10
-	engine 5 10
-	turret 0 -47 "Type X Phaser"
+	engine -25 2
+	engine 25 2
+	turret -17 -41.5 "Type IV Phaser"
+	turret 17 -41.5 "Type IV Phaser"
+	gun 0 -57.5 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 8
@@ -155,10 +163,10 @@ ship "Peregrine Class"
 		"type" "Fighter"
 		"entered service" "2374"
 		"cost" 64000
-		"shields" 1400
-		"hull" 900
-		"shield generation" .583
-		"hull repair rate" .1
+		"shields" 2800
+		"hull" 1800
+		"shield generation" 1.166
+		"hull repair rate" .2
 		"required crew" 1
 		"bunks" 2
 		"mass" 27
@@ -183,11 +191,13 @@ ship "Peregrine Class"
 		"Impulse Drive"
 		"Type VIII Phaser" 2
 		"Micro-Torpedo Launcher"
-		"Photon Torpedo" 20
+		"Photon Torpedo" 40
 	engine -7 29
 	engine 7 29
 	turret -13 -3 "Type VIII Phaser"
+	turret 0 -23 "Type VIII Phaser"
 	turret 13 -3 "Type VIII Phaser"
+	gun 0 -24 "Micro-Torpedo Launcher"
 	gun 0 -24 "Micro-Torpedo Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 5
@@ -202,10 +212,10 @@ ship "Prometheus Class"
 		"type" "Heavy Escort"
 		"entered service" "2374"
 		"cost" 9200000
-		"hull" 17250
-		"shields" 14500
-		"shield generation" 3.452
-		"hull repair rate" 1.797
+		"hull" 34500
+		"shields" 29000
+		"shield generation" 6.904
+		"hull repair rate" 3.594
 		"required crew" 2
 		"bunks" 17
 		"mass" 210
@@ -253,18 +263,19 @@ ship "Maquis Raider"
 		"type" "Heavy Fighter"
 		"entered service" "2374"
 		"cost" 150000
-		"shields" 1600
-		"hull" 1200
-		"shield generation" .667
-		"hull repair rate" .133
+		"shields" 6400
+		"hull" 4800
+		"shield generation" 2.668
+		"hull repair rate" .532
 		"required crew" 1
 		"bunks" 6
 		"mass" 26
 		"drag" .9
 		"heat dissipation" 1.55
 		"fuel capacity" 400
-		"cargo space" 600
+		"cargo space" 60
 		"outfit space" 110
+		"engine capacity" 40
 		"weapon capacity" 75
 		"energy generation" 6
 		"heat generation" 4.5
@@ -279,15 +290,15 @@ ship "Maquis Raider"
 	outfits	
 		"Warp Assembly"
 		"Impulse Drive"
-		"Phaser Cannon" 2
+		"Type V Phaser" 2
 		"Micro-Torpedo Launcher" 2
 		"Photon Torpedo" 40
 	engine 7 40
 	engine -7 40
 	engine 19 30
 	engine -19 30
-	gun -45 -7 "Phaser Cannon"
-	gun 45 -7 "Phaser Cannon"
+	turret -45 -7 "Type V Phaser"
+	turret 45 -7 "Type V Phaser"
 	gun -18 -15 "Micro-Torpedo Launcher"
 	gun 18 -15 "Micro-Torpedo Launcher"
 	explode "tiny explosion" 10
@@ -350,10 +361,10 @@ ship "Saber Class"
 		"type" "Frigate"
 		"entered service" "2372"
 		"cost" 2800000
-		"shields" 4400
-		"hull" 3200
-		"shield generation" 1.048
-		"hull repair rate" .333
+		"shields" 8800
+		"hull" 6400
+		"shield generation" 2.096
+		"hull repair rate" .666
 		"required crew" 1
 		"bunks" 4
 		"mass" 155
@@ -363,7 +374,7 @@ ship "Saber Class"
 		"cargo space" 16
 		"outfit space" 300
 		"weapon capacity" 105
-		"energy generation" 6
+		"energy generation" 7.5
 		"energy capacity" 2800
 		"heat generation" 6
 		"thrust" 17.5
@@ -374,17 +385,19 @@ ship "Saber Class"
 			"hull damage" 775
 			"hit force" 77
 	outfits
-		"Type X Phaser" 2
+		"Type X Phaser" 4
 		"Class 8 Pho-Torp Launcher" 2
 		"Photon Torpedo" 200
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -27 5
-	engine 27 5
-	turret -23 -25 "Type X Phaser"
-	turret 23 -25 "Type X Phaser"
-	gun -2 -40 "Class 8 Pho-Torp Launcher"
-	gun 2 -40 "Class 8 Pho-Torp Launcher"
+	engine -57.5 15.5
+	engine 57.5 15.5
+	turret -46 -47.5 "Type X Phaser"
+	turret 0 -21 "Type X Phaser"
+	turret 46 -47.5 "Type X Phaser"
+	turret 0 -74 "Type X Phaser"
+	gun -24.5 -31.5 "Class 8 Pho-Torp Launcher"
+	gun 24.5 -31.5 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -400,10 +413,10 @@ ship "Daedalus Class"
 		"type" "Cruiser"
 		"entered service" "2116"
 		"cost" 112000
-		"shields" 1250
-		"hull" 1400
-		"shield generation" .26
-		"hull repair rate" .146
+		"shields" 2500
+		"hull" 2800
+		"shield generation" .52
+		"hull repair rate" .292
 		"required crew" 3
 		"bunks" 23
 		"mass" 105
@@ -494,10 +507,10 @@ ship "Nova Class"
 		"type" "Surveyor"
 		"entered service" "2370"
 		"cost" 3400000
-		"shields" 7100
-		"hull" 5400
-		"shield generation" 2.958
-		"hull repair rate" .5
+		"shields" 14200
+		"hull" 10800
+		"shield generation" 5.916
+		"hull repair rate" 1
 		"required crew" 1
 		"bunks" 8
 		"mass" 127
@@ -507,9 +520,9 @@ ship "Nova Class"
 		"cargo space" 15
 		"outfit space" 300
 		"weapon capacity" 85
-		"energy generation" 5.6
+		"energy generation" 12.5
 		"heat generation" 5.6
-		"energy capacity" 2300
+		"energy capacity" 4300
 		"thrust" 12.5
 		"turn" 250	
 		weapon
@@ -518,15 +531,26 @@ ship "Nova Class"
 			"hull damage" 635
 			"hit force" 63
 	outfits
-		"Type X Phaser" 2
-		"Class 8 Pho-Torp Launcher" 
-		"Photon Torpedo" 100
+		"Type X Phaser" 11
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
 		"Warp Assembly"
 		"Impulse Drive"
-	engine 0 27
-	turret 12 -24 "Type X Phaser"
-	turret -12 -24 "Type X Phaser"
-	gun 0 -33 "Class 8 Pho-Torp Launcher"
+	engine 26 -9.5
+	engine -26 -9.5
+	gun -21.5 -89 "Class 8 Pho-Torp Launcher"
+	gun 21.5 -89 "Class 8 Pho-Torp Launcher"
+	turret -21.5 -89 "Type X Phaser"
+	turret 21.5 -89 "Type X Phaser"
+	turret -30 -76 "Type X Phaser"
+	turret 30 -76 "Type X Phaser"
+	turret -36 -59.5 "Type X Phaser"
+	turret 36 -59.5 "Type X Phaser"
+	turret -39.5 -46.5 "Type X Phaser"
+	turret 39.5 -46.5 "Type X Phaser"
+	turret -14.5 -98.5 "Type X Phaser"
+	turret 14.5 -98.5 "Type X Phaser"
+	turret 0 -93.5 "Type X Phaser"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 13
@@ -555,7 +579,7 @@ ship "NX Class"
 		"outfit space" 135
 		"weapon capacity" 70
 		"energy capacity" 1700
-		"energy generation" 2
+		"energy generation" 3
 		"heat generation" 2
 		"turn" 165
 		"thrust" 7
@@ -567,15 +591,15 @@ ship "NX Class"
 	outfits	
 		"Warp Assembly"
 		"Impulse Drive"
-		"Torpedo Launcher"
+		"Torpedo Launcher" 1
 		"Phase Cannon" 3
 		"Torpedo" 30
-	engine 16 23
-	engine -16 23
+	engine -12.5 23
+	engine 12.5 23
+	turret -15.5 -37.5 "Phase Cannon"
 	turret 0 -46 "Phase Cannon"
-	turret -20 -44 "Phase Cannon"
-	turret 20 -44 "Phase Cannon"
-	gun 0 -50 "Torpedo Launcher"
+	turret 15.5 -37.5 "Phase Cannon"
+	gun 0 -18.5 "Torpedo Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 8
@@ -590,10 +614,10 @@ ship "Akira Class"
 		"type" "Heavy Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
-		"hull" 5600
-		"shields" 6500
-		"shield generation" 1.354
-		"hull repair rate" .778
+		"hull" 11200
+		"shields" 13000
+		"shield generation" 2.708
+		"hull repair rate" 1.556
 		"required crew" 5
 		"bunks" 50
 		"mass" 305
@@ -604,7 +628,7 @@ ship "Akira Class"
 		"outfit space" 200
 		"weapon capacity" 105
 		"energy capacity" 3100
-		"energy generation" 7.5
+		"energy generation" 8
 		"heat generation" 7.5
 		"turn" 450
 		"thrust" 28
@@ -617,14 +641,28 @@ ship "Akira Class"
 		"Warp Assembly"
 		"Impulse Drive"
 		"Type X Phaser" 3
-		"Class 8 Pho-Torp Launcher"
-		"Photon Torpedo" 100
-	engine 28 56
-	engine -28 56
-	gun 0 21 "Class 8 Pho-Torp Launcher"
-	turret 0 50 "Type X Phaser"
-	turret -30 -69 "Type X Phaser"
-	turret 30 -69 "Type X Phaser"
+		"Class 8 Pho-Torp Launcher" 15
+		"Photon Torpedo" 1500
+	engine -72.5 142.5
+	engine 72.5 142.5
+	turret -93.5 -78 "Type X Phaser"
+	turret 0 -196 "Type X Phaser"
+	turret 93.5 -78 "Type X Phaser"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
+	gun 0 69 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -683,10 +721,10 @@ ship "Cheyenne Class"
 		"type" "Light Cruiser"
 		"entered service" "2357"
 		"cost" 850000
-		"shields" 6100
-		"hull" 7600
-		"shield generation" 1.271
-		"hull repair rate" 1.056
+		"shields" 12200
+		"hull" 15200
+		"shield generation" 2.542
+		"hull repair rate" 2.112
 		"required crew" 2
 		"bunks" 24
 		"mass" 130
@@ -777,10 +815,10 @@ ship "Constellation Class"
 		"type" "Star Cruiser"
 		"entered service" "2285"
 		"cost" 650000
-		"shields" 4200
-		"hull" 4800
-		"shield generation" .875
-		"hull repair rate" .667
+		"shields" 8400
+		"hull" 9600
+		"shield generation" 1.75
+		"hull repair rate" 1.334
 		"required crew" 3
 		"bunks" 35
 		"mass" 154
@@ -1001,10 +1039,10 @@ ship "Miranda Class"
 		"type" "Frigate"
 		"entered service" "2250s"
 		"cost" 100000
-		"shields" 1800
-		"hull" 2750
-		"shield generation" .375
-		"hull repair rate" .382
+		"shields" 3600
+		"hull" 5500
+		"shield generation" .75
+		"hull repair rate" .764
 		"required crew" 1
 		"bunks" 3
 		"mass" 60
@@ -1047,10 +1085,10 @@ ship "Miranda Class Upgrade"
 		"type" "Frigate"
 		"entered service" "2260s"
 		"cost" 180000
-		"shields" 2100
-		"hull" 2900
-		"shield generation" .438
-		"hull repair rate" .403
+		"shields" 4200
+		"hull" 5800
+		"shield generation" .876
+		"hull repair rate" .806
 		"required crew" 1
 		"bunks" 4
 		"mass" 70
@@ -1093,10 +1131,10 @@ ship "Miranda-II Class"
 		"type" "Frigate"
 		"entered service" "2273"
 		"cost" 270000
-		"shields" 2400
-		"hull" 3150
-		"shield generation" .5
-		"hull repair rate" .438
+		"shields" 4800
+		"hull" 6300
+		"shield generation" 1
+		"hull repair rate" .876
 		"required crew" 1
 		"bunks" 11
 		"mass" 75
@@ -1139,10 +1177,10 @@ ship "Constitution Class"
 		"type" "Explorer"
 		"entered service" "2244"
 		"cost" 250000
-		"shields" 2000
-		"hull" 3200
-		"shield generation" .417
-		"hull repair rate" .444
+		"shields" 4000
+		"hull" 6400
+		"shield generation" .834
+		"hull repair rate" .888
 		"required crew" 5
 		"bunks" 105
 		"mass" 100
@@ -1152,8 +1190,8 @@ ship "Constitution Class"
 		"cargo space" 12
 		"outfit space" 110
 		"weapon capacity" 80
-		"energy capacity" 1650
-		"energy generation" 5.3
+		"energy capacity" 1800
+		"energy generation" 10.6
 		"heat generation" 5.3
 		"turn" 180
 		"thrust" 8
@@ -1163,17 +1201,22 @@ ship "Constitution Class"
 			"hull damage" 500
 			"hit force" 50
 	outfits
-		"Type VIII Phaser" 3
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type VIII Phaser" 6
+		"Mk VI Pho-Torp Launcher" 3
+		"Photon Torpedo" 150
 		"Warp Assembly"
-		"Impulse Drive"		
-	engine -8 -8
-	engine 8 -8
-	turret -20 -40 "Type VIII Phaser"
-	turret 20 -40 "Type VIII Phaser"
-	turret 0 -58 "Type VIII Phaser"
-	gun 0 -30 "Mk VI Pho-Torp Launcher"
+		"Impulse Drive"
+	engine -20.5 -23 "Type VIII Phaser"
+	engine 20.5 -23 "Type VIII Phaser"
+	turret -27 -125 "Type VIII Phaser"
+	turret 27 -125 "Type VIII Phaser"
+	turret -45.5 -82 "Type VIII Phaser"
+	turret 45.5 -82 "Type VIII Phaser"
+	turret -39.5 -56.5 "Type VIII Phaser"
+	turret 39.5 -56.5 "Type VIII Phaser"
+	gun -30.5 -95.5 "Mk VI Pho-Torp Launcher"
+	gun 30.5 -95.5 "Mk VI Pho-Torp Launcher"
+	gun 0 46.5 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
@@ -1188,10 +1231,10 @@ ship "Constitution Class Refit"
 		"type" "Heavy Cruiser"
 		"entered service" "2267"
 		"cost" 450000
-		"shields" 2800
-		"hull" 3750
-		"shield generation" .583
-		"hull repair rate" .521
+		"shields" 5600
+		"hull" 7500
+		"shield generation" 1.166
+		"hull repair rate" 1.042
 		"required crew" 5
 		"bunks" 105
 		"mass" 110
@@ -1212,17 +1255,21 @@ ship "Constitution Class Refit"
 			"hull damage" 550
 			"hit force" 55
 	outfits
-		"Type VIII Phaser" 3
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type VIII Phaser" 6
+		"Mk VI Pho-Torp Launcher" 2
+		"Photon Torpedo" 150
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -8 -6
-	engine 8 -6
-	turret 0 -56 "Type VIII Phaser"
-	turret 14 -40 "Type VIII Phaser"
-	turret -14 -40 "Type VIII Phaser"
-	gun 0 -28 "Mk VI Pho-Torp Launcher"
+	engine -20 -16.5
+	engine 20 -16.5
+	turret -21 -134 "Type VIII Phaser"
+	turret 21 -134 "Type VIII Phaser"
+	turret -39 -100 "Type VIII Phaser"
+	turret 39 -100 "Type VIII Phaser"
+	turret -39.5 -67 "Type VIII Phaser"
+	turret 39.5 -67 "Type VIII Phaser"
+	gun -26 -110 "Mk VI Pho-Torp Launcher"
+	gun 26 -110 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
@@ -1237,21 +1284,21 @@ ship "Excelsior Class"
 		"type" "Heavy Cruiser"
 		"entered service" "2287"
 		"cost" 875000
-		"shields" 4600
-		"hull" 5600
-		"shield generation" .958
-		"hull repair rate" .778
+		"shields" 9200
+		"hull" 11200
+		"shield generation" .1.916
+		"hull repair rate" 1.556
 		"required crew" 5
 		"bunks" 155
 		"mass" 215
 		"drag" 2.8
-		"heat dissipation" .6
+		"heat dissipation" 2.4
 		"fuel capacity" 500
 		"cargo space" 25
 		"outfit space" 140
 		"weapon capacity" 95
-		"energy capacity" 2900
-		"energy generation" 7
+		"energy capacity" 11600
+		"energy generation" 28
 		"heat generation" 7
 		"turn" 240
 		"thrust" 12.5
@@ -1261,17 +1308,29 @@ ship "Excelsior Class"
 			"hull damage" 1075
 			"hit force" 107
 	outfits
-		"Type VIII Phaser" 3
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type VIII Phaser" 12
+		"Mk VI Pho-Torp Launcher" 4
+		"Photon Torpedo" 300
 		"Warp Assembly"
-		"Impulse Drive"		
-	engine -15 -33
-	engine 15 -33
-	turret 20 -76 "Type VIII Phaser"
-	turret -20 -76 "Type VIII Phaser"
-	turret 0 26 "Type VIII Phaser"
-	gun 0 -41 "Mk VI Pho-Torp Launcher"
+		"Impulse Drive"
+	engine -45.5 -80
+	engine 45.5 -80
+	turret -42.5 -260.5 "Type VIII Phaser"
+	turret 42.5 -260.5 "Type VIII Phaser"
+	turret -79.5 -218 "Type VIII Phaser"
+	turret 79.5 -218 "Type VIII Phaser"
+	turret -24 -272.5 "Type VIII Phaser"
+	turret 24 -272.5 "Type VIII Phaser"
+	turret -84 -191.5 "Type VIII Phaser"
+	turret 84 -191.5 "Type VIII Phaser"
+	turret -76.5 -155.5 "Type VIII Phaser"
+	turret 76.5 -155.5 "Type VIII Phaser"
+	turret -78.5 -220.5 "Type VIII Phaser"
+	turret 78.5 -220.5 "Type VIII Phaser"
+	gun -50 -218 "Mk VI Pho-Torp Launcher"
+	gun 50 -218 "Mk VI Pho-Torp Launcher"
+	gun -30 -238.5 "Mk VI Pho-Torp Launcher"
+	gun 30 -238.5 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -1287,21 +1346,21 @@ ship "Excelsior Class Refit"
 		"type" "Heavy Cruiser"
 		"entered service" "2293"
 		"cost" 1250000
-		"shields" 5100
-		"hull" 5800
-		"shield generation" .472
-		"hull repair rate" .806
+		"shields" 10200
+		"hull" 11600
+		"shield generation" .944
+		"hull repair rate" 1.612
 		"required crew" 5
 		"bunks" 155
 		"mass" 235
 		"drag" 3.1
-		"heat dissipation" .7
+		"heat dissipation" 2.4
 		"fuel capacity" 500
 		"cargo space" 25
 		"outfit space" 190
 		"weapon capacity" 110
-		"energy capacity" 3200
-		"energy generation" 7.6
+		"energy capacity" 11600
+		"energy generation" 28
 		"heat generation" 7.6
 		"turn" 275 
 		"thrust" 15
@@ -1311,18 +1370,39 @@ ship "Excelsior Class Refit"
 			"hull damage" 1175
 			"hit force" 117
 	outfits
-		"Type VIII Phaser" 4
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type IX Phaser" 18
+		"Mk VI Pho-Torp Launcher" 2
+		"Photon Torpedo" 150
+		"Quantum Torpedo Launcher" 4
+		"Quantum Torpedo" 140
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -24 -24
-	engine 24 -24
-	turret -11 -83 "Type VIII Phaser"
-	turret 11 -83 "Type VIII Phaser"
-	turret 0 -46 "Type VIII Phaser"
-	turret 0 28 "Type VIII Phaser"
-	gun 0 -88 "Mk VI Pho-Torp Launcher"
+	engine -70 -75.5
+	engine 70 -75.5
+	turret -22 -277.5 "Type IX Phaser"
+	turret 22 -277.5 "Type IX Phaser"
+	turret -44 -268 "Type IX Phaser"
+	turret 44 -268 "Type IX Phaser"
+	turret -63 -252 "Type IX Phaser"
+	turret 63 -252 "Type IX Phaser"
+	turret -78 -232.5 "Type IX Phaser"
+	turret 78 -232.5 "Type IX Phaser"
+	turret -86.5 -210.5 "Type IX Phaser"
+	turret 86.5 -210.5 "Type IX Phaser"
+	turret -87.5 -185.5 "Type IX Phaser"
+	turret 87.5 -185.5 "Type IX Phaser"
+	turret -83 -161.5 "Type IX Phaser"
+	turret 83 -161.5 "Type IX Phaser"
+	turret -71.5 -140 "Type IX Phaser"
+	turret 71.5 -140 "Type IX Phaser"
+	turret -54 -123 "Type IX Phaser"
+	turret 54 -123 "Type IX Phaser"
+	gun -36 -223.5 "Quantum Torpedo Launcher"
+	gun 36 -223.5 "Quantum Torpedo Launcher"
+	gun -46.5 -187 "Quantum Torpedo Launcher"
+	gun 46.5 -187 "Quantum Torpedo Launcher"
+	gun 0 -240 "Mk VI Pho-Torp Launcher"
+	gun 0 -240 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -1339,10 +1419,10 @@ ship "Ambassador Class"
 		"type" "Heavy Cruiser"
 		"entered service" "2344"
 		"cost" 880000
-		"shields" 9500
-		"hull" 8500
-		"shield generation" 1.979
-		"hull repair rate" 1.181
+		"shields" 19000
+		"hull" 17000
+		"shield generation" 3.958
+		"hull repair rate" 2.362
 		"required crew" 1
 		"bunks" 41
 		"mass" 370
@@ -1352,9 +1432,9 @@ ship "Ambassador Class"
 		"cargo space" 40
 		"outfit space" 200
 		"weapon capacity" 105
-		"energy generation" 7.4
+		"energy generation" 9
 		"heat generation" 7.4
-		"energy capacity" 3300
+		"energy capacity" 4000
 		"thrust" 22
 		"turn" 350
 		weapon
@@ -1363,18 +1443,25 @@ ship "Ambassador Class"
 			"hull damage" 1850
 			"hit force" 185
 	outfits
-		"Type VIII Phaser" 4
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type IX Phaser" 10
+		"Mk VI Pho-Torp Launcher" 2
+		"Photon Torpedo" 150
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -16 30
-	engine 16 30
-	turret 55 -50 "Type VIII Phaser"
-	turret -55 -50 "Type VIII Phaser"
-	turret 0 -105 "Type VIII Phaser"
-	turret 0 8 "Type VIII Phaser"
-	gun 0 -78 "Mk VI Pho-Torp Launcher"
+	engine -95.5 29
+	engine 95.5 29
+	turret -56.5 -206 "Type IX Phaser"
+	turret 56.5 -206 "Type IX Phaser"
+	turret -113 -84.5 "Type IX Phaser"
+	turret 113 -84.5 "Type IX Phaser"
+	turret -80.5 -170.5 "Type IX Phaser"
+	turret 80.5 -170.5 "Type IX Phaser"
+	turret -83.5 -5 "Type IX Phaser"
+	turret 83.5 -5 "Type IX Phaser"
+	turret 0 -216.5 "Type IX Phaser"
+	turret 0 -17.5 "Type IX Phaser"
+	gun -61 -193 "Mk VI Pho-Torp Launcher"
+	gun 61 -193 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 25
@@ -1390,22 +1477,22 @@ ship "Galaxy Class"
 		"type" "Explorer"
 		"entered service" "2357"
 		"cost" 1300000
-		"shields" 11000
-		"hull" 11500
-		"shield generation" 2.292
-		"hull repair rate" 1.597
-		"required crew" 1
-		"bunks" 66
+		"shields" 22000
+		"hull" 23000
+		"shield generation" 4.584
+		"hull repair rate" 3.194
+		"required crew" 100
+		"bunks" 6000
 		"mass" 450
 		"drag" 7.3
-		"heat dissipation" .6
+		"heat dissipation" 5
 		"fuel capacity" 600
 		"cargo space" 50
 		"outfit space" 370
 		"weapon capacity" 140
-		"energy generation" 10
 		"heat generation" 10
-		"energy capacity" 4400
+		"energy generation" 90
+		"energy capacity" 3500
 		"thrust" 27.5
 		"turn" 410
 		weapon
@@ -1414,18 +1501,27 @@ ship "Galaxy Class"
 			"hull damage" 2250
 			"hit force" 225
 	outfits
-		"Type X Phaser" 4
-		"Class 8 Pho-Torp Launcher"
-		"Photon Torpedo" 100
+		"Type X Phaser" 12
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -65 14
-	engine 65 14
-	turret 73 -32 "Type X Phaser"
-	turret -73 -32 "Type X Phaser"
-	turret 0 -127 "Type X Phaser"
-	turret 0 85 "Type X Phaser"
-	gun 0 -87 "Class 8 Pho-Torp Launcher"
+	engine -126.5 32
+	engine 126.5 32
+	turret -83.5 -242.5 "Type X Phaser"
+	turret 83.5 -242.5 "Type X Phaser"
+	turret -39.5 -255 "Type X Phaser"
+	turret 39.5 -255 "Type X Phaser"
+	turret -125.5 -217 "Type X Phaser"
+	turret 125.5 -217 "Type X Phaser"
+	turret -150.5 -192 "Type X Phaser"
+	turret 150.5 -192 "Type X Phaser"
+	turret -167 -161.5 "Type X Phaser"
+	turret 167 -161.5 "Type X Phaser"
+	turret -172.5 -129.5 "Type X Phaser"
+	turret 172.5 -129.5 "Type X Phaser"
+	gun -128 -132 "Class 8 Pho-Torp Launcher"
+	gun 128 -132 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 5
 	explode "small explosion" 10
 	explode "medium explosion" 25
@@ -1441,42 +1537,87 @@ ship "Sovereign Class"
 		"type" "Exploratory Cruiser"
 		"entered service" "2370"
 		"cost" 2900000
-		"shields" 16500
-		"hull" 15000
-		"shield generation" 3.438
-		"hull repair rate" 2.083
-		"required crew" 5
-		"bunks" 195
+		"shields" 33000
+		"hull" 30000
+		"shield generation" 6.876
+		"hull repair rate" 4.166
+		"required crew" 100
+		"bunks" 700
 		"mass" 350
 		"drag" 4.8
-		"heat dissipation" .7
+		"heat dissipation" 1
 		"fuel capacity" 700
 		"cargo space" 35
-		"outfit space" 510
-		"weapon capacity" 155
-		"energy generation" 16
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"energy generation" 90
+		"energy capacity" 3500
 		"heat generation" 16
-		"energy capacity" 5600
-		"thrust" 26
-		"turn" 425
+		"thrust" 36
+		"turn" 435
 		weapon
 			"blast radius" 175
 			"shield damage" 1750
 			"hull damage" 1750
 			"hit force" 175
 	outfits
-		"Type XII Phaser" 4
+		"Type XII Phaser" 12
 		"Quantum Torpedo Launcher"
 		"Quantum Torpedo" 35
+		"Class 10 Pho-Torp Launcher" 4
+		"Photon Torpedo" 400
+		"Class 3 Defensive" 30
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -30 -17
-	engine 30 -17
-	turret 0 -146 "Type XII Phaser"
-	turret -34 -87 "Type XII Phaser"
-	turret 0 17 "Type XII Phaser"
-	turret 34 -87 "Type XII Phaser"
-	gun 0 -150 "Quantum Torpedo Launcher"
+	engine -59 -37
+	engine 59 -37
+	turret 0 -262.5 "Type XII Phaser"
+	turret -46 -267.5 "Type XII Phaser"
+	turret 46 -267.5 "Type XII Phaser"
+	turret -60.5 -238.5 "Type XII Phaser"
+	turret 60.5 -238.5 "Type XII Phaser"
+	turret -68.5 -203 "Type XII Phaser"
+	turret 68.5 -203 "Type XII Phaser"
+	turret -23.5 -292 "Type XII Phaser"
+	turret 23.5 -292 "Type XII Phaser"
+	turret -11.5 -295.5 "Type XII Phaser"
+	turret 11.5 -295.5 "Type XII Phaser"
+	turret 0 -298 "Type XII Phaser"
+	gun 0 -163.5 "Quantum Torpedo Launcher"
+	gun -58.5 -135 "Class 10 Pho-Torp Launcher"
+	gun 58.5 -135 "Class 10 Pho-Torp Launcher"
+	gun -28 -93 "Class 10 Pho-Torp Launcher"
+	gun 28 -93 "Class 10 Pho-Torp Launcher"
+	turret -68 -258.5 "Class 3 Defensive"
+	turret 68 -258.5 "Class 3 Defensive"
+	turret -55.5 -119 "Class 3 Defensive"
+	turret 55.5 -119 "Class 3 Defensive"
+	turret -27 -286 "Class 3 Defensive"
+	turret 27 -286 "Class 3 Defensive"
+	turret -98.5 -180 "Class 3 Defensive"
+	turret 98.5 -180 "Class 3 Defensive"
+	turret -73 -275 "Class 3 Defensive"
+	turret 73 -275 "Class 3 Defensive"
+	turret -88 110 "Class 3 Defensive"
+	turret 88 110 "Class 3 Defensive"
+	turret -89.5 69 "Class 3 Defensive"
+	turret 89.5 69 "Class 3 Defensive"
+	turret -10.5 139 "Class 3 Defensive"
+	turret 10.5 139 "Class 3 Defensive"
+	turret -33.5 95.5 "Class 3 Defensive"
+	turret 33.5 95.5 "Class 3 Defensive"
+	turret -88 317 "Class 3 Defensive"
+	turret 88 317 "Class 3 Defensive"
+	turret -11.5 116.5 "Class 3 Defensive"
+	turret 11.5 116.5 "Class 3 Defensive"
+	turret -31.5 -13.5 "Class 3 Defensive"
+	turret 31.5 -13.5 "Class 3 Defensive"
+	turret -23 -336 "Class 3 Defensive"
+	turret 23 -336 "Class 3 Defensive"
+	turret -112 -184 "Class 3 Defensive"
+	turret 112 -184 "Class 3 Defensive"
+	turret -95.5 -97.5 "Class 3 Defensive"
+	turret 95.5 -97.5 "Class 3 Defensive"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
@@ -1492,10 +1633,10 @@ ship "Century Class"
 		"type" "Assault Cruiser"
 		"entered service" "2382"
 		"cost" 8400000
-		"shields" 19200
-		"hull" 17500
-		"shield generation" 4
-		"hull repair rate" 2.431
+		"shields" 38400
+		"hull" 35000
+		"shield generation" 8
+		"hull repair rate" 4.862
 		"required crew" 6
 		"bunks" 256
 		"mass" 490
@@ -1544,12 +1685,12 @@ ship "Intrepid Class"
 		"type" "Light Explorer"
 		"entered service" "2370"
 		"cost" 6300000
-		"shields" 10500
-		"hull" 8500
-		"shield generation" 4.375
-		"hull repair rate" .787
-		"required crew" 1
-		"bunks" 31
+		"shields" 21000
+		"hull" 17000
+		"shield generation" 8.75
+		"hull repair rate" 1.574
+		"required crew" 50
+		"bunks" 141
 		"mass" 175
 		"drag" 3.7
 		"heat dissipation" .8
@@ -1557,7 +1698,7 @@ ship "Intrepid Class"
 		"cargo space" 20
 		"outfit space" 300
 		"weapon capacity" 140
-		"energy generation" 8.8
+		"energy generation" 10
 		"energy capacity" 4000
 		"heat generation" 8.8
 		"thrust" 19
@@ -1568,18 +1709,31 @@ ship "Intrepid Class"
 			"hull damage" 875
 			"hit force" 87
 	outfits
-		"Type X Phaser" 3
-		"Class 8 Pho-Torp Launcher" 2
-		"Photon Torpedo" 200
+		"Type X Phaser" 13
+		"Class 8 Pho-Torp Launcher" 5
+		"Photon Torpedo" 500
 		"Warp Assembly"
 		"Impulse Drive"		
-	engine -21 72
-	engine 21 72
-	turret 19 -35 "Type X Phaser"
-	turret -19 -35 "Type X Phaser"
-	turret 0 50 "Type X Phaser"
-	gun 0 -53 "Class 8 Pho-Torp Launcher"
-	gun 0 -66 "Class 8 Pho-Torp Launcher"
+	engine -41 145.5
+	engine 41 145.5
+	turret -15.5 -138 "Type X Phaser"
+	turret 15.5 -138 "Type X Phaser"
+	turret -30 -121.5 "Type X Phaser"
+	turret 30 -121.5 "Type X Phaser"
+	turret -41.5 -99.5 "Type X Phaser"
+	turret 41.5 -99.5 "Type X Phaser"
+	turret -50.5 -60 "Type X Phaser"
+	turret 50.5 -60 "Type X Phaser"
+	turret -50 -20 "Type X Phaser"
+	turret 50 -20 "Type X Phaser"
+	turret -32 20.5 "Type X Phaser"
+	turret 32 20.5 "Type X Phaser"
+	turret 0 -104 "Type X Phaser"
+	gun -21.5 -110.5 "Class 8 Pho-Torp Launcher"
+	gun 21.5 -110.5 "Class 8 Pho-Torp Launcher"
+	gun -42 -58 "Class 8 Pho-Torp Launcher"
+	gun 42 -58 "Class 8 Pho-Torp Launcher"
+	gun 0 -140 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 5
 	explode "small explosion" 10
 	explode "medium explosion" 20
@@ -1594,25 +1748,25 @@ ship "Defiant Class"
 		"type" "Escort"
 		"entered service" "2371"
 		"cost" 2300000
-		"shields" 8500
-		"hull" 3200
-		"shield generation" 2.024
-		"hull repair rate" .333
-		"required crew" 1
-		"bunks" 16
+		"shields" 17000
+		"hull" 6400
+		"shield generation" 4.048
+		"hull repair rate" .666
+		"required crew" 5
+		"bunks" 150
 		"mass" 76
 		"drag" 2.2
 		"heat dissipation" 1.5
+		"heat generation" 10
 		"fuel capacity" 600
 		"cargo space" 8
 		"outfit space" 670
 		"weapon capacity" 230
 		"engine capacity" 40
 		"energy generation" 90
-		"heat generation" 10
 		"energy capacity" 3500
-		"thrust" 15
-		"turn" 350
+		"thrust" 20
+		"turn" 360
 		weapon
 			"blast radius" 38
 			"shield damage" 380
@@ -1621,21 +1775,27 @@ ship "Defiant Class"
 	outfits
 		"Phaser Cannon" 4
 		"Quantum Torpedo Launcher" 2
+		"Class 8 Pho-Torp Launcher" 4
 		"Type VIII Phaser" 3
 		"Quantum Torpedo" 70
+		"Photon Torpedo" 400
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -5 40
-	engine 5 40
-	turret -14.5 -23.5 "Type VIII Phaser"
-	turret 0 -15.5 "Type VIII Phaser"
-	turret 14.5 -23.5 "Type VIII Phaser"
-	gun -28 -4 "Quantum Torpedo Launcher"
-	gun 28 -4 "Quantum Torpedo Launcher"
-	gun -31 -3 "Phaser Cannon"
-	gun 31 -3 "Phaser Cannon"
-	gun -24 -6 "Phaser Cannon"
-	gun 24 -6 "Phaser Cannon"
+	engine -27.5 34.5
+	engine 27.5 34.5
+	turret 22 -12.5 "Type VIII Phaser"
+	turret 0 -26.5 "Type VIII Phaser"
+	turret -22 -12.5 "Type VIII Phaser"
+	gun -35 -3.5 "Phaser Cannon"
+	gun -35 -3.5 "Phaser Cannon"
+	gun 35 -3.5 "Phaser Cannon"
+	gun 35 -3.5 "Phaser Cannon"
+	gun -15.5 40.5 "Class 8 Pho-Torp Launcher"
+	gun 15.5 40.5 "Class 8 Pho-Torp Launcher"
+	gun -38 -2.5 "Class 8 Pho-Torp Launcher"
+	gun -38 -2.5 "Quantum Torpedo Launcher"
+	gun 38 -2.5 "Quantum Torpedo Launcher"
+	gun 38 -2.5 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
@@ -1648,10 +1808,10 @@ ship "Steamrunner Class"
 		"type" "Light Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
-		"hull" 5600
-		"shields" 6500
-		"shield generation" 1.354
-		"hull repair rate" .778
+		"hull" 11200
+		"shields" 1300
+		"shield generation" 2.708
+		"hull repair rate" 1.556
 		"required crew" 5
 		"bunks" 50
 		"mass" 305
@@ -1674,15 +1834,17 @@ ship "Steamrunner Class"
 	outfits
 		"Warp Assembly"
 		"Impulse Drive"
-		"Type X Phaser" 3
-		"Class 8 Pho-Torp Launcher"
-		"Photon Torpedo" 100
-	engine -33 12
-	engine 33 12
-	turret -42.5 -32.5 "Type X Phaser"
-	turret 42.5 -32.5 "Type X Phaser"
-	turret 0 -85 "Type X Phaser"
-	gun 0 82 "Class 8 Pho-Torp Launcher"
+		"Type X Phaser" 4
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
+	engine -59.5 30
+	engine 59.5 30
+	turret 0 -164.5 "Type X Phaser"
+	turret -91.5 -48 "Type X Phaser"
+	turret 0 -25.5 "Type X Phaser"
+	turret 91.5 -48 "Type X Phaser"
+	gun -71 -14.5 "Class 8 Pho-Torp Launcher"
+	gun 71 -14.5 "Class 8 Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 15
@@ -1698,21 +1860,21 @@ ship "Crossfield Class"
 		"type" "Heavy Cruiser"
 		"entered service" "2244"
 		"cost" 250000
-		"shields" 2000
-		"hull" 3200
-		"shield generation" .417
-		"hull repair rate" .444
+		"shields" 4000
+		"hull" 6400
+		"shield generation" .834
+		"hull repair rate" .888
 		"required crew" 5
-		"bunks" 105
+		"bunks" 140
 		"mass" 100
 		"drag" 1.8
 		"heat dissipation" .7
-		"fuel capacity" 400
+		"fuel capacity" 600
 		"cargo space" 12
-		"outfit space" 110
+		"outfit space" 135
 		"weapon capacity" 80
-		"energy capacity" 1650
-		"energy generation" 5.3
+		"energy capacity" 2000
+		"energy generation" 18
 		"heat generation" 5.3
 		"turn" 180
 		"thrust" 8
@@ -1722,23 +1884,35 @@ ship "Crossfield Class"
 			"hull damage" 500
 			"hit force" 50
 	outfits
-		"Type VIII Phaser" 3
-		"Mk VI Pho-Torp Launcher"
-		"Photon Torpedo" 75
+		"Type VIII Phaser" 12
+		"Mk VI Pho-Torp Launcher" 3
+		"Photon Torpedo" 225
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -10.5 6
-	engine 10.5 6
-	turret -19 -52 "Type VIII Phaser"
-	turret 0 -68.5 "Type VIII Phaser"
-	turret 19 -52 "Type VIII Phaser"
-	gun 0 -60 "Mk VI Pho-Torp Launcher"
+		"Spore Drive"
+	engine -25.5 33
+	engine 25.5 33
+	turret -65 -338.5 "Type VIII Phaser"
+	turret 65 -338.5 "Type VIII Phaser"
+	turret -96.5 -282 "Type VIII Phaser"
+	turret 96.5 -282 "Type VIII Phaser"
+	turret -91 -222 "Type VIII Phaser"
+	turret 91 -222 "Type VIII Phaser"
+	turret -48.5 -174 "Type VIII Phaser"
+	turret 48.5 -174 "Type VIII Phaser"
+	turret -37 -344.5 "Type VIII Phaser"
+	turret 37 -344.5 "Type VIII Phaser"
+	turret -17.5 -298.5 "Type VIII Phaser"
+	turret 17.5 -298.5 "Type VIII Phaser"
+	gun -73 -319.5 "Mk VI Pho-Torp Launcher"
+	gun 73 -319.5 "Mk VI Pho-Torp Launcher"
+	gun 0 27.5 "Mk VI Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "large explosion" 3
 	"final explode" "final explosion medium"
-	description "The Constitution Class Heavy Cruiser, also called a Class I Heavy Cruiser, was the premier front-line starship designed for long duration missions with minimal outside support."
+	description "The Crossfield class was a type of Federation starship in service during the mid-23rd century. Though officially designated as a science vessel, during the Klingon-Federation War the class was re-classified as a warship."
 
 ship "Norway Class"
 	sprite "ship/norway"
@@ -1747,10 +1921,10 @@ ship "Norway Class"
 		"type" "Light Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
-		"hull" 5600
-		"shields" 6500
-		"shield generation" 1.354
-		"hull repair rate" .778
+		"hull" 11200
+		"shields" 13000
+		"shield generation" 2.708
+		"hull repair rate" 1.556
 		"required crew" 5
 		"bunks" 50
 		"mass" 305
@@ -1760,8 +1934,8 @@ ship "Norway Class"
 		"cargo space" 35
 		"outfit space" 200
 		"weapon capacity" 105
-		"energy capacity" 3100
-		"energy generation" 7.5
+		"energy capacity" 6200
+		"energy generation" 15
 		"heat generation" 7.5
 		"turn" 450
 		"thrust" 28
@@ -1773,22 +1947,26 @@ ship "Norway Class"
 	outfits
 		"Warp Assembly"
 		"Impulse Drive"
-		"Type X Phaser" 3
-		"Class 8 Pho-Torp Launcher"
+		"Type X Phaser" 6
+		"Class 8 Pho-Torp Launcher" 2
 		"Photon Torpedo" 100
-	engine -40 4.5
-	engine 40 4.5
-	turret 27.5 -48 "Type X Phaser"
-	turret 0 -91 "Type X Phaser"
-	turret -27.5 -48 "Type X Phaser"
-	gun 0 -65 "Class 8 Pho-Torp Launcher"
-	explode "tiny explosion" 15
+	engine -74.5 10
+	engine 74.5 10
+	turret -56 -92
+	turret 56 -92
+	turret -35 -126.5
+	turret 35 -126.5
+	turret 0 -153
+	turret 0 29
+	gun -17.5 -49.5
+	gun 17.5 -49.5
+	explode "tiny explosion" 151.597
 	explode "small explosion" 15
 	explode "medium explosion" 15
 	explode "large explosion" 11
 	explode "huge explosion" 3
 	"final explode" "final explosion large"
-	description "The Steamrunner class was a type of Federation starship in service with Starfleet during the late 24th century. Utopia Planitia Fleet Yards was one of the sites this class was constructed at in 2371."
+	description "The Norway-class was a type of Federation starship in service with Starfleet during the 2370s. Armament included a phaser emitter mounted on the dorsal bow. The keel of the ship class resembled the hull of the Defiant-class. "
 
 ship "Nebula Class"
 	sprite "ship/nebula"
@@ -1797,10 +1975,10 @@ ship "Nebula Class"
 		"type" "Exploratory Cruiser"
 		"entered service" "2357"
 		"cost" 1300000
-		"shields" 11000
-		"hull" 11500
-		"shield generation" 2.292
-		"hull repair rate" 1.597
+		"shields" 22000
+		"hull" 23000
+		"shield generation" 4.584
+		"hull repair rate" 3.194
 		"required crew" 1
 		"bunks" 66
 		"mass" 450
@@ -1839,7 +2017,7 @@ ship "Nebula Class"
 	explode "large explosion" 10
 	explode "huge explosion" 3
 	"final explode" "final explosion large"
-	description "The Nebula-class was a type of Federation starship that was in service in Starfleet during the second half of the 24th century."
+	description "The Nebula-class was a type of Federation starship that was in service in Starfleet during the second half of the 24th century. Construction of the Nebula-class was spearheaded under the authority of the Yoyodyne Division, and ranged in construction dates from as early as 2363 to as late as 2367."
 
 ship "Soyuz Class"
 	sprite "ship/soyuz"
@@ -1861,8 +2039,8 @@ ship "Soyuz Class"
 		"cargo space" 8
 		"outfit space" 110
 		"weapon capacity" 55
-		"energy capacity" 1400
-		"energy generation" 3.3
+		"energy capacity" 1500
+		"energy generation" 4
 		"heat generation" 3.3
 		"turn" 135
 		"thrust" 6
@@ -1872,16 +2050,18 @@ ship "Soyuz Class"
 			"hull damage" 300
 			"hit force" 30
 	outfits
-		"Type VIII Phaser" 2
-		"Mk IV Pho-Torp Launcher"
-		"Photon Torpedo" 30
+		"Type VIII Phaser" 3
+		"Mk IV Pho-Torp Launcher" 2
+		"Photon Torpedo" 60
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -13.5 27
-	engine 13.5 27
-	turret -23 -40 "Type VIII Phaser"
-	turret 23 -40 "Type VIII Phaser"
-	gun 0 -10 "Mk IV Pho-Torp Launcher"
+	engine -12 26.5
+	engine 12 26.5
+	turret -37 -10.5 "Type VIII Phaser"
+	turret 0 15 "Type VIII Phaser"
+	turret 37.5 -8 "Type VIII Phaser"
+	gun -20 -12.5 "Mk IV Pho-Torp Launcher"
+	gun 20 -12.5 "Mk IV Pho-Torp Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 15
 	explode "medium explosion" 6
@@ -1895,10 +2075,10 @@ ship "New Orleans Class"
 		"type" "Frigate"
 		"entered service" "2357"
 		"cost" 1300000
-		"shields" 11000
-		"hull" 11500
-		"shield generation" 2.292
-		"hull repair rate" 1.597
+		"shields" 22000
+		"hull" 23000
+		"shield generation" 4.584
+		"hull repair rate" 3.194
 		"required crew" 1
 		"bunks" 66
 		"mass" 450
@@ -1946,10 +2126,10 @@ ship "Springfield Class"
 		"type" "Science Vessel"
 		"entered service" "2357"
 		"cost" 1300000
-		"shields" 11000
-		"hull" 11500
-		"shield generation" 2.292
-		"hull repair rate" 1.597
+		"shields" 22000
+		"hull" 23000
+		"shield generation" 4.584
+		"hull repair rate" 3.194
 		"required crew" 1
 		"bunks" 66
 		"mass" 450
@@ -1990,17 +2170,17 @@ ship "Springfield Class"
 	"final explode" "final explosion large"
 	description "The Springfield class was a type of Federation starship that was in service with Starfleet during the late 24th century."
 
-ship "Intrepid Class (22nds)"
+ship "Intrepid Type"
 	sprite "ship/intrepid22nds"
 	attributes
 		category "Light Warship"
 		"type" "Cruiser"
 		"entered service" "2139"
 		"cost" 280000
-		"hull" 2100
-		"shields" 1400
-		"shield generation" .292
-		"hull repair rate" .292
+		"hull" 4200
+		"shields" 2800
+		"shield generation" .584
+		"hull repair rate" .584
 		"required crew" 1
 		"bunks" 8
 		"mass" 80
@@ -2052,10 +2232,10 @@ ship "Freedom Class"
 		"type" "Cruiser"
 		"entered service" "2100s"
 		"cost" 280000
-		"hull" 2100
-		"shields" 1400
-		"shield generation" .292
-		"hull repair rate" .292
+		"hull" 4200
+		"shields" 2800
+		"shield generation" .584
+		"hull repair rate" .584
 		"required crew" 1
 		"bunks" 8
 		"mass" 80
@@ -2101,10 +2281,10 @@ ship "Columbia Class"
 		"type" "Cruiser"
 		"entered service" "2156"
 		"cost" 280000
-		"hull" 2100
-		"shields" 1400
-		"shield generation" .292
-		"hull repair rate" .292
+		"hull" 4200
+		"shields" 2800
+		"shield generation" .584
+		"hull repair rate" .584
 		"required crew" 1
 		"bunks" 8
 		"mass" 80
@@ -2207,10 +2387,10 @@ ship "Californa Class"
 		"type" "Long-Range Science Vessel"
 		"entered service" "2368"
 		"cost" 6300000
-		"shields" 10500
-		"hull" 8500
-		"shield generation" 4.375
-		"hull repair rate" .787
+		"shields" 121000
+		"hull" 17000
+		"shield generation" 8.75
+		"hull repair rate" 1.574
 		"required crew" 1
 		"bunks" 31
 		"mass" 175
@@ -2257,10 +2437,10 @@ ship "Texas Class"
 		"type" "Heavy Cruiser"
 		"entered service" "2368"
 		"cost" 3000000
-		"hull" 5600
-		"shields" 6500
-		"shield generation" 1.354
-		"hull repair rate" .778
+		"hull" 11200
+		"shields" 13000
+		"shield generation" 2.708
+		"hull repair rate" 1.556
 		"required crew" 5
 		"bunks" 50
 		"mass" 305
@@ -2354,3 +2534,395 @@ ship "Delta-Flyer Class"
 	explode "small explosion" 1
 	"final explode" "final explosion small"
 	description "The Delta Flyer-type was a Starfleet shuttlecraft designed and built by the crew of the USS Voyager during the vessel's stay in the Delta Quadrant, from which its name was derived. Two vessels of this type were constructed during Voyager's return to Earth from the Delta Quadrant."
+
+ship "Centaur Class"
+	sprite "ship/centaurclass"
+	attributes
+		category "Medium Warship"
+		"type" "Light Cruiser"
+		"entered service" "2368"
+		"cost" 3000000
+		"hull" 11200
+		"shields" 13000
+		"shield generation" 2.708
+		"hull repair rate" 1.556
+		"required crew" 5
+		"bunks" 50
+		"mass" 305
+		"drag" 4.6
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 200
+		"weapon capacity" 105
+		"energy capacity" 5100
+		"energy generation" 10
+		"heat generation" 7.5
+		"turn" 450
+		"thrust" 28
+		weapon
+			"blast radius" 152
+			"shield damage" 1525
+			"hull damage" 1525
+			"hit force" 152
+	outfits
+		"Warp Assembly"
+		"Impulse Drive"
+		"Type VIII Phaser" 9
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 100
+	engine -29 22
+	engine 29 22
+	turret 33 -186 "Type VIII Phaser"
+	turret 50 -174 "Type VIII Phaser"
+	turret 70.5 -153.5 "Type VIII Phaser"
+	turret 40.5 -181.5 "Type VIII Phaser"
+	turret 0 -197 "Type VIII Phaser"
+	turret -40.5 -181.5 "Type VIII Phaser"
+	turret -70.5 -153.5 "Type VIII Phaser"
+	turret -50 -174 "Type VIII Phaser"
+	turret -33 -186 "Type VIII Phaser"
+	gun -32.5 -144.5 "Class 8 Pho-Torp Launcher"
+	gun 32.5 -144.5 "Class 8 Pho-Torp Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 15
+	explode "large explosion" 11
+	explode "huge explosion" 3
+	"final explode" "final explosion large"
+	description "The Centaur-type was a Federation starship design operated by Starfleet during the 24th century. A vessel of this class saw action during the Dominion War and was represented in Starfleet's Operation Return, assisting in the retaking of Deep Space 9 from Dominion forces."
+
+ship "Walker Class"
+	sprite "ship/walker"
+	attributes
+		category "Medium Warship"
+		"type" "Heavy Cruiser"
+		"entered service" "2244"
+		"cost" 250000
+		"shields" 4000
+		"hull" 6400
+		"shield generation" .834
+		"hull repair rate" .888
+		"required crew" 5
+		"bunks" 105
+		"mass" 100
+		"drag" 1.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 12
+		"outfit space" 110
+		"weapon capacity" 80
+		"energy capacity" 1650
+		"energy generation" 5.3
+		"heat generation" 5.3
+		"turn" 180
+		"thrust" 8
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 500
+			"hit force" 50
+	outfits
+		"Type VIII Phaser" 3
+		"Mk VI Pho-Torp Launcher"
+		"Photon Torpedo" 75
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -12 12.5
+	engine 12 12.5
+	turret 12.5 -28.5 "Type VIII Phaser"
+	turret 0 -48.5 "Type VIII Phaser"
+	turret -12.5 -28.5 "Type VIII Phaser"
+	gun 0 2.5 "Mk VI Pho-Torp Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 10
+	explode "large explosion" 3
+	"final explode" "final explosion medium"
+	description "The Walker class was a type of Federation starship in service during the mid-23rd century. By 2249, the Walker class was considered "old" compared to other ships in the fleet."
+
+ship "Luna Class"
+	sprite "ship/luna"
+	attributes
+		category "Heavy Warship"
+		"type" "Exploratory Cruiser"
+		"entered service" "2370"
+		"cost" 2900000
+		"shields" 16500
+		"hull" 15000
+		"shield generation" 3.438
+		"hull repair rate" 2.083
+		"required crew" 5
+		"bunks" 195
+		"mass" 350
+		"drag" 4.8
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 35
+		"outfit space" 510
+		"weapon capacity" 155
+		"energy generation" 16
+		"heat generation" 16
+		"energy capacity" 5600
+		"thrust" 26
+		"turn" 425
+		weapon
+			"blast radius" 175
+			"shield damage" 1750
+			"hull damage" 1750
+			"hit force" 175
+	outfits
+		"Type IX Phaser" 9
+		"Quantum Torpedo Launcher" 4
+		"Class 8 Pho-Torp Launcher" 4
+		"Photon Torpedo" 400
+		"Quantum Torpedo" 140
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -37.5 25.5
+	engine 37.5 25.5
+	turret -33 -187 "Type IX Phaser"
+	turret 33 -187 "Type IX Phaser"
+	turret 0 -209.5 "Type IX Phaser"
+	turret -71 -141 "Type IX Phaser"
+	turret 71 -141 "Type IX Phaser"
+	turret -78 -97.5 "Type IX Phaser"
+	turret 78 -97.5 "Type IX Phaser"
+	turret -38.5 -190 "Type IX Phaser"
+	turret 38.5 -190 "Type IX Phaser"
+	gun -23.5 -49 "Quantum Torpedo Launcher"
+	gun 23.5 -49 "Quantum Torpedo Launcher"
+	gun -14 -48.5 "Class 8 Pho-Torp Launcher"
+	gun 14 -48.5 "Class 8 Pho-Torp Launcher"
+	gun -8 -49 "Class 8 Pho-Torp Launcher"
+	gun 8 -49 "Class 8 Pho-Torp Launcher"
+	gun -18.5 -49.5 "Quantum Torpedo Launcher"
+	gun 18.5 -49.5 "Quantum Torpedo Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Luna-class was a Federation starship operated by Starfleet during the late 24th century. Designed as a capital ship, the Luna-class had entered service by 2379."
+
+ship "Wells Class"
+	sprite "ship/wellsclass"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 19200
+		"hull" 17500
+		"shield generation" 4
+		"hull repair rate" 2.431
+		"required crew" 6
+		"bunks" 256
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 22.5
+		"heat generation" 22.5
+		"energy capacity" 10400
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Type XV Phaser" 4
+		"Transphasic Torpedo Launcher" 2
+		"Transphasic Torpedo" 70
+		"Warp Assembly"
+		"Impulse Drive"
+	engine 0 57
+	turret 0 -68 "Type XV Phaser"
+	turret -29.5 9 "Type XV Phaser"
+	turret 0 14 "Type XV Phaser"
+	turret 29.5 9 "Type XV Phaser"
+	gun -13 -13.5 "Transphasic Torpedo Launcher"
+	gun 13 -13.5 "Transphasic Torpedo Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Wells-class was a timeship used by Starfleet in the 29th century to protect the timeline against temporal incursions. The Wells-class was equipped with temporal transporters, an advancement on transporter technology allowing transport through space and time."
+
+ship "NX Class Test"
+	sprite "ship/nx"
+	attributes
+		category "Light Warship"
+		"type" "Cruiser"
+		"entered service" "2151"
+		"cost" 280000
+		"hull" 2100
+		"shields" 1400
+		"shield generation" .292
+		"hull repair rate" .292
+		"required crew" 1
+		"bunks" 8
+		"mass" 80
+		"drag" 1.6
+		"heat dissipation" .55
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 135
+		"weapon capacity" 70
+		"energy capacity" 1700
+		"energy generation" 3
+		"heat generation" 2
+		"turn" 165
+		"thrust" 7
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 400
+			"hit force" 40
+	outfits
+		"Warp Assembly"
+		"Impulse Drive"
+		"Torpedo Launcher" 2
+		"Phase Cannon" 3
+		"Torpedo" 60
+	engine 25 41
+	engine -25 41
+	turret 30 -95 "Phase Cannon"
+	turret 0 -100
+	turret -30 -95
+	gun -30 -40 "Torpedo Launcher"
+	gun 30 -40 "Torpedo Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 8
+	explode "large explosion" 3
+	"final explode" "final explosion small"
+	description "The NX Class Explorer was a type of United Earth starship in Starfleet service in the mid-22nd century. The class is notable for having been the first to be constructed with the warp 5 engine."
+
+ship "Constitution Class (Disco Era)"
+	sprite "ship/constitutiondisco"
+	attributes
+		category "Medium Warship"
+		"type" "Explorer"
+		"entered service" "2244"
+		"cost" 250000
+		"shields" 2000
+		"hull" 3200
+		"shield generation" .417
+		"hull repair rate" .444
+		"required crew" 5
+		"bunks" 105
+		"mass" 100
+		"drag" 1.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 12
+		"outfit space" 110
+		"weapon capacity" 80
+		"energy capacity" 1800
+		"energy generation" 10.6
+		"heat generation" 5.3
+		"turn" 180
+		"thrust" 8
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 500
+			"hit force" 50
+	outfits
+		"Type VIII Phaser" 6
+		"Mk VI Pho-Torp Launcher" 3
+		"Photon Torpedo" 150
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -22 -18
+	engine 22 -18
+	turret -15 -173 "Type VIII Phaser"
+	turret 15 -173 "Type VIII Phaser"
+	turret -55 -129 "Type VIII Phaser"
+	turret 55 -129 "Type VIII Phaser"
+	turret -55.5 -76.5 "Type VIII Phaser"
+	turret 55.5 -76.5 "Type VIII Phaser"
+	gun -21 -122 "Mk VI Pho-Torp Launcher"
+	gun 0 -144 "Mk VI Pho-Torp Launcher"
+	gun 21 -122 "Mk VI Pho-Torp Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 15
+	explode "medium explosion" 10
+	explode "large explosion" 3
+	"final explode" "final explosion medium"
+	description "The Constitution Class Heavy Cruiser, also called a Class I Heavy Cruiser, was the premier front-line starship designed for long duration missions with minimal outside support."
+
+ship "Excelsior II Class"
+	sprite "ship/excelsiorii"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 38400
+		"hull" 35000
+		"shield generation" 4
+		"hull repair rate" 2.431
+		"required crew" 100
+		"bunks" 5000
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 22.5
+		"heat generation" 22.5
+		"energy capacity" 10400
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Type XII Phaser" 10
+		"Class 8 Pho-Torp Launcher" 6
+		"Photon Torpedo" 600
+		"Quantum Torpedo Launcher" 2
+		"Quantum Torpedo" 70
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -40.5 -27.5
+	engine 40.5 -27.5
+	turret -35.5 -249 "Type XII Phaser"
+	turret 35.5 -249 "Type XII Phaser"
+	turret -60 -209.5 "Type XII Phaser"
+	turret 60 -209.5 "Type XII Phaser"
+	turret -68 -165.5 "Type XII Phaser"
+	turret 68 -165.5 "Type XII Phaser"
+	turret -63.5 -114.5 "Type XII Phaser"
+	turret 63.5 -114.5 "Type XII Phaser"
+	turret -44.5 -74.5 "Type XII Phaser"
+	turret 44.5 -74.5 "Type XII Phaser"
+	gun -19 -256 "Class 8 Pho-Torp Launcher"
+	gun 19 -256 "Class 8 Pho-Torp Launcher"
+	gun -20 103 "Quantum Torpedo Launcher"
+	gun 20 103 "Quantum Torpedo Launcher"
+	gun -53 -218.5 "Class 8 Pho-Torp Launcher"
+	gun 53 -218.5 "Class 8 Pho-Torp Launcher"
+	gun -28.5 -151 "Class 8 Pho-Torp Launcher"
+	gun 28.5 -151 "Class 8 Pho-Torp Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Century Class starship is the culmination of decades of research and starship design. The Century was believed to be the much more compact, automated answer to the resource intensive Excalibur in the same fashion that the Intrepid Class was to the Galaxy."

@@ -1,5 +1,5 @@
 ship "Gor Taan Class"
-	sprite "ship/breenint"
+	sprite "ship/gortaan"
 	attributes
 		category "Light Warship"
 		"type" "Tactical Escort"
@@ -36,16 +36,15 @@ ship "Gor Taan Class"
 		"Warp Assembly"
 		"Impulse Drive"
 		"Breen Energy Torpedo" 35
-	engine -49.5 75.5
-	engine 41 77.5
-	turret -67 20 "Breen Weapon"
-	turret 34.5 -27 "Breen Weapon"
-	turret -18 -41.5 "Breen Weapon"
-	turret 61 13.5 "Breen Weapon"
-	gun -26.5 7 "Breen Torpedo Launcher"
-	gun 72 -5.5 "Breen Torpedo Launcher"
-	gun 13 -39 "Breen Torpedo Launcher"
-	gun -3 -93.5 "Breen Engery Weapon"
+	engine -2.5 147.5
+	turret -6 -112 "Breen Weapon"
+	turret -77 -37.5 "Breen Weapon"
+	turret 74.5 -38 "Breen Weapon"
+	turret -6 -112 "Breen Weapon"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Engery Weapon"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"

@@ -110,8 +110,9 @@ ship "Deep Space Nine"
 		"heat dissipation" 5
 		"fuel capacity" 7000
 		"cargo space" 1000
-		"outfit space" 510
+		"outfit space" 5100
 		"weapon capacity" 210
+		"engine capacity" 400
 		"energy generation" 40.5
 		"heat generation" 22.5
 		"energy capacity" 1040000

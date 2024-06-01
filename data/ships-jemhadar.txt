@@ -9,8 +9,8 @@ ship "Jem'Hadar Fighter"
 		"hull" 3200
 		"shield generation" 2.024
 		"hull repair rate" .333
-		"required crew" 1
-		"bunks" 16
+		"required crew" 3
+		"bunks" 12
 		"mass" 76
 		"drag" 2.2
 		"heat dissipation" 1.5
@@ -29,16 +29,17 @@ ship "Jem'Hadar Fighter"
 			"hull damage" 380
 			"hit force" 38
 	outfits
-		"Polaron Beam" 2
+		"Polaron Beam" 3
 		"Jem-Torp Launcher"
 		"Jem'Hadar Torpedo" 100
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -3.5 19.5
-	engine 3.5 19.5
-	turret 0 -27.5 "Polaron Beam"
-	turret 0 -27.5 "Polaron Beam"
-	gun 0 -27.5 "Jem-Torp Launcher"
+	engine -26 0
+	engine 26 0
+	turret 0 -33
+	turret 0 -33
+	turret 0 -33
+	gun 0 -33
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	"final explode" "final explosion small"
@@ -55,8 +56,8 @@ ship "Jem'Hadar Battlecruiser"
 		"hull" 11500
 		"shield generation" 2.292
 		"hull repair rate" 1.597
-		"required crew" 1
-		"bunks" 66
+		"required crew" 50
+		"bunks" 2500
 		"mass" 450
 		"drag" 7.3
 		"heat dissipation" .6
@@ -75,20 +76,22 @@ ship "Jem'Hadar Battlecruiser"
 			"hull damage" 2250
 			"hit force" 225
 	outfits
-		"Polaron Beam" 5
-		"Jem-Torp Launcher" 2
-		"Jem'Hadar Torpedo" 200
+		"Polaron Beam" 6
+		"Jem-Torp Launcher" 3
+		"Jem'Hadar Torpedo" 300
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -11 79.5
-	engine 11 79.5
-	turret -15.5 -41.5 "Polaron Beam"
-	turret 15.5 -41.5 "Polaron Beam"
-	turret -15.5 -41.5 "Polaron Beam"
-	turret 15.5 -41.5 ""Polaron Beam"
-	turret 0 -10 "Polaron Beam"
-	gun 0 -10 "Jem-Torp Launcher"
-	gun 0 -10 "Jem-Torp Launcher"
+	engine -30 223.5
+	engine 30 223.5
+	gun 41 22 "Jem-Torp Launcher"
+	gun 0 -203 "Jem-Torp Launcher"
+	gun -41 22 "Jem-Torp Launcher"
+	turret -35.5 -97.5 "Polaron Beam"
+	turret 35.5 -97.5 "Polaron Beam"
+	turret -278.5 -175.5 "Polaron Beam"
+	turret 278.5 -175.5 "Polaron Beam"
+	turret -97.5 -6 "Polaron Beam"
+	turret 97.5 -6 "Polaron Beam"
 	explode "tiny explosion" 5
 	explode "small explosion" 10
 	explode "medium explosion" 25
@@ -98,6 +101,101 @@ ship "Jem'Hadar Battlecruiser"
 	description "The Jem'Hadar battle cruiser was a type of large battleship used by the Dominion during the late 24th century."
 
 ship "Jem'Hadar Battleship"
+	sprite "ship/jemhadarbattleship"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 18200
+		"hull" 14500
+		"shield generation" 8
+		"hull repair rate" 5
+		"required crew" 100
+		"bunks" 21200
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 700
+		"weapon capacity" 210
+		"energy generation" 100
+		"heat generation" 22.5
+		"energy capacity" 11400
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Jem-Torp Launcher" 9
+		"Polaron Beam" 40
+		"Jem'Hadar Torpedo" 900
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -39 481
+	engine 39 481
+	gun -180.5 7.5 "Jem-Torp Launcher"
+	gun 180.5 7.5 "Jem-Torp Launcher"
+	gun 131.5 -16.5 "Jem-Torp Launcher"
+	gun -131.5 -16.5 "Jem-Torp Launcher"
+	gun -107 -128 "Jem-Torp Launcher"
+	gun 107 -128 "Jem-Torp Launcher"
+	gun 68 -274.5 "Jem-Torp Launcher"
+	gun -68 -275.5 "Jem-Torp Launcher"
+	gun 0 -356.5 "Jem-Torp Launcher"
+	turret -77 -284.5 "Polaron Beam"
+	turret 77 -284.5 "Polaron Beam"
+	turret -248.5 -59.5 "Polaron Beam"
+	turret 248.5 -59.5 "Polaron Beam"
+	turret -75 -258 "Polaron Beam"
+	turret 75 -258 "Polaron Beam"
+	turret -77 -421.5 "Polaron Beam"
+	turret 77 -421.5 "Polaron Beam"
+	turret -342 205.5 "Polaron Beam"
+	turret 342 205.5 "Polaron Beam"
+	turret -85 135.5 "Polaron Beam"
+	turret 85 135.5 "Polaron Beam"
+	turret -140 -29.5 "Polaron Beam"
+	turret 140 -29.5 "Polaron Beam"
+	turret -482 160.5 "Polaron Beam"
+	turret 482 160.5 "Polaron Beam"
+	turret -465 2 "Polaron Beam"
+	turret 465 2 "Polaron Beam"
+	turret -68.5 -548 "Polaron Beam"
+	turret 68.5 -548 "Polaron Beam"
+	turret -43.5 -616.5 "Polaron Beam"
+	turret 43.5 -616.5 "Polaron Beam"
+	turret -107 -196.5 "Polaron Beam"
+	turret 107 -196.5 "Polaron Beam"
+	turret -182 -41.5 "Polaron Beam"
+	turret 182 -41.5 "Polaron Beam"
+	turret -315 142 "Polaron Beam"
+	turret 315 142 "Polaron Beam"
+	turret -215 257 "Polaron Beam"
+	turret 215 257 "Polaron Beam"
+	turret -122 78.5 "Polaron Beam"
+	turret 122 78.5 "Polaron Beam"
+	turret -372 347 "Polaron Beam"
+	turret 372 347 "Polaron Beam"
+	turret -163.5 -84.5 "Polaron Beam"
+	turret 163.5 -84.5 "Polaron Beam"
+	turret -80 -391.5 "Polaron Beam"
+	turret 80 -391.5 "Polaron Beam"
+	turret -27 -48 "Polaron Beam"
+	turret 27 -48 "Polaron Beam"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Jem'Hadar or Dominion battleship was a type of warship introduced in the Alpha Quadrant in 2374, shortly after the outbreak of the Dominion War."
+
+ship "Jem'Hadar Battleship (Only torps)"
 	sprite "ship/jemhadarbattleship"
 	attributes
 		category "Heavy Warship"
@@ -128,37 +226,25 @@ ship "Jem'Hadar Battleship"
 			"hull damage" 2450
 			"hit force" 245
 	outfits
-		"Jem-Torp Launcher" 10
-		"Polaron Beam" 14
-		"Jem'Hadar Torpedo" 1000
+		"Jem-Torp Launcher" 13
+		"Jem'Hadar Torpedo" 1300
 		"Warp Assembly"
 		"Impulse Drive"
-	engine -67 110.5
-	engine 67 110.5
-	turret -36 -2.5 "Polaron Beam"
-	turret 16 -2.5 "Polaron Beam"
-	turret -36 -2.5 "Polaron Beam"
-	turret 16 -2.5 "Polaron Beam"
-	turret -16 -97.5 "Polaron Beam"
-	turret 36 -2.5 "Polaron Beam"
-	turret -16 -97.5 "Polaron Beam"
-	turret 36 -2.5 "Polaron Beam"
-	turret 0 -84.5 "Polaron Beam"
-	turret 0 -84.5 "Polaron Beam"
-	turret -113.5 24 "Polaron Beam"
-	turret 113.5 24 "Polaron Beam"
-	turret -113.5 24 "Polaron Beam"
-	turret 113.5 24 "Polaron Beam"
-	gun -24.5 -13 "Jem-Torp Launcher"
-	gun 24.5 -13 "Jem-Torp Launcher"
-	gun -24.5 -13 "Jem-Torp Launcher"
-	gun 24.5 -13 "Jem-Torp Launcher"
-	gun 0 19.5 "Jem-Torp Launcher"
-	gun -37.5 21.5 "Jem-Torp Launcher"
-	gun 0 19.5 "Jem-Torp Launcher"
-	gun -37.5 21.5 "Jem-Torp Launcher"
-	gun 37.5 21.5 "Jem-Torp Launcher"
-	gun 37.5 21.5 "Jem-Torp Launcher"
+	engine -15.5 196
+	engine 15.5 196
+	gun -60.5 11.5 "Jem-Torp Launcher"
+	gun -60.5 11.5 "Jem-Torp Launcher"
+	gun 60.5 11.5 "Jem-Torp Launcher"
+	gun 60.5 11.5 "Jem-Torp Launcher"
+	gun 0 52 "Jem-Torp Launcher"
+	gun -36 -111.5 "Jem-Torp Launcher"
+	gun -36 -111.5 "Jem-Torp Launcher"
+	gun 36 -111.5 "Jem-Torp Launcher"
+	gun 36 -111.5 "Jem-Torp Launcher"
+	gun -150 88.5 "Jem-Torp Launcher"
+	gun -150 88.5 "Jem-Torp Launcher"
+	gun 150 88.5 "Jem-Torp Launcher"
+	gun 150 88.5 "Jem-Torp Launcher"
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
