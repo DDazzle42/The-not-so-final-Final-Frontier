@@ -1,0 +1,194 @@
+fleet "Romulan Patrol"
+	government "Romulan Star Empire"
+	names pirate
+	cargo 100
+	personality
+		confusion 20
+		frugal surveillance mining lingering kill
+	variant
+		"D'deridex Class" 4
+
+fleet "Breen Patrol"
+	government "Breen Confederacy"
+	names pirate
+	cargo 100
+	personality
+		confusion 20
+		frugal surveillance mining lingering kill
+	variant
+		"Gor Taan Class" 5
+		"Gel Chak Class" 2
+
+fleet "Starfleet Patrol"
+	government Starfleet
+	names "Starfleet Names"
+	cargo 30
+	commodities Plastic
+	personality
+		frugal surveillance mining lingering disables merciful
+	variant
+		"Ambassador Class" 1
+		"Norway Class" 2
+		"Centaur Class" 2
+		"Soyuz Class" 3
+
+fleet "Klingon Patrol"
+	government Klingon
+	names "hostile pirate"
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"B'rel Class" 5
+		"D7 Class" 5
+		"Vor'Cha Class" 4
+
+fleet "Borg Patrol"
+	government Borg
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Borg Cube" 2
+		"Borg Sphere" 6
+
+fleet "Starfleet Earth fleet"
+	government Starfleet
+	names "Starfleet Names"
+	personality
+		frugal surveillance mining lingering disables merciful
+	variant
+		"Galaxy Class" 3
+		"Sovereign Class" 2
+		"Norway Class" 4
+		"Steamrunner Class" 4
+		"Saber Class" 6
+		"Peregrine Class" 10
+		"Valkyrie Class" 10
+		"Prometheus Class" 3
+		"Akira Class" 5
+
+fleet "Small Dominion Fleet"
+	government Dominion
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Jem'Hadar Fighter" 16
+		"Jem'Hadar Battlecruiser" 3
+		"Jem'Hadar Battleship" 2
+		"Galor Class" 3
+		"Hideki Class" 5
+
+fleet "United Earth Patrol"
+	government "United Earth"
+	names "Starfleet Names"
+	cargo 30
+	commodities Plastic
+	personality
+		frugal surveillance mining lingering disables
+	variant
+		"NX Class" 3
+		"Intrepid Class (22nds)"
+
+fleet "Breen Patrol"
+	government "Breen Confederacy"
+	names pirate
+	cargo 100
+	personality
+		confusion 20
+		frugal surveillance mining lingering kill
+	variant
+		"Gor Taan Class" 5
+		"Gel Chak Class" 2
+
+fleet "Ferengi Traders"
+	government Ferengi
+	names "merchant names"
+	cargo 300
+	commodities Food Clothing Metal Equipment Plastic Medical Industrial Electronics "Heavy Metals" "Luxury Goods"
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Ferengi Cragoship" 3
+		"D'Kora Class" 3
+
+fleet "8472 Patrol"
+	government "Species 8472"
+	personality
+		frugal surveillance mining lingering kill waiting
+	variant
+		"8472 Bioship" 5
+
+fleet "Jem'Hadar Fighters"
+	government Dominion
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Jem'Hadar Fighter" 6
+
+fleet "Small Starfleet"
+	government "Starfleet"
+	names "republic small"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 6
+		"Saber Class" 2
+	variant 5
+		"Steamrunner Class"
+		"Saber Class"
+	variant 4
+		"Akira Class"
+	variant 3
+		"Steamrunner Class" 2
+	variant 1
+		"Saber Class" 3
+	variant 6
+		"Steamrunner Class"
+
+fleet "Large Starfleet"
+	government "Starfleet"
+	names "Starfleet Names"
+	fighters "Starfleet Names"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 5
+		"Akira Class" 2
+		"Saber Class"
+		"Steamrunner Class"
+	variant 3
+		"Ambassador Class"
+		"Peregrine Class" 4
+	variant 3
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class"
+		"Saber Class"
+	variant 2
+		"Galaxy Class"
+		"Valkyrie Class" 4
+		"Peregrine Class" 6
+	variant 1
+		"Galaxy Class"
+		"Valkyrie Class" 4
+		"Peregrine Class" 6
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class" 2
+		"Saber Class" 2
+		"Steamrunner Class" 2
+	variant 1
+		"Ambassador Class"
+		"Peregrine Class" 4
+		"Akira Class" 2
+	variant 1
+		"Akira Class"
+		"Saber Class" 2
+		"Steamrunner Class"
+
+fleet "Cardassian Patrol"
+	government Cardassian
+	personality
+		frugal surveillance mining lingering kill
+	variant
+		"Hideki Class" 6
+		"Galor Class" 3

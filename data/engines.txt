@@ -1,0 +1,27 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Impulse Drive"
+	category "Engines"
+	"cost" 20000
+	thumbnail "outfit/impulseengine"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 4.8
+	"thrusting energy" .4
+	"thrusting heat" .6
+	"turn" 132
+	"turning energy" .25
+	"turning heat" .5
+	"flare sprite" "effect/impulse"
+		"frame rate" 1.2
+	"flare sound" "impulse"
+	description "An impulse engine or impulse drive was a common propulsion system used on starships used to create impulse power in order to achieve impulse speeds. "

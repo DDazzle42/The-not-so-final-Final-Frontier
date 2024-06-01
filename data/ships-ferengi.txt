@@ -1,0 +1,92 @@
+ship "D'Kora Class"
+	sprite "ship/dkoraclass"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1300000
+		"shields" 11000
+		"hull" 11500
+		"shield generation" 2.292
+		"hull repair rate" 1.597
+		"required crew" 1
+		"bunks" 66
+		"mass" 450
+		"drag" 7.3
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 260
+		"outfit space" 370
+		"weapon capacity" 140
+		"energy generation" 10
+		"heat generation" 10
+		"energy capacity" 4400
+		"thrust" 27.5
+		"turn" 410
+		weapon
+			"blast radius" 225
+			"shield damage" 2250
+			"hull damage" 2250
+			"hit force" 225
+	outfits
+		"Type X Phaser" 2
+		"Class 8 Pho-Torp Launcher" 2
+		"Photon Torpedo" 200
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -34 140
+	engine 34 140
+	turret -100 -51 "Type X Phaser"
+	turret 100 -51 "Type X Phaser"
+	gun -69.5 -2.5 "Class 8 Pho-Torp Launcher"
+	gun 69.5 -2.5 "Class 8 Pho-Torp Launcher"
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion medium"
+	description "The D'Kora-class Marauder was a type of advanced starship utilized by the Ferengi Alliance during the 24th century. This class of vessel was referred to by the Federation as a warship, and in the same instance, as an attack vessel by the Ferengi themselves."
+
+ship "Ferengi Cragoship"
+	sprite "ship/ferengicragoship"
+	attributes
+		category "Heavy Freighter"
+		"cost" 1300000
+		"shields" 11000
+		"hull" 11500
+		"shield generation" 2.292
+		"hull repair rate" 1.597
+		"required crew" 1
+		"bunks" 66
+		"mass" 450
+		"drag" 7.3
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 600
+		"outfit space" 370
+		"weapon capacity" 140
+		"energy generation" 10
+		"heat generation" 10
+		"energy capacity" 4400
+		"thrust" 27.5
+		"turn" 410
+		weapon
+			"blast radius" 225
+			"shield damage" 2250
+			"hull damage" 2250
+			"hit force" 225
+	outfits
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -33 262.5
+	engine 33 262.5
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion medium"
+	description "A simple cargo ship used by the Ferengi"

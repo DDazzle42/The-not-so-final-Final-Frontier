@@ -1,0 +1,116 @@
+ship "Gor Taan Class"
+	sprite "ship/gortaan"
+	attributes
+		category "Light Warship"
+		"type" "Tactical Escort"
+		"entered service" "2371"
+		"cost" 2300000
+		"shields" 8500
+		"hull" 3200
+		"shield generation" 2.024
+		"hull repair rate" .333
+		"required crew" 1
+		"bunks" 16
+		"mass" 76
+		"drag" 2.2
+		"heat dissipation" 1.5
+		"fuel capacity" 600
+		"cargo space" 8
+		"outfit space" 510
+		"weapon capacity" 1700
+		"energy generation" 10
+		"heat generation" 10
+		"energy capacity" 2800
+		"thrust" 15
+		"turn" 350
+		weapon
+			"blast radius" 38
+			"shield damage" 380
+			"hull damage" 380
+			"hit force" 38
+	outfits
+		"Breen Engery Weapon"
+		"Breen Torpedo Launcher" 3
+		"Breen Torpedo" 105
+		"Breen Weapon" 4
+		"Warp Assembly"
+		"Impulse Drive"
+		"Breen Energy Torpedo" 35
+	engine -2.5 147.5
+	turret -6 -112 "Breen Weapon"
+	turret -77 -37.5 "Breen Weapon"
+	turret 74.5 -38 "Breen Weapon"
+	turret -6 -112 "Breen Weapon"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Torpedo Launcher"
+	gun -6 -112 "Breen Engery Weapon"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	"final explode" "final explosion small"
+	description "The Gor Taan class was a type of battle cruiser used by the Breen Confederacy during the 24th century."
+
+ship "Gel Chak Class"
+	sprite "ship/gelchak"
+	attributes
+		category "Heavy Warship"
+		"type" "Assault Cruiser"
+		"entered service" "2382"
+		"cost" 8400000
+		"shields" 19200
+		"hull" 17500
+		"shield generation" 4
+		"hull repair rate" 2.431
+		"required crew" 6
+		"bunks" 256
+		"mass" 490
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 510
+		"weapon capacity" 210
+		"energy generation" 22.5
+		"heat generation" 22.5
+		"energy capacity" 10400
+		"thrust" 35
+		"turn" 500
+		weapon
+			"blast radius" 245
+			"shield damage" 2450
+			"hull damage" 2450
+			"hit force" 245
+	outfits
+		"Breen Weapon" 10
+		"Breen Energy Torpedo" 35
+		"Breen Engery Weapon"
+		"Breen Torpedo Launcher" 6
+		"Breen Torpedo" 210
+		"Warp Assembly"
+		"Impulse Drive"
+	engine -81 173
+	engine 89 173.5
+	turret -95 -82 "Breen Weapon"
+	turret -110 -75.5 "Breen Weapon"
+	turret 103 -82 "Breen Weapon"
+	turret 118 -75.5 "Breen Weapon"
+	turret -134 -200.5 "Breen Weapon"
+	turret 142.5 -201 "Breen Weapon"
+	turret -142.5 -231.5 "Breen Weapon"
+	turret 151.5 -231.5 "Breen Weapon"
+	turret -3 -50 "Breen Weapon"
+	turret 15 -50.5 "Breen Weapon"
+	gun 4.5 -50 "Breen Engery Weapon"
+	gun -112 -65 "Breen Torpedo Launcher"
+	gun 122 -64.5 "Breen Torpedo Launcher"
+	gun -142.5 -178 "Breen Torpedo Launcher"
+	gun 150.5 -178.5 "Breen Torpedo Launcher"
+	gun -1 -24 "Breen Torpedo Launcher"
+	gun 8 -24.5 "Breen Torpedo Launcher"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 25
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Gel Chak class was a type of heavy warship used by the Breen Confederacy during the 24th century."
